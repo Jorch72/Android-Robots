@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robots</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="large_text">Robot Memory</string>
+    <string name="script">Large Text</string>
+    <string name="upload">Upload</string>
+    <string name="leaveIde">Back</string>
+    <string name="infoline1">Tap the robot to edit its program</string>
+    <string name="infoline2">Program the robot to get to the gold</string>
+    <string name="memory">Memory</string>
+    <string name="code">Code</string>
+    <string name="defaultTitle">Default value</string>
+    <string name="docs">Docs</string>
+    <string name="log">Log</string>
+    <string name="manual">Command reference:\n
+The scripting language has one big rule:\n
+Calls are in the order (function) (return) (input) with two exceptions:\n
+The first is lit. It is called as follows:\n
+lit (varname) (value)\n
+It defines a literal number, true/false value, or some text.\n
+The other is label, called as:\n
+label (varname)\n
+It defines a location in the code you can jump to.\n
+\n
+Note that neither of these lines are function calls.\n
+They do not count in line numbers, and are not re-evaluated\n
+when a script gets to where they are.\n
+\n
+Some useful functions:\n
+\t(add), (sub)tract, (mult)iply, (div)ide: For example, "div x 3 2" would cause x to be 1.5.\n 
+\tjump (null) (label): The program will continue running from the label passed in. The return value, (null) here, is still required, but will be set to null.\n
+\tjumpif (null) (label) (boolean): Like a jump, but only acts if the boolean is true.\n
+\tprint (null) (value): Logs the given value, in the log panel of the IDE.\n
+\tand, or, not: The expected logical operations. Operate on booleans.\n
+\tident: Takes one argument and returns it.\n
+\trandint: Takes two limits, and returns a number between them (inclusive).\n
+\trobot.move: Takes one argument, the direction (see built-in values). Suspends the script\'s execution until the robot moves.\n
+\teq, noteq, greater, less, greatereq, lesseq: Compare their two arguments, return a boolean.\n
+\twithin: Takes 3 numbers, and returns whether the first two are within the third number of each other.\n
+\tfuzzyeq: Takes 2 numbers, returns whether they are within 0.01 of each other\n
+\n
+Built-in values:\n
+\tnorth, east, west, south: the ID of the tile in that direction, in the world.\n
+\tgonorth, goeast, gosouth, gowest: Orders that can be passed into robot.move\n
+</string>
+
+</resources>

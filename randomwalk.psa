@@ -1,0 +1,13 @@
+label top
+randInt x 1 4
+* newLabel 2 x
++ newLabel 2 newLabel
+jump _ newLabel this
+robot.move _ robot gosouth
+jump _ top this
+robot.move _ robot gowest
+jump _ top this
+robot.move _ robot goeast
+jump _ top this
+robot.move _ robot gonorth
+jump _ top this

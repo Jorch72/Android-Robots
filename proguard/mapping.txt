@@ -1,0 +1,2939 @@
+com.google.common.base.Ascii -> a.a.a.a.a:
+    java.lang.String toLowerCase(java.lang.String) -> a
+    boolean isUpperCase(char) -> a
+com.google.common.base.Equivalence -> a.a.a.a.b:
+    boolean equivalent(java.lang.Object,java.lang.Object) -> a
+    boolean doEquivalent(java.lang.Object,java.lang.Object) -> b
+    int hash(java.lang.Object) -> a
+    int doHash(java.lang.Object) -> b
+    com.google.common.base.Equivalence equals() -> a
+    com.google.common.base.Equivalence identity() -> b
+com.google.common.base.Equivalence$Equals -> a.a.a.a.c:
+    com.google.common.base.Equivalence$Equals INSTANCE -> a
+    boolean doEquivalent(java.lang.Object,java.lang.Object) -> b
+    int doHash(java.lang.Object) -> b
+com.google.common.base.Equivalence$Identity -> a.a.a.a.d:
+    com.google.common.base.Equivalence$Identity INSTANCE -> a
+    boolean doEquivalent(java.lang.Object,java.lang.Object) -> b
+    int doHash(java.lang.Object) -> b
+com.google.common.base.Function -> a.a.a.a.e:
+    java.lang.Object apply(java.lang.Object) -> a
+    boolean equals(java.lang.Object) -> equals
+com.google.common.base.Joiner -> a.a.a.a.f:
+    java.lang.String separator -> a
+    com.google.common.base.Joiner on(java.lang.String) -> a
+    com.google.common.base.Joiner on(char) -> a
+    java.lang.Appendable appendTo(java.lang.Appendable,java.util.Iterator) -> a
+    java.lang.StringBuilder appendTo(java.lang.StringBuilder,java.util.Iterator) -> a
+    java.lang.String join(java.lang.Iterable) -> a
+    java.lang.String join(java.util.Iterator) -> a
+    java.lang.String join(java.lang.Object[]) -> a
+    com.google.common.base.Joiner useForNull(java.lang.String) -> b
+    com.google.common.base.Joiner$MapJoiner withKeyValueSeparator(java.lang.String) -> c
+    java.lang.CharSequence toString(java.lang.Object) -> a
+    java.lang.String access$100(com.google.common.base.Joiner) -> a
+com.google.common.base.Joiner$1 -> a.a.a.a.g:
+    java.lang.String val$nullText -> a
+    com.google.common.base.Joiner this$0 -> b
+    java.lang.CharSequence toString(java.lang.Object) -> a
+    com.google.common.base.Joiner useForNull(java.lang.String) -> b
+com.google.common.base.Joiner$MapJoiner -> a.a.a.a.h:
+    com.google.common.base.Joiner joiner -> a
+    java.lang.String keyValueSeparator -> b
+    java.lang.StringBuilder appendTo(java.lang.StringBuilder,java.util.Map) -> a
+    java.lang.Appendable appendTo(java.lang.Appendable,java.util.Iterator) -> a
+    java.lang.StringBuilder appendTo(java.lang.StringBuilder,java.lang.Iterable) -> a
+    java.lang.StringBuilder appendTo(java.lang.StringBuilder,java.util.Iterator) -> a
+com.google.common.base.Objects -> a.a.a.a.i:
+    boolean equal(java.lang.Object,java.lang.Object) -> a
+    int hashCode(java.lang.Object[]) -> a
+    com.google.common.base.Objects$ToStringHelper toStringHelper(java.lang.Object) -> a
+    java.lang.String simpleName(java.lang.Class) -> a
+    java.lang.Object firstNonNull(java.lang.Object,java.lang.Object) -> b
+com.google.common.base.Objects$1 -> a.a.a.a.j:
+com.google.common.base.Objects$ToStringHelper -> a.a.a.a.k:
+    java.lang.String className -> a
+    com.google.common.base.Objects$ToStringHelper$ValueHolder holderHead -> b
+    com.google.common.base.Objects$ToStringHelper$ValueHolder holderTail -> c
+    boolean omitNullValues -> d
+    com.google.common.base.Objects$ToStringHelper add(java.lang.String,java.lang.Object) -> a
+    com.google.common.base.Objects$ToStringHelper add(java.lang.String,int) -> a
+    com.google.common.base.Objects$ToStringHelper add(java.lang.String,long) -> a
+    com.google.common.base.Objects$ToStringHelper addValue(java.lang.Object) -> a
+    java.lang.String toString() -> toString
+    com.google.common.base.Objects$ToStringHelper$ValueHolder addHolder() -> a
+    com.google.common.base.Objects$ToStringHelper addHolder(java.lang.Object) -> b
+    com.google.common.base.Objects$ToStringHelper addHolder(java.lang.String,java.lang.Object) -> b
+com.google.common.base.Objects$ToStringHelper$ValueHolder -> a.a.a.a.l:
+    java.lang.String name -> a
+    java.lang.Object value -> b
+    com.google.common.base.Objects$ToStringHelper$ValueHolder next -> c
+com.google.common.base.Platform -> a.a.a.a.m:
+    java.lang.ThreadLocal DEST_TL -> a
+    long systemNanoTime() -> a
+com.google.common.base.Platform$1 -> a.a.a.a.n:
+    char[] initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.google.common.base.Preconditions -> a.a.a.a.o:
+    void checkArgument(boolean) -> a
+    void checkArgument(boolean,java.lang.Object) -> a
+    void checkArgument(boolean,java.lang.String,java.lang.Object[]) -> a
+    void checkState(boolean) -> b
+    void checkState(boolean,java.lang.Object) -> b
+    void checkState(boolean,java.lang.String,java.lang.Object[]) -> b
+    java.lang.Object checkNotNull(java.lang.Object) -> a
+    java.lang.Object checkNotNull(java.lang.Object,java.lang.Object) -> a
+    int checkElementIndex(int,int) -> a
+    int checkElementIndex(int,int,java.lang.String) -> a
+    java.lang.String badElementIndex(int,int,java.lang.String) -> c
+    int checkPositionIndex(int,int) -> b
+    int checkPositionIndex(int,int,java.lang.String) -> b
+    java.lang.String badPositionIndex(int,int,java.lang.String) -> d
+    void checkPositionIndexes(int,int,int) -> a
+    java.lang.String badPositionIndexes(int,int,int) -> b
+    java.lang.String format(java.lang.String,java.lang.Object[]) -> a
+com.google.common.base.Predicate -> a.a.a.a.p:
+    boolean apply(java.lang.Object) -> a
+    boolean equals(java.lang.Object) -> equals
+com.google.common.base.Predicates -> a.a.a.a.q:
+    com.google.common.base.Joiner COMMA_JOINER -> a
+    com.google.common.base.Predicate isNull() -> a
+    com.google.common.base.Predicate not(com.google.common.base.Predicate) -> a
+    com.google.common.base.Predicate equalTo(java.lang.Object) -> a
+    com.google.common.base.Predicate in(java.util.Collection) -> a
+com.google.common.base.Predicates$1 -> a.a.a.a.r:
+com.google.common.base.Predicates$InPredicate -> a.a.a.a.s:
+    java.util.Collection target -> a
+    boolean apply(java.lang.Object) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.base.Predicates$IsEqualToPredicate -> a.a.a.a.t:
+    java.lang.Object target -> a
+    boolean apply(java.lang.Object) -> a
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+com.google.common.base.Predicates$NotPredicate -> a.a.a.a.u:
+    com.google.common.base.Predicate predicate -> a
+    boolean apply(java.lang.Object) -> a
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+com.google.common.base.Predicates$ObjectPredicate -> a.a.a.a.v:
+    com.google.common.base.Predicates$ObjectPredicate ALWAYS_TRUE -> a
+    com.google.common.base.Predicates$ObjectPredicate ALWAYS_FALSE -> b
+    com.google.common.base.Predicates$ObjectPredicate IS_NULL -> c
+    com.google.common.base.Predicates$ObjectPredicate NOT_NULL -> d
+    com.google.common.base.Predicates$ObjectPredicate[] $VALUES -> e
+    com.google.common.base.Predicates$ObjectPredicate[] values() -> values
+    com.google.common.base.Predicates$ObjectPredicate valueOf(java.lang.String) -> valueOf
+    com.google.common.base.Predicate withNarrowedType() -> a
+com.google.common.base.Predicates$ObjectPredicate$1 -> a.a.a.a.w:
+    boolean apply(java.lang.Object) -> a
+com.google.common.base.Predicates$ObjectPredicate$2 -> a.a.a.a.x:
+    boolean apply(java.lang.Object) -> a
+com.google.common.base.Predicates$ObjectPredicate$3 -> a.a.a.a.y:
+    boolean apply(java.lang.Object) -> a
+com.google.common.base.Predicates$ObjectPredicate$4 -> a.a.a.a.z:
+    boolean apply(java.lang.Object) -> a
+com.google.common.base.Stopwatch -> a.a.a.a.aa:
+    com.google.common.base.Ticker ticker -> a
+    boolean isRunning -> b
+    long elapsedNanos -> c
+    long startTick -> d
+    com.google.common.base.Stopwatch createUnstarted() -> a
+    com.google.common.base.Stopwatch start() -> b
+    long elapsedNanos() -> c
+    long elapsed(java.util.concurrent.TimeUnit) -> a
+    java.lang.String toString() -> toString
+    java.util.concurrent.TimeUnit chooseUnit(long) -> a
+    java.lang.String abbreviate(java.util.concurrent.TimeUnit) -> b
+com.google.common.base.Stopwatch$1 -> a.a.a.a.ab:
+    int[] $SwitchMap$java$util$concurrent$TimeUnit -> a
+com.google.common.base.Supplier -> a.a.a.a.ac:
+    java.lang.Object get() -> a
+com.google.common.base.Suppliers -> a.a.a.a.ad:
+    com.google.common.base.Supplier ofInstance(java.lang.Object) -> a
+com.google.common.base.Suppliers$SupplierOfInstance -> a.a.a.a.ae:
+    java.lang.Object instance -> a
+    java.lang.Object get() -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.base.Ticker -> a.a.a.a.af:
+    com.google.common.base.Ticker SYSTEM_TICKER -> a
+    long read() -> a
+    com.google.common.base.Ticker systemTicker() -> b
+com.google.common.base.Ticker$1 -> a.a.a.a.ag:
+    long read() -> a
+com.google.common.cache.AbstractCache -> a.a.a.b.a:
+com.google.common.cache.AbstractCache$SimpleStatsCounter -> a.a.a.b.b:
+    com.google.common.cache.LongAddable hitCount -> a
+    com.google.common.cache.LongAddable missCount -> b
+    com.google.common.cache.LongAddable loadSuccessCount -> c
+    com.google.common.cache.LongAddable loadExceptionCount -> d
+    com.google.common.cache.LongAddable totalLoadTime -> e
+    com.google.common.cache.LongAddable evictionCount -> f
+    void recordHits(int) -> a
+    void recordMisses(int) -> b
+    void recordLoadSuccess(long) -> a
+    void recordLoadException(long) -> b
+    void recordEviction() -> a
+com.google.common.cache.AbstractCache$StatsCounter -> a.a.a.b.c:
+    void recordHits(int) -> a
+    void recordMisses(int) -> b
+    void recordLoadSuccess(long) -> a
+    void recordLoadException(long) -> b
+    void recordEviction() -> a
+com.google.common.cache.CacheBuilder -> a.a.a.b.d:
+    com.google.common.base.Supplier NULL_STATS_COUNTER -> a
+    com.google.common.cache.CacheStats EMPTY_STATS -> b
+    com.google.common.base.Supplier CACHE_STATS_COUNTER -> c
+    com.google.common.base.Ticker NULL_TICKER -> d
+    java.util.logging.Logger logger -> u
+    boolean strictParsing -> e
+    int initialCapacity -> f
+    int concurrencyLevel -> g
+    long maximumSize -> h
+    long maximumWeight -> i
+    com.google.common.cache.Weigher weigher -> j
+    com.google.common.cache.LocalCache$Strength keyStrength -> k
+    com.google.common.cache.LocalCache$Strength valueStrength -> l
+    long expireAfterWriteNanos -> m
+    long expireAfterAccessNanos -> n
+    long refreshNanos -> o
+    com.google.common.base.Equivalence keyEquivalence -> p
+    com.google.common.base.Equivalence valueEquivalence -> q
+    com.google.common.cache.RemovalListener removalListener -> r
+    com.google.common.base.Ticker ticker -> s
+    com.google.common.base.Supplier statsCounterSupplier -> t
+    com.google.common.cache.CacheBuilder newBuilder() -> a
+    com.google.common.base.Equivalence getKeyEquivalence() -> b
+    com.google.common.base.Equivalence getValueEquivalence() -> c
+    int getInitialCapacity() -> d
+    int getConcurrencyLevel() -> e
+    long getMaximumWeight() -> f
+    com.google.common.cache.Weigher getWeigher() -> g
+    com.google.common.cache.CacheBuilder weakKeys() -> h
+    com.google.common.cache.CacheBuilder setKeyStrength(com.google.common.cache.LocalCache$Strength) -> a
+    com.google.common.cache.LocalCache$Strength getKeyStrength() -> i
+    com.google.common.cache.LocalCache$Strength getValueStrength() -> j
+    long getExpireAfterWriteNanos() -> k
+    long getExpireAfterAccessNanos() -> l
+    long getRefreshNanos() -> m
+    com.google.common.base.Ticker getTicker(boolean) -> a
+    com.google.common.cache.RemovalListener getRemovalListener() -> n
+    com.google.common.base.Supplier getStatsCounterSupplier() -> o
+    com.google.common.cache.LoadingCache build(com.google.common.cache.CacheLoader) -> a
+    void checkWeightWithWeigher() -> p
+    java.lang.String toString() -> toString
+com.google.common.cache.CacheBuilder$1 -> a.a.a.b.e:
+    void recordHits(int) -> a
+    void recordMisses(int) -> b
+    void recordLoadSuccess(long) -> a
+    void recordLoadException(long) -> b
+    void recordEviction() -> a
+com.google.common.cache.CacheBuilder$2 -> a.a.a.b.f:
+    com.google.common.cache.AbstractCache$StatsCounter get() -> b
+    java.lang.Object get() -> a
+com.google.common.cache.CacheBuilder$3 -> a.a.a.b.g:
+    long read() -> a
+com.google.common.cache.CacheBuilder$NullListener -> a.a.a.b.h:
+    com.google.common.cache.CacheBuilder$NullListener INSTANCE -> a
+    com.google.common.cache.CacheBuilder$NullListener[] $VALUES -> b
+    com.google.common.cache.CacheBuilder$NullListener[] values() -> values
+    com.google.common.cache.CacheBuilder$NullListener valueOf(java.lang.String) -> valueOf
+    void onRemoval(com.google.common.cache.RemovalNotification) -> a
+com.google.common.cache.CacheBuilder$OneWeigher -> a.a.a.b.i:
+    com.google.common.cache.CacheBuilder$OneWeigher INSTANCE -> a
+    com.google.common.cache.CacheBuilder$OneWeigher[] $VALUES -> b
+    com.google.common.cache.CacheBuilder$OneWeigher[] values() -> values
+    com.google.common.cache.CacheBuilder$OneWeigher valueOf(java.lang.String) -> valueOf
+    int weigh(java.lang.Object,java.lang.Object) -> a
+com.google.common.cache.CacheLoader -> a.a.a.b.j:
+    java.lang.Object load(java.lang.Object) -> a
+    com.google.common.util.concurrent.ListenableFuture reload(java.lang.Object,java.lang.Object) -> a
+com.google.common.cache.CacheLoader$InvalidCacheLoadException -> a.a.a.b.k:
+com.google.common.cache.CacheStats -> a.a.a.b.l:
+    long hitCount -> a
+    long missCount -> b
+    long loadSuccessCount -> c
+    long loadExceptionCount -> d
+    long totalLoadTime -> e
+    long evictionCount -> f
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+com.google.common.cache.LoadingCache -> a.a.a.b.m:
+com.google.common.cache.LocalCache -> a.a.a.b.n:
+    java.util.logging.Logger logger -> a
+    com.google.common.util.concurrent.ListeningExecutorService sameThreadExecutor -> b
+    int segmentMask -> c
+    int segmentShift -> d
+    com.google.common.cache.LocalCache$Segment[] segments -> e
+    int concurrencyLevel -> f
+    com.google.common.base.Equivalence keyEquivalence -> g
+    com.google.common.base.Equivalence valueEquivalence -> h
+    com.google.common.cache.LocalCache$Strength keyStrength -> i
+    com.google.common.cache.LocalCache$Strength valueStrength -> j
+    long maxWeight -> k
+    com.google.common.cache.Weigher weigher -> l
+    long expireAfterAccessNanos -> m
+    long expireAfterWriteNanos -> n
+    long refreshNanos -> o
+    java.util.Queue removalNotificationQueue -> p
+    com.google.common.cache.RemovalListener removalListener -> q
+    com.google.common.base.Ticker ticker -> r
+    com.google.common.cache.LocalCache$EntryFactory entryFactory -> s
+    com.google.common.cache.AbstractCache$StatsCounter globalStatsCounter -> t
+    com.google.common.cache.CacheLoader defaultLoader -> u
+    com.google.common.cache.LocalCache$ValueReference UNSET -> v
+    java.util.Queue DISCARDING_QUEUE -> w
+    java.util.Set keySet -> x
+    java.util.Collection values -> y
+    java.util.Set entrySet -> z
+    boolean evictsBySize() -> a
+    boolean customWeigher() -> b
+    boolean expiresAfterWrite() -> c
+    boolean expiresAfterAccess() -> d
+    boolean refreshes() -> e
+    boolean usesAccessQueue() -> f
+    boolean usesWriteQueue() -> g
+    boolean recordsWrite() -> h
+    boolean recordsAccess() -> i
+    boolean recordsTime() -> j
+    boolean usesWriteEntries() -> k
+    boolean usesAccessEntries() -> l
+    boolean usesKeyReferences() -> m
+    boolean usesValueReferences() -> n
+    com.google.common.cache.LocalCache$ValueReference unset() -> o
+    com.google.common.cache.LocalCache$ReferenceEntry nullEntry() -> p
+    java.util.Queue discardingQueue() -> q
+    int rehash(int) -> a
+    int hash(java.lang.Object) -> a
+    void reclaimValue(com.google.common.cache.LocalCache$ValueReference) -> a
+    void reclaimKey(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$Segment segmentFor(int) -> b
+    com.google.common.cache.LocalCache$Segment createSegment(int,long,com.google.common.cache.AbstractCache$StatsCounter) -> a
+    java.lang.Object getLiveValue(com.google.common.cache.LocalCache$ReferenceEntry,long) -> a
+    boolean isExpired(com.google.common.cache.LocalCache$ReferenceEntry,long) -> b
+    void connectAccessOrder(com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    void nullifyAccessOrder(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    void connectWriteOrder(com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    void nullifyWriteOrder(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    void processPendingNotifications() -> r
+    com.google.common.cache.LocalCache$Segment[] newSegmentArray(int) -> c
+    boolean isEmpty() -> isEmpty
+    long longSize() -> s
+    int size() -> size
+    java.lang.Object get(java.lang.Object) -> get
+    java.lang.Object get(java.lang.Object,com.google.common.cache.CacheLoader) -> a
+    java.lang.Object getOrLoad(java.lang.Object) -> b
+    boolean containsKey(java.lang.Object) -> containsKey
+    boolean containsValue(java.lang.Object) -> containsValue
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+    java.lang.Object putIfAbsent(java.lang.Object,java.lang.Object) -> putIfAbsent
+    void putAll(java.util.Map) -> putAll
+    java.lang.Object remove(java.lang.Object) -> remove
+    boolean remove(java.lang.Object,java.lang.Object) -> remove
+    boolean replace(java.lang.Object,java.lang.Object,java.lang.Object) -> replace
+    java.lang.Object replace(java.lang.Object,java.lang.Object) -> replace
+    void clear() -> clear
+    java.util.Set keySet() -> keySet
+    java.util.Collection values() -> values
+    java.util.Set entrySet() -> entrySet
+com.google.common.cache.LocalCache$1 -> a.a.a.b.o:
+    java.lang.Object get() -> get
+    int getWeight() -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getEntry() -> b
+    com.google.common.cache.LocalCache$ValueReference copyFor(java.lang.ref.ReferenceQueue,java.lang.Object,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    boolean isLoading() -> c
+    boolean isActive() -> d
+    java.lang.Object waitForValue() -> e
+    void notifyNewValue(java.lang.Object) -> a
+com.google.common.cache.LocalCache$2 -> a.a.a.b.p:
+    boolean offer(java.lang.Object) -> offer
+    java.lang.Object peek() -> peek
+    java.lang.Object poll() -> poll
+    int size() -> size
+    java.util.Iterator iterator() -> iterator
+com.google.common.cache.LocalCache$AbstractCacheSet -> a.a.a.b.q:
+    java.util.concurrent.ConcurrentMap map -> a
+    com.google.common.cache.LocalCache this$0 -> b
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    void clear() -> clear
+com.google.common.cache.LocalCache$AbstractReferenceEntry -> a.a.a.b.r:
+    com.google.common.cache.LocalCache$ValueReference getValueReference() -> a
+    void setValueReference(com.google.common.cache.LocalCache$ValueReference) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNext() -> b
+    int getHash() -> c
+    java.lang.Object getKey() -> d
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+com.google.common.cache.LocalCache$AccessQueue -> a.a.a.b.s:
+    com.google.common.cache.LocalCache$ReferenceEntry head -> a
+    boolean offer(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry peek() -> a
+    com.google.common.cache.LocalCache$ReferenceEntry poll() -> b
+    boolean remove(java.lang.Object) -> remove
+    boolean contains(java.lang.Object) -> contains
+    boolean isEmpty() -> isEmpty
+    int size() -> size
+    void clear() -> clear
+    java.util.Iterator iterator() -> iterator
+    java.lang.Object peek() -> peek
+    java.lang.Object poll() -> poll
+    boolean offer(java.lang.Object) -> offer
+com.google.common.cache.LocalCache$AccessQueue$1 -> a.a.a.b.t:
+    com.google.common.cache.LocalCache$ReferenceEntry nextAccess -> a
+    com.google.common.cache.LocalCache$ReferenceEntry previousAccess -> b
+    com.google.common.cache.LocalCache$AccessQueue this$0 -> c
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+com.google.common.cache.LocalCache$AccessQueue$2 -> a.a.a.b.u:
+    com.google.common.cache.LocalCache$AccessQueue this$0 -> a
+    com.google.common.cache.LocalCache$ReferenceEntry computeNext(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    java.lang.Object computeNext(java.lang.Object) -> a
+com.google.common.cache.LocalCache$EntryFactory -> a.a.a.b.v:
+    com.google.common.cache.LocalCache$EntryFactory STRONG -> a
+    com.google.common.cache.LocalCache$EntryFactory STRONG_ACCESS -> b
+    com.google.common.cache.LocalCache$EntryFactory STRONG_WRITE -> c
+    com.google.common.cache.LocalCache$EntryFactory STRONG_ACCESS_WRITE -> d
+    com.google.common.cache.LocalCache$EntryFactory WEAK -> e
+    com.google.common.cache.LocalCache$EntryFactory WEAK_ACCESS -> f
+    com.google.common.cache.LocalCache$EntryFactory WEAK_WRITE -> g
+    com.google.common.cache.LocalCache$EntryFactory WEAK_ACCESS_WRITE -> h
+    com.google.common.cache.LocalCache$EntryFactory[] factories -> i
+    com.google.common.cache.LocalCache$EntryFactory[] $VALUES -> j
+    com.google.common.cache.LocalCache$EntryFactory[] values() -> values
+    com.google.common.cache.LocalCache$EntryFactory valueOf(java.lang.String) -> valueOf
+    com.google.common.cache.LocalCache$EntryFactory getFactory(com.google.common.cache.LocalCache$Strength,boolean,boolean) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry copyEntry(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    void copyAccessEntry(com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    void copyWriteEntry(com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> b
+com.google.common.cache.LocalCache$EntryFactory$1 -> a.a.a.b.w:
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$EntryFactory$2 -> a.a.a.b.x:
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry copyEntry(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$EntryFactory$3 -> a.a.a.b.y:
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry copyEntry(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$EntryFactory$4 -> a.a.a.b.z:
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry copyEntry(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$EntryFactory$5 -> a.a.a.b.aa:
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$EntryFactory$6 -> a.a.a.b.ab:
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry copyEntry(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$EntryFactory$7 -> a.a.a.b.ac:
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry copyEntry(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$EntryFactory$8 -> a.a.a.b.ad:
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(com.google.common.cache.LocalCache$Segment,java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry copyEntry(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$EntryIterator -> a.a.a.b.ae:
+    com.google.common.cache.LocalCache this$0 -> a
+    java.util.Map$Entry next() -> a
+    java.lang.Object next() -> next
+com.google.common.cache.LocalCache$EntrySet -> a.a.a.b.af:
+    com.google.common.cache.LocalCache this$0 -> c
+    java.util.Iterator iterator() -> iterator
+    boolean contains(java.lang.Object) -> contains
+    boolean remove(java.lang.Object) -> remove
+com.google.common.cache.LocalCache$HashIterator -> a.a.a.b.ag:
+    int nextSegmentIndex -> b
+    int nextTableIndex -> c
+    com.google.common.cache.LocalCache$Segment currentSegment -> d
+    java.util.concurrent.atomic.AtomicReferenceArray currentTable -> e
+    com.google.common.cache.LocalCache$ReferenceEntry nextEntry -> f
+    com.google.common.cache.LocalCache$WriteThroughEntry nextExternal -> g
+    com.google.common.cache.LocalCache$WriteThroughEntry lastReturned -> h
+    com.google.common.cache.LocalCache this$0 -> i
+    void advance() -> b
+    boolean nextInChain() -> c
+    boolean nextInTable() -> d
+    boolean advanceTo(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    boolean hasNext() -> hasNext
+    com.google.common.cache.LocalCache$WriteThroughEntry nextEntry() -> e
+    void remove() -> remove
+com.google.common.cache.LocalCache$KeyIterator -> a.a.a.b.ah:
+    com.google.common.cache.LocalCache this$0 -> a
+    java.lang.Object next() -> next
+com.google.common.cache.LocalCache$KeySet -> a.a.a.b.ai:
+    com.google.common.cache.LocalCache this$0 -> c
+    java.util.Iterator iterator() -> iterator
+    boolean contains(java.lang.Object) -> contains
+    boolean remove(java.lang.Object) -> remove
+com.google.common.cache.LocalCache$LoadingValueReference -> a.a.a.b.aj:
+    com.google.common.cache.LocalCache$ValueReference oldValue -> a
+    com.google.common.util.concurrent.SettableFuture futureValue -> b
+    com.google.common.base.Stopwatch stopwatch -> c
+    boolean isLoading() -> c
+    boolean isActive() -> d
+    int getWeight() -> a
+    boolean set(java.lang.Object) -> b
+    boolean setException(java.lang.Throwable) -> a
+    com.google.common.util.concurrent.ListenableFuture fullyFailedFuture(java.lang.Throwable) -> b
+    void notifyNewValue(java.lang.Object) -> a
+    com.google.common.util.concurrent.ListenableFuture loadFuture(java.lang.Object,com.google.common.cache.CacheLoader) -> a
+    long elapsedNanos() -> f
+    java.lang.Object waitForValue() -> e
+    java.lang.Object get() -> get
+    com.google.common.cache.LocalCache$ValueReference getOldValue() -> g
+    com.google.common.cache.LocalCache$ReferenceEntry getEntry() -> b
+    com.google.common.cache.LocalCache$ValueReference copyFor(java.lang.ref.ReferenceQueue,java.lang.Object,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$LoadingValueReference$1 -> a.a.a.b.ak:
+    com.google.common.cache.LocalCache$LoadingValueReference this$0 -> a
+    java.lang.Object apply(java.lang.Object) -> a
+com.google.common.cache.LocalCache$LocalLoadingCache -> a.a.a.b.al:
+    java.lang.Object get(java.lang.Object) -> b
+    java.lang.Object getUnchecked(java.lang.Object) -> c
+    java.lang.Object apply(java.lang.Object) -> a
+com.google.common.cache.LocalCache$LocalManualCache -> a.a.a.b.am:
+    com.google.common.cache.LocalCache localCache -> a
+com.google.common.cache.LocalCache$NullEntry -> a.a.a.b.an:
+    com.google.common.cache.LocalCache$NullEntry INSTANCE -> a
+    com.google.common.cache.LocalCache$NullEntry[] $VALUES -> b
+    com.google.common.cache.LocalCache$NullEntry[] values() -> values
+    com.google.common.cache.LocalCache$NullEntry valueOf(java.lang.String) -> valueOf
+    com.google.common.cache.LocalCache$ValueReference getValueReference() -> a
+    void setValueReference(com.google.common.cache.LocalCache$ValueReference) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNext() -> b
+    int getHash() -> c
+    java.lang.Object getKey() -> d
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+com.google.common.cache.LocalCache$ReferenceEntry -> a.a.a.b.ao:
+    com.google.common.cache.LocalCache$ValueReference getValueReference() -> a
+    void setValueReference(com.google.common.cache.LocalCache$ValueReference) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNext() -> b
+    int getHash() -> c
+    java.lang.Object getKey() -> d
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+com.google.common.cache.LocalCache$Segment -> a.a.a.b.ap:
+    com.google.common.cache.LocalCache map -> a
+    int count -> b
+    int totalWeight -> c
+    int modCount -> d
+    int threshold -> e
+    java.util.concurrent.atomic.AtomicReferenceArray table -> f
+    long maxSegmentWeight -> g
+    java.lang.ref.ReferenceQueue keyReferenceQueue -> h
+    java.lang.ref.ReferenceQueue valueReferenceQueue -> i
+    java.util.Queue recencyQueue -> j
+    java.util.concurrent.atomic.AtomicInteger readCount -> k
+    java.util.Queue writeQueue -> l
+    java.util.Queue accessQueue -> m
+    com.google.common.cache.AbstractCache$StatsCounter statsCounter -> n
+    java.util.concurrent.atomic.AtomicReferenceArray newEntryArray(int) -> a
+    void initTable(java.util.concurrent.atomic.AtomicReferenceArray) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry newEntry(java.lang.Object,int,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry copyEntry(com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    void setValue(com.google.common.cache.LocalCache$ReferenceEntry,java.lang.Object,java.lang.Object,long) -> a
+    java.lang.Object get(java.lang.Object,int,com.google.common.cache.CacheLoader) -> a
+    java.lang.Object lockedGetOrLoad(java.lang.Object,int,com.google.common.cache.CacheLoader) -> b
+    java.lang.Object waitForLoadingValue(com.google.common.cache.LocalCache$ReferenceEntry,java.lang.Object,com.google.common.cache.LocalCache$ValueReference) -> a
+    java.lang.Object loadSync(java.lang.Object,int,com.google.common.cache.LocalCache$LoadingValueReference,com.google.common.cache.CacheLoader) -> a
+    com.google.common.util.concurrent.ListenableFuture loadAsync(java.lang.Object,int,com.google.common.cache.LocalCache$LoadingValueReference,com.google.common.cache.CacheLoader) -> b
+    java.lang.Object getAndRecordStats(java.lang.Object,int,com.google.common.cache.LocalCache$LoadingValueReference,com.google.common.util.concurrent.ListenableFuture) -> a
+    java.lang.Object scheduleRefresh(com.google.common.cache.LocalCache$ReferenceEntry,java.lang.Object,int,java.lang.Object,long,com.google.common.cache.CacheLoader) -> a
+    java.lang.Object refresh(java.lang.Object,int,com.google.common.cache.CacheLoader,boolean) -> a
+    com.google.common.cache.LocalCache$LoadingValueReference insertLoadingValueReference(java.lang.Object,int,boolean) -> a
+    void tryDrainReferenceQueues() -> a
+    void drainReferenceQueues() -> b
+    void drainKeyReferenceQueue() -> c
+    void drainValueReferenceQueue() -> d
+    void clearReferenceQueues() -> e
+    void clearKeyReferenceQueue() -> f
+    void clearValueReferenceQueue() -> g
+    void recordRead(com.google.common.cache.LocalCache$ReferenceEntry,long) -> a
+    void recordLockedRead(com.google.common.cache.LocalCache$ReferenceEntry,long) -> b
+    void recordWrite(com.google.common.cache.LocalCache$ReferenceEntry,int,long) -> a
+    void drainRecencyQueue() -> h
+    void tryExpireEntries(long) -> a
+    void expireEntries(long) -> b
+    void enqueueNotification(com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.RemovalCause) -> a
+    void enqueueNotification(java.lang.Object,int,com.google.common.cache.LocalCache$ValueReference,com.google.common.cache.RemovalCause) -> a
+    void evictEntries() -> i
+    com.google.common.cache.LocalCache$ReferenceEntry getNextEvictable() -> j
+    com.google.common.cache.LocalCache$ReferenceEntry getFirst(int) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getEntry(java.lang.Object,int) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getLiveEntry(java.lang.Object,int,long) -> a
+    java.lang.Object getLiveValue(com.google.common.cache.LocalCache$ReferenceEntry,long) -> c
+    java.lang.Object get(java.lang.Object,int) -> b
+    boolean containsKey(java.lang.Object,int) -> c
+    java.lang.Object put(java.lang.Object,int,java.lang.Object,boolean) -> a
+    void expand() -> k
+    boolean replace(java.lang.Object,int,java.lang.Object,java.lang.Object) -> a
+    java.lang.Object replace(java.lang.Object,int,java.lang.Object) -> a
+    java.lang.Object remove(java.lang.Object,int) -> d
+    boolean storeLoadedValue(java.lang.Object,int,com.google.common.cache.LocalCache$LoadingValueReference,java.lang.Object) -> a
+    boolean remove(java.lang.Object,int,java.lang.Object) -> b
+    void clear() -> l
+    com.google.common.cache.LocalCache$ReferenceEntry removeValueFromChain(com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry,java.lang.Object,int,com.google.common.cache.LocalCache$ValueReference,com.google.common.cache.RemovalCause) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry removeEntryFromChain(com.google.common.cache.LocalCache$ReferenceEntry,com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    void removeCollectedEntry(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    boolean reclaimKey(com.google.common.cache.LocalCache$ReferenceEntry,int) -> a
+    boolean reclaimValue(java.lang.Object,int,com.google.common.cache.LocalCache$ValueReference) -> a
+    boolean removeLoadingValue(java.lang.Object,int,com.google.common.cache.LocalCache$LoadingValueReference) -> a
+    boolean removeEntry(com.google.common.cache.LocalCache$ReferenceEntry,int,com.google.common.cache.RemovalCause) -> a
+    void postReadCleanup() -> m
+    void preWriteCleanup(long) -> c
+    void postWriteCleanup() -> n
+    void cleanUp() -> o
+    void runLockedCleanup(long) -> d
+    void runUnlockedCleanup() -> p
+com.google.common.cache.LocalCache$Segment$1 -> a.a.a.b.aq:
+    java.lang.Object val$key -> a
+    int val$hash -> b
+    com.google.common.cache.LocalCache$LoadingValueReference val$loadingValueReference -> c
+    com.google.common.util.concurrent.ListenableFuture val$loadingFuture -> d
+    com.google.common.cache.LocalCache$Segment this$0 -> e
+    void run() -> run
+com.google.common.cache.LocalCache$SoftValueReference -> a.a.a.b.ar:
+    com.google.common.cache.LocalCache$ReferenceEntry entry -> a
+    int getWeight() -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getEntry() -> b
+    void notifyNewValue(java.lang.Object) -> a
+    com.google.common.cache.LocalCache$ValueReference copyFor(java.lang.ref.ReferenceQueue,java.lang.Object,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    boolean isLoading() -> c
+    boolean isActive() -> d
+    java.lang.Object waitForValue() -> e
+com.google.common.cache.LocalCache$Strength -> a.a.a.b.as:
+    com.google.common.cache.LocalCache$Strength STRONG -> a
+    com.google.common.cache.LocalCache$Strength SOFT -> b
+    com.google.common.cache.LocalCache$Strength WEAK -> c
+    com.google.common.cache.LocalCache$Strength[] $VALUES -> d
+    com.google.common.cache.LocalCache$Strength[] values() -> values
+    com.google.common.cache.LocalCache$Strength valueOf(java.lang.String) -> valueOf
+    com.google.common.cache.LocalCache$ValueReference referenceValue(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,java.lang.Object,int) -> a
+    com.google.common.base.Equivalence defaultEquivalence() -> a
+com.google.common.cache.LocalCache$Strength$1 -> a.a.a.b.at:
+    com.google.common.cache.LocalCache$ValueReference referenceValue(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,java.lang.Object,int) -> a
+    com.google.common.base.Equivalence defaultEquivalence() -> a
+com.google.common.cache.LocalCache$Strength$2 -> a.a.a.b.au:
+    com.google.common.cache.LocalCache$ValueReference referenceValue(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,java.lang.Object,int) -> a
+    com.google.common.base.Equivalence defaultEquivalence() -> a
+com.google.common.cache.LocalCache$Strength$3 -> a.a.a.b.av:
+    com.google.common.cache.LocalCache$ValueReference referenceValue(com.google.common.cache.LocalCache$Segment,com.google.common.cache.LocalCache$ReferenceEntry,java.lang.Object,int) -> a
+    com.google.common.base.Equivalence defaultEquivalence() -> a
+com.google.common.cache.LocalCache$StrongAccessEntry -> a.a.a.b.aw:
+    long accessTime -> a
+    com.google.common.cache.LocalCache$ReferenceEntry nextAccess -> b
+    com.google.common.cache.LocalCache$ReferenceEntry previousAccess -> c
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+com.google.common.cache.LocalCache$StrongAccessWriteEntry -> a.a.a.b.ax:
+    long accessTime -> a
+    com.google.common.cache.LocalCache$ReferenceEntry nextAccess -> b
+    com.google.common.cache.LocalCache$ReferenceEntry previousAccess -> c
+    long writeTime -> d
+    com.google.common.cache.LocalCache$ReferenceEntry nextWrite -> e
+    com.google.common.cache.LocalCache$ReferenceEntry previousWrite -> f
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+com.google.common.cache.LocalCache$StrongEntry -> a.a.a.b.ay:
+    java.lang.Object key -> g
+    int hash -> h
+    com.google.common.cache.LocalCache$ReferenceEntry next -> i
+    com.google.common.cache.LocalCache$ValueReference valueReference -> j
+    java.lang.Object getKey() -> d
+    com.google.common.cache.LocalCache$ValueReference getValueReference() -> a
+    void setValueReference(com.google.common.cache.LocalCache$ValueReference) -> a
+    int getHash() -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getNext() -> b
+com.google.common.cache.LocalCache$StrongValueReference -> a.a.a.b.az:
+    java.lang.Object referent -> a
+    java.lang.Object get() -> get
+    int getWeight() -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getEntry() -> b
+    com.google.common.cache.LocalCache$ValueReference copyFor(java.lang.ref.ReferenceQueue,java.lang.Object,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    boolean isLoading() -> c
+    boolean isActive() -> d
+    java.lang.Object waitForValue() -> e
+    void notifyNewValue(java.lang.Object) -> a
+com.google.common.cache.LocalCache$StrongWriteEntry -> a.a.a.b.ba:
+    long writeTime -> a
+    com.google.common.cache.LocalCache$ReferenceEntry nextWrite -> b
+    com.google.common.cache.LocalCache$ReferenceEntry previousWrite -> c
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+com.google.common.cache.LocalCache$ValueIterator -> a.a.a.b.bb:
+    com.google.common.cache.LocalCache this$0 -> a
+    java.lang.Object next() -> next
+com.google.common.cache.LocalCache$ValueReference -> a.a.a.b.bc:
+    java.lang.Object get() -> get
+    java.lang.Object waitForValue() -> e
+    int getWeight() -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getEntry() -> b
+    com.google.common.cache.LocalCache$ValueReference copyFor(java.lang.ref.ReferenceQueue,java.lang.Object,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    void notifyNewValue(java.lang.Object) -> a
+    boolean isLoading() -> c
+    boolean isActive() -> d
+com.google.common.cache.LocalCache$Values -> a.a.a.b.bd:
+    java.util.concurrent.ConcurrentMap map -> b
+    com.google.common.cache.LocalCache this$0 -> a
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    void clear() -> clear
+    java.util.Iterator iterator() -> iterator
+    boolean contains(java.lang.Object) -> contains
+com.google.common.cache.LocalCache$WeakAccessEntry -> a.a.a.b.be:
+    long accessTime -> a
+    com.google.common.cache.LocalCache$ReferenceEntry nextAccess -> b
+    com.google.common.cache.LocalCache$ReferenceEntry previousAccess -> c
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+com.google.common.cache.LocalCache$WeakAccessWriteEntry -> a.a.a.b.bf:
+    long accessTime -> a
+    com.google.common.cache.LocalCache$ReferenceEntry nextAccess -> b
+    com.google.common.cache.LocalCache$ReferenceEntry previousAccess -> c
+    long writeTime -> d
+    com.google.common.cache.LocalCache$ReferenceEntry nextWrite -> e
+    com.google.common.cache.LocalCache$ReferenceEntry previousWrite -> f
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+com.google.common.cache.LocalCache$WeakEntry -> a.a.a.b.bg:
+    int hash -> g
+    com.google.common.cache.LocalCache$ReferenceEntry next -> h
+    com.google.common.cache.LocalCache$ValueReference valueReference -> i
+    java.lang.Object getKey() -> d
+    long getAccessTime() -> e
+    void setAccessTime(long) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInAccessQueue() -> f
+    void setNextInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInAccessQueue() -> g
+    void setPreviousInAccessQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> b
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+    com.google.common.cache.LocalCache$ValueReference getValueReference() -> a
+    void setValueReference(com.google.common.cache.LocalCache$ValueReference) -> a
+    int getHash() -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getNext() -> b
+com.google.common.cache.LocalCache$WeakValueReference -> a.a.a.b.bh:
+    com.google.common.cache.LocalCache$ReferenceEntry entry -> a
+    int getWeight() -> a
+    com.google.common.cache.LocalCache$ReferenceEntry getEntry() -> b
+    void notifyNewValue(java.lang.Object) -> a
+    com.google.common.cache.LocalCache$ValueReference copyFor(java.lang.ref.ReferenceQueue,java.lang.Object,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    boolean isLoading() -> c
+    boolean isActive() -> d
+    java.lang.Object waitForValue() -> e
+com.google.common.cache.LocalCache$WeakWriteEntry -> a.a.a.b.bi:
+    long writeTime -> a
+    com.google.common.cache.LocalCache$ReferenceEntry nextWrite -> b
+    com.google.common.cache.LocalCache$ReferenceEntry previousWrite -> c
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+com.google.common.cache.LocalCache$WeightedSoftValueReference -> a.a.a.b.bj:
+    int weight -> b
+    int getWeight() -> a
+    com.google.common.cache.LocalCache$ValueReference copyFor(java.lang.ref.ReferenceQueue,java.lang.Object,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$WeightedStrongValueReference -> a.a.a.b.bk:
+    int weight -> b
+    int getWeight() -> a
+com.google.common.cache.LocalCache$WeightedWeakValueReference -> a.a.a.b.bl:
+    int weight -> b
+    int getWeight() -> a
+    com.google.common.cache.LocalCache$ValueReference copyFor(java.lang.ref.ReferenceQueue,java.lang.Object,com.google.common.cache.LocalCache$ReferenceEntry) -> a
+com.google.common.cache.LocalCache$WriteQueue -> a.a.a.b.bm:
+    com.google.common.cache.LocalCache$ReferenceEntry head -> a
+    boolean offer(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    com.google.common.cache.LocalCache$ReferenceEntry peek() -> a
+    com.google.common.cache.LocalCache$ReferenceEntry poll() -> b
+    boolean remove(java.lang.Object) -> remove
+    boolean contains(java.lang.Object) -> contains
+    boolean isEmpty() -> isEmpty
+    int size() -> size
+    void clear() -> clear
+    java.util.Iterator iterator() -> iterator
+    java.lang.Object peek() -> peek
+    java.lang.Object poll() -> poll
+    boolean offer(java.lang.Object) -> offer
+com.google.common.cache.LocalCache$WriteQueue$1 -> a.a.a.b.bn:
+    com.google.common.cache.LocalCache$ReferenceEntry nextWrite -> a
+    com.google.common.cache.LocalCache$ReferenceEntry previousWrite -> b
+    com.google.common.cache.LocalCache$WriteQueue this$0 -> c
+    long getWriteTime() -> h
+    void setWriteTime(long) -> b
+    com.google.common.cache.LocalCache$ReferenceEntry getNextInWriteQueue() -> i
+    void setNextInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> c
+    com.google.common.cache.LocalCache$ReferenceEntry getPreviousInWriteQueue() -> j
+    void setPreviousInWriteQueue(com.google.common.cache.LocalCache$ReferenceEntry) -> d
+com.google.common.cache.LocalCache$WriteQueue$2 -> a.a.a.b.bo:
+    com.google.common.cache.LocalCache$WriteQueue this$0 -> a
+    com.google.common.cache.LocalCache$ReferenceEntry computeNext(com.google.common.cache.LocalCache$ReferenceEntry) -> a
+    java.lang.Object computeNext(java.lang.Object) -> a
+com.google.common.cache.LocalCache$WriteThroughEntry -> a.a.a.b.bp:
+    java.lang.Object key -> a
+    java.lang.Object value -> b
+    com.google.common.cache.LocalCache this$0 -> c
+    java.lang.Object getKey() -> getKey
+    java.lang.Object getValue() -> getValue
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.Object setValue(java.lang.Object) -> setValue
+    java.lang.String toString() -> toString
+com.google.common.cache.LongAddable -> a.a.a.b.bq:
+    void increment() -> a
+    void add(long) -> a
+com.google.common.cache.LongAddables -> a.a.a.b.br:
+    com.google.common.base.Supplier SUPPLIER -> a
+    com.google.common.cache.LongAddable create() -> a
+com.google.common.cache.LongAddables$1 -> a.a.a.b.bs:
+    com.google.common.cache.LongAddable get() -> b
+    java.lang.Object get() -> a
+com.google.common.cache.LongAddables$2 -> a.a.a.b.bt:
+    com.google.common.cache.LongAddable get() -> b
+    java.lang.Object get() -> a
+com.google.common.cache.LongAddables$PureJavaLongAddable -> a.a.a.b.bu:
+    void increment() -> a
+    void add(long) -> a
+com.google.common.cache.LongAdder -> a.a.a.b.bv:
+    long fn(long,long) -> a
+    void add(long) -> a
+    void increment() -> a
+    long sum() -> b
+    java.lang.String toString() -> toString
+    long longValue() -> longValue
+    int intValue() -> intValue
+    float floatValue() -> floatValue
+    double doubleValue() -> doubleValue
+com.google.common.cache.RemovalCause -> a.a.a.b.bw:
+    com.google.common.cache.RemovalCause EXPLICIT -> a
+    com.google.common.cache.RemovalCause REPLACED -> b
+    com.google.common.cache.RemovalCause COLLECTED -> c
+    com.google.common.cache.RemovalCause EXPIRED -> d
+    com.google.common.cache.RemovalCause SIZE -> e
+    com.google.common.cache.RemovalCause[] $VALUES -> f
+    com.google.common.cache.RemovalCause[] values() -> values
+    com.google.common.cache.RemovalCause valueOf(java.lang.String) -> valueOf
+    boolean wasEvicted() -> a
+com.google.common.cache.RemovalCause$1 -> a.a.a.b.bx:
+    boolean wasEvicted() -> a
+com.google.common.cache.RemovalCause$2 -> a.a.a.b.by:
+    boolean wasEvicted() -> a
+com.google.common.cache.RemovalCause$3 -> a.a.a.b.bz:
+    boolean wasEvicted() -> a
+com.google.common.cache.RemovalCause$4 -> a.a.a.b.ca:
+    boolean wasEvicted() -> a
+com.google.common.cache.RemovalCause$5 -> a.a.a.b.cb:
+    boolean wasEvicted() -> a
+com.google.common.cache.RemovalListener -> a.a.a.b.cc:
+    void onRemoval(com.google.common.cache.RemovalNotification) -> a
+com.google.common.cache.RemovalNotification -> a.a.a.b.cd:
+    java.lang.Object key -> a
+    java.lang.Object value -> b
+    com.google.common.cache.RemovalCause cause -> c
+    java.lang.Object getKey() -> getKey
+    java.lang.Object getValue() -> getValue
+    java.lang.Object setValue(java.lang.Object) -> setValue
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.cache.Striped64 -> a.a.a.b.ce:
+    com.google.common.cache.Striped64$ThreadHashCode threadHashCode -> a
+    int NCPU -> b
+    com.google.common.cache.Striped64$Cell[] cells -> c
+    long base -> d
+    int busy -> e
+    sun.misc.Unsafe UNSAFE -> f
+    long baseOffset -> g
+    long busyOffset -> h
+    boolean casBase(long,long) -> b
+    boolean casBusy() -> c
+    long fn(long,long) -> a
+    void retryUpdate(long,com.google.common.cache.Striped64$HashCode,boolean) -> a
+    sun.misc.Unsafe getUnsafe() -> a
+    sun.misc.Unsafe access$000() -> d
+com.google.common.cache.Striped64$1 -> a.a.a.b.cf:
+    sun.misc.Unsafe run() -> a
+    java.lang.Object run() -> run
+com.google.common.cache.Striped64$Cell -> a.a.a.b.cg:
+    long value -> a
+    sun.misc.Unsafe UNSAFE -> b
+    long valueOffset -> c
+    boolean cas(long,long) -> a
+com.google.common.cache.Striped64$HashCode -> a.a.a.b.ch:
+    java.util.Random rng -> a
+    int code -> b
+com.google.common.cache.Striped64$ThreadHashCode -> a.a.a.b.ci:
+    com.google.common.cache.Striped64$HashCode initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.google.common.cache.Weigher -> a.a.a.b.cj:
+    int weigh(java.lang.Object,java.lang.Object) -> a
+com.google.common.collect.AbstractIndexedListIterator -> a.a.a.c.a:
+    int size -> a
+    int position -> b
+    java.lang.Object get(int) -> a
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    int nextIndex() -> nextIndex
+    boolean hasPrevious() -> hasPrevious
+    java.lang.Object previous() -> previous
+    int previousIndex() -> previousIndex
+com.google.common.collect.AbstractIterator -> a.a.a.c.b:
+    com.google.common.collect.AbstractIterator$State state -> a
+    java.lang.Object next -> b
+    java.lang.Object computeNext() -> a
+    java.lang.Object endOfData() -> b
+    boolean hasNext() -> hasNext
+    boolean tryToComputeNext() -> c
+    java.lang.Object next() -> next
+com.google.common.collect.AbstractIterator$1 -> a.a.a.c.c:
+    int[] $SwitchMap$com$google$common$collect$AbstractIterator$State -> a
+com.google.common.collect.AbstractIterator$State -> a.a.a.c.d:
+    com.google.common.collect.AbstractIterator$State READY -> a
+    com.google.common.collect.AbstractIterator$State NOT_READY -> b
+    com.google.common.collect.AbstractIterator$State DONE -> c
+    com.google.common.collect.AbstractIterator$State FAILED -> d
+    com.google.common.collect.AbstractIterator$State[] $VALUES -> e
+    com.google.common.collect.AbstractIterator$State[] values() -> values
+    com.google.common.collect.AbstractIterator$State valueOf(java.lang.String) -> valueOf
+com.google.common.collect.AbstractMapBasedMultimap -> a.a.a.c.e:
+    java.util.Map map -> a
+    int totalSize -> b
+    java.util.Collection createCollection() -> a
+    void clear() -> b
+    java.util.Collection wrapCollection(java.lang.Object,java.util.Collection) -> a
+    java.util.List wrapList(java.lang.Object,java.util.List,com.google.common.collect.AbstractMapBasedMultimap$WrappedCollection) -> a
+    java.util.Iterator iteratorOrListIterator(java.util.Collection) -> a
+    java.util.Set createKeySet() -> c
+    int removeValuesForKey(java.lang.Object) -> a
+    java.util.Map createAsMap() -> d
+    java.util.Map access$000(com.google.common.collect.AbstractMapBasedMultimap) -> a
+    java.util.Iterator access$100(com.google.common.collect.AbstractMapBasedMultimap,java.util.Collection) -> a
+    int access$210(com.google.common.collect.AbstractMapBasedMultimap) -> b
+    int access$208(com.google.common.collect.AbstractMapBasedMultimap) -> c
+    int access$212(com.google.common.collect.AbstractMapBasedMultimap,int) -> a
+    int access$220(com.google.common.collect.AbstractMapBasedMultimap,int) -> b
+    java.util.List access$300(com.google.common.collect.AbstractMapBasedMultimap,java.lang.Object,java.util.List,com.google.common.collect.AbstractMapBasedMultimap$WrappedCollection) -> a
+    int access$400(com.google.common.collect.AbstractMapBasedMultimap,java.lang.Object) -> a
+com.google.common.collect.AbstractMapBasedMultimap$AsMap -> a.a.a.c.f:
+    java.util.Map submap -> a
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> b
+    java.util.Set createEntrySet() -> a
+    boolean containsKey(java.lang.Object) -> containsKey
+    java.util.Collection get(java.lang.Object) -> a
+    java.util.Set keySet() -> keySet
+    int size() -> size
+    java.util.Collection remove(java.lang.Object) -> b
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    void clear() -> clear
+    java.util.Map$Entry wrapEntry(java.util.Map$Entry) -> a
+    java.lang.Object remove(java.lang.Object) -> remove
+    java.lang.Object get(java.lang.Object) -> get
+com.google.common.collect.AbstractMapBasedMultimap$AsMap$AsMapEntries -> a.a.a.c.g:
+    com.google.common.collect.AbstractMapBasedMultimap$AsMap this$1 -> a
+    java.util.Map map() -> a
+    java.util.Iterator iterator() -> iterator
+    boolean contains(java.lang.Object) -> contains
+    boolean remove(java.lang.Object) -> remove
+com.google.common.collect.AbstractMapBasedMultimap$AsMap$AsMapIterator -> a.a.a.c.h:
+    java.util.Iterator delegateIterator -> a
+    java.util.Collection collection -> b
+    com.google.common.collect.AbstractMapBasedMultimap$AsMap this$1 -> c
+    boolean hasNext() -> hasNext
+    java.util.Map$Entry next() -> a
+    void remove() -> remove
+    java.lang.Object next() -> next
+com.google.common.collect.AbstractMapBasedMultimap$KeySet -> a.a.a.c.i:
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> a
+    java.util.Iterator iterator() -> iterator
+    boolean remove(java.lang.Object) -> remove
+    void clear() -> clear
+    boolean containsAll(java.util.Collection) -> containsAll
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+com.google.common.collect.AbstractMapBasedMultimap$KeySet$1 -> a.a.a.c.j:
+    java.util.Map$Entry entry -> a
+    java.util.Iterator val$entryIterator -> b
+    com.google.common.collect.AbstractMapBasedMultimap$KeySet this$1 -> c
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    void remove() -> remove
+com.google.common.collect.AbstractMapBasedMultimap$RandomAccessWrappedList -> a.a.a.c.k:
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> a
+com.google.common.collect.AbstractMapBasedMultimap$SortedAsMap -> a.a.a.c.l:
+    java.util.SortedSet sortedKeySet -> c
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> d
+    java.util.SortedMap sortedMap() -> b
+    java.util.Comparator comparator() -> comparator
+    java.lang.Object firstKey() -> firstKey
+    java.lang.Object lastKey() -> lastKey
+    java.util.SortedMap headMap(java.lang.Object) -> headMap
+    java.util.SortedMap subMap(java.lang.Object,java.lang.Object) -> subMap
+    java.util.SortedMap tailMap(java.lang.Object) -> tailMap
+    java.util.SortedSet keySet() -> c
+    java.util.SortedSet createKeySet() -> d
+    java.util.Set keySet() -> keySet
+    java.util.Set createKeySet() -> e
+com.google.common.collect.AbstractMapBasedMultimap$SortedKeySet -> a.a.a.c.m:
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> b
+    java.util.SortedMap sortedMap() -> a
+    java.util.Comparator comparator() -> comparator
+    java.lang.Object first() -> first
+    java.util.SortedSet headSet(java.lang.Object) -> headSet
+    java.lang.Object last() -> last
+    java.util.SortedSet subSet(java.lang.Object,java.lang.Object) -> subSet
+    java.util.SortedSet tailSet(java.lang.Object) -> tailSet
+com.google.common.collect.AbstractMapBasedMultimap$WrappedCollection -> a.a.a.c.n:
+    java.lang.Object key -> b
+    java.util.Collection delegate -> c
+    com.google.common.collect.AbstractMapBasedMultimap$WrappedCollection ancestor -> d
+    java.util.Collection ancestorDelegate -> e
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> f
+    void refreshIfEmpty() -> a
+    void removeIfEmpty() -> b
+    java.lang.Object getKey() -> c
+    void addToMap() -> d
+    int size() -> size
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    java.util.Collection getDelegate() -> e
+    java.util.Iterator iterator() -> iterator
+    boolean add(java.lang.Object) -> add
+    com.google.common.collect.AbstractMapBasedMultimap$WrappedCollection getAncestor() -> f
+    boolean addAll(java.util.Collection) -> addAll
+    boolean contains(java.lang.Object) -> contains
+    boolean containsAll(java.util.Collection) -> containsAll
+    void clear() -> clear
+    boolean remove(java.lang.Object) -> remove
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean retainAll(java.util.Collection) -> retainAll
+com.google.common.collect.AbstractMapBasedMultimap$WrappedCollection$WrappedIterator -> a.a.a.c.o:
+    java.util.Iterator delegateIterator -> a
+    java.util.Collection originalDelegate -> b
+    com.google.common.collect.AbstractMapBasedMultimap$WrappedCollection this$1 -> c
+    void validateIterator() -> a
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    void remove() -> remove
+    java.util.Iterator getDelegateIterator() -> b
+com.google.common.collect.AbstractMapBasedMultimap$WrappedList -> a.a.a.c.p:
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> g
+    java.util.List getListDelegate() -> g
+    boolean addAll(int,java.util.Collection) -> addAll
+    java.lang.Object get(int) -> get
+    java.lang.Object set(int,java.lang.Object) -> set
+    void add(int,java.lang.Object) -> add
+    java.lang.Object remove(int) -> remove
+    int indexOf(java.lang.Object) -> indexOf
+    int lastIndexOf(java.lang.Object) -> lastIndexOf
+    java.util.ListIterator listIterator() -> listIterator
+    java.util.ListIterator listIterator(int) -> listIterator
+    java.util.List subList(int,int) -> subList
+com.google.common.collect.AbstractMapBasedMultimap$WrappedList$WrappedListIterator -> a.a.a.c.q:
+    com.google.common.collect.AbstractMapBasedMultimap$WrappedList this$1 -> d
+    java.util.ListIterator getDelegateListIterator() -> c
+    boolean hasPrevious() -> hasPrevious
+    java.lang.Object previous() -> previous
+    int nextIndex() -> nextIndex
+    int previousIndex() -> previousIndex
+    void set(java.lang.Object) -> set
+    void add(java.lang.Object) -> add
+com.google.common.collect.AbstractMapBasedMultimap$WrappedSet -> a.a.a.c.r:
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> a
+    boolean removeAll(java.util.Collection) -> removeAll
+com.google.common.collect.AbstractMapBasedMultimap$WrappedSortedSet -> a.a.a.c.s:
+    com.google.common.collect.AbstractMapBasedMultimap this$0 -> a
+    java.util.SortedSet getSortedSetDelegate() -> g
+    java.util.Comparator comparator() -> comparator
+    java.lang.Object first() -> first
+    java.lang.Object last() -> last
+    java.util.SortedSet headSet(java.lang.Object) -> headSet
+    java.util.SortedSet subSet(java.lang.Object,java.lang.Object) -> subSet
+    java.util.SortedSet tailSet(java.lang.Object) -> tailSet
+com.google.common.collect.AbstractMapEntry -> a.a.a.c.t:
+    java.lang.Object getKey() -> getKey
+    java.lang.Object getValue() -> getValue
+    java.lang.Object setValue(java.lang.Object) -> setValue
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.collect.AbstractMultimap -> a.a.a.c.u:
+    java.util.Set keySet -> a
+    java.util.Map asMap -> b
+    java.util.Set keySet() -> e
+    java.util.Set createKeySet() -> c
+    java.util.Map asMap() -> f
+    java.util.Map createAsMap() -> d
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.collect.AbstractSequentialIterator -> a.a.a.c.v:
+    java.lang.Object nextOrNull -> a
+    java.lang.Object computeNext(java.lang.Object) -> a
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+com.google.common.collect.AbstractSetMultimap -> a.a.a.c.w:
+    java.util.Set createCollection() -> g
+    java.util.Map asMap() -> f
+    boolean equals(java.lang.Object) -> equals
+    java.util.Collection createCollection() -> a
+com.google.common.collect.BiMap -> a.a.a.c.x:
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+com.google.common.collect.ByFunctionOrdering -> a.a.a.c.y:
+    com.google.common.base.Function function -> a
+    com.google.common.collect.Ordering ordering -> b
+    int compare(java.lang.Object,java.lang.Object) -> compare
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.collect.CollectPreconditions -> a.a.a.c.z:
+    void checkEntryNotNull(java.lang.Object,java.lang.Object) -> a
+    int checkNonnegative(int,java.lang.String) -> a
+    void checkRemove(boolean) -> a
+com.google.common.collect.Collections2 -> a.a.a.c.aa:
+    com.google.common.base.Joiner STANDARD_JOINER -> a
+    boolean safeContains(java.util.Collection,java.lang.Object) -> a
+    java.lang.StringBuilder newStringBuilderForCollection(int) -> a
+    java.util.Collection cast(java.lang.Iterable) -> a
+com.google.common.collect.ComparatorOrdering -> a.a.a.c.ab:
+    java.util.Comparator comparator -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.collect.DescendingImmutableSortedSet -> a.a.a.c.ac:
+    com.google.common.collect.ImmutableSortedSet forward -> c
+    int size() -> size
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    com.google.common.collect.ImmutableSortedSet headSetImpl(java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedSet subSetImpl(java.lang.Object,boolean,java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedSet tailSetImpl(java.lang.Object,boolean) -> b
+    com.google.common.collect.ImmutableSortedSet descendingSet() -> a_
+    com.google.common.collect.UnmodifiableIterator descendingIterator() -> c
+    com.google.common.collect.ImmutableSortedSet createDescendingSet() -> d
+    java.lang.Object lower(java.lang.Object) -> lower
+    java.lang.Object floor(java.lang.Object) -> floor
+    java.lang.Object ceiling(java.lang.Object) -> ceiling
+    java.lang.Object higher(java.lang.Object) -> higher
+    boolean isPartialView() -> e
+    java.util.Iterator descendingIterator() -> descendingIterator
+    java.util.NavigableSet descendingSet() -> descendingSet
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.EmptyImmutableBiMap -> a.a.a.c.ad:
+    com.google.common.collect.EmptyImmutableBiMap INSTANCE -> a
+    com.google.common.collect.ImmutableBiMap inverse() -> c_
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    java.lang.Object get(java.lang.Object) -> get
+    com.google.common.collect.ImmutableSet entrySet() -> b
+    com.google.common.collect.ImmutableSet createEntrySet() -> c
+    com.google.common.collect.ImmutableSet keySet() -> d
+    boolean isPartialView() -> e
+    java.util.Set entrySet() -> entrySet
+    java.util.Set keySet() -> keySet
+com.google.common.collect.EmptyImmutableSet -> a.a.a.c.ae:
+    com.google.common.collect.EmptyImmutableSet INSTANCE -> a
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    boolean containsAll(java.util.Collection) -> containsAll
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    boolean isPartialView() -> e
+    int copyIntoArray(java.lang.Object[],int) -> a
+    com.google.common.collect.ImmutableList asList() -> b
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    boolean isHashCodeFast() -> b_
+    java.lang.String toString() -> toString
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.EmptyImmutableSortedMap -> a.a.a.c.af:
+    com.google.common.collect.ImmutableSortedSet keySet -> a
+    java.lang.Object get(java.lang.Object) -> get
+    com.google.common.collect.ImmutableSortedSet keySet() -> d_
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    com.google.common.collect.ImmutableCollection values() -> f
+    java.lang.String toString() -> toString
+    boolean isPartialView() -> e
+    com.google.common.collect.ImmutableSet entrySet() -> b
+    com.google.common.collect.ImmutableSet createEntrySet() -> c
+    com.google.common.collect.ImmutableSortedMap headMap(java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedMap tailMap(java.lang.Object,boolean) -> b
+    com.google.common.collect.ImmutableSortedMap createDescendingMap() -> g
+    java.util.NavigableMap tailMap(java.lang.Object,boolean) -> tailMap
+    java.util.NavigableMap headMap(java.lang.Object,boolean) -> headMap
+    java.util.Set entrySet() -> entrySet
+    java.util.Collection values() -> values
+    java.util.Set keySet() -> keySet
+    com.google.common.collect.ImmutableSet keySet() -> d
+com.google.common.collect.EmptyImmutableSortedSet -> a.a.a.c.ag:
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    boolean containsAll(java.util.Collection) -> containsAll
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    com.google.common.collect.UnmodifiableIterator descendingIterator() -> c
+    boolean isPartialView() -> e
+    com.google.common.collect.ImmutableList asList() -> b
+    int copyIntoArray(java.lang.Object[],int) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    java.lang.Object first() -> first
+    java.lang.Object last() -> last
+    com.google.common.collect.ImmutableSortedSet headSetImpl(java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedSet subSetImpl(java.lang.Object,boolean,java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedSet tailSetImpl(java.lang.Object,boolean) -> b
+    com.google.common.collect.ImmutableSortedSet createDescendingSet() -> d
+    java.util.Iterator descendingIterator() -> descendingIterator
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.FluentIterable -> a.a.a.c.ah:
+    java.lang.Iterable iterable -> a
+    com.google.common.collect.FluentIterable from(java.lang.Iterable) -> a
+    java.lang.String toString() -> toString
+    com.google.common.collect.FluentIterable filter(com.google.common.base.Predicate) -> a
+    com.google.common.collect.ImmutableSet toSet() -> a
+com.google.common.collect.FluentIterable$1 -> a.a.a.c.ai:
+    java.lang.Iterable val$iterable -> a
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ForwardingCollection -> a.a.a.c.aj:
+    java.util.Collection delegate() -> a
+    java.util.Iterator iterator() -> iterator
+    int size() -> size
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    boolean add(java.lang.Object) -> add
+    boolean remove(java.lang.Object) -> remove
+    boolean containsAll(java.util.Collection) -> containsAll
+    boolean addAll(java.util.Collection) -> addAll
+    boolean retainAll(java.util.Collection) -> retainAll
+    void clear() -> clear
+    java.lang.Object[] toArray() -> toArray
+    java.lang.Object[] toArray(java.lang.Object[]) -> toArray
+    java.lang.Object delegate() -> b
+com.google.common.collect.ForwardingObject -> a.a.a.c.ak:
+    java.lang.Object delegate() -> b
+    java.lang.String toString() -> toString
+com.google.common.collect.ForwardingSet -> a.a.a.c.al:
+    java.util.Set delegate() -> c
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.util.Collection delegate() -> a
+    java.lang.Object delegate() -> b
+com.google.common.collect.HashBiMap -> a.a.a.c.am:
+    com.google.common.collect.HashBiMap$BiEntry[] hashTableKToV -> a
+    com.google.common.collect.HashBiMap$BiEntry[] hashTableVToK -> b
+    int size -> c
+    int mask -> d
+    int modCount -> e
+    com.google.common.collect.BiMap inverse -> f
+    com.google.common.collect.HashBiMap create() -> a
+    com.google.common.collect.HashBiMap create(int) -> a
+    void init(int) -> b
+    void delete(com.google.common.collect.HashBiMap$BiEntry) -> a
+    void insert(com.google.common.collect.HashBiMap$BiEntry) -> b
+    int hash(java.lang.Object) -> b
+    com.google.common.collect.HashBiMap$BiEntry seekByKey(java.lang.Object,int) -> a
+    com.google.common.collect.HashBiMap$BiEntry seekByValue(java.lang.Object,int) -> b
+    boolean containsKey(java.lang.Object) -> containsKey
+    boolean containsValue(java.lang.Object) -> containsValue
+    java.lang.Object get(java.lang.Object) -> get
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+    java.lang.Object put(java.lang.Object,java.lang.Object,boolean) -> a
+    java.lang.Object putInverse(java.lang.Object,java.lang.Object,boolean) -> b
+    void rehashIfNecessary() -> d
+    com.google.common.collect.HashBiMap$BiEntry[] createTable(int) -> c
+    java.lang.Object remove(java.lang.Object) -> remove
+    void clear() -> clear
+    int size() -> size
+    java.util.Set keySet() -> keySet
+    java.util.Set values() -> b
+    java.util.Set entrySet() -> entrySet
+    com.google.common.collect.BiMap inverse() -> c
+    java.util.Collection values() -> values
+    int access$000(com.google.common.collect.HashBiMap) -> a
+    com.google.common.collect.HashBiMap$BiEntry[] access$100(com.google.common.collect.HashBiMap) -> b
+    void access$200(com.google.common.collect.HashBiMap,com.google.common.collect.HashBiMap$BiEntry) -> a
+    int access$300(java.lang.Object) -> a
+    com.google.common.collect.HashBiMap$BiEntry access$400(com.google.common.collect.HashBiMap,java.lang.Object,int) -> a
+    com.google.common.collect.HashBiMap$BiEntry access$600(com.google.common.collect.HashBiMap,java.lang.Object,int) -> b
+    void access$700(com.google.common.collect.HashBiMap,com.google.common.collect.HashBiMap$BiEntry) -> b
+    int access$900(com.google.common.collect.HashBiMap) -> c
+    java.lang.Object access$1000(com.google.common.collect.HashBiMap,java.lang.Object,java.lang.Object,boolean) -> a
+com.google.common.collect.HashBiMap$1 -> a.a.a.c.an:
+com.google.common.collect.HashBiMap$BiEntry -> a.a.a.c.ao:
+    int keyHash -> a
+    int valueHash -> b
+    com.google.common.collect.HashBiMap$BiEntry nextInKToVBucket -> c
+    com.google.common.collect.HashBiMap$BiEntry nextInVToKBucket -> d
+com.google.common.collect.HashBiMap$EntrySet -> a.a.a.c.ap:
+    com.google.common.collect.HashBiMap this$0 -> a
+    java.util.Map map() -> a
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.HashBiMap$EntrySet$1 -> a.a.a.c.aq:
+    com.google.common.collect.HashBiMap$EntrySet this$1 -> a
+    java.util.Map$Entry output(com.google.common.collect.HashBiMap$BiEntry) -> a
+    java.lang.Object output(com.google.common.collect.HashBiMap$BiEntry) -> b
+com.google.common.collect.HashBiMap$EntrySet$1$MapEntry -> a.a.a.c.ar:
+    com.google.common.collect.HashBiMap$BiEntry delegate -> a
+    com.google.common.collect.HashBiMap$EntrySet$1 this$2 -> b
+    java.lang.Object getKey() -> getKey
+    java.lang.Object getValue() -> getValue
+    java.lang.Object setValue(java.lang.Object) -> setValue
+com.google.common.collect.HashBiMap$Inverse -> a.a.a.c.as:
+    com.google.common.collect.HashBiMap this$0 -> a
+    com.google.common.collect.BiMap forward() -> a
+    int size() -> size
+    void clear() -> clear
+    boolean containsKey(java.lang.Object) -> containsKey
+    java.lang.Object get(java.lang.Object) -> get
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+    java.lang.Object remove(java.lang.Object) -> remove
+    java.util.Set keySet() -> keySet
+    java.util.Set values() -> b
+    java.util.Set entrySet() -> entrySet
+    java.util.Collection values() -> values
+com.google.common.collect.HashBiMap$Inverse$1 -> a.a.a.c.at:
+    com.google.common.collect.HashBiMap$Inverse this$1 -> a
+    java.util.Map map() -> a
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.HashBiMap$Inverse$1$1 -> a.a.a.c.au:
+    com.google.common.collect.HashBiMap$Inverse$1 this$2 -> a
+    java.util.Map$Entry output(com.google.common.collect.HashBiMap$BiEntry) -> a
+    java.lang.Object output(com.google.common.collect.HashBiMap$BiEntry) -> b
+com.google.common.collect.HashBiMap$Inverse$1$1$InverseEntry -> a.a.a.c.av:
+    com.google.common.collect.HashBiMap$BiEntry delegate -> a
+    com.google.common.collect.HashBiMap$Inverse$1$1 this$3 -> b
+    java.lang.Object getKey() -> getKey
+    java.lang.Object getValue() -> getValue
+    java.lang.Object setValue(java.lang.Object) -> setValue
+com.google.common.collect.HashBiMap$Inverse$InverseKeySet -> a.a.a.c.aw:
+    com.google.common.collect.HashBiMap$Inverse this$1 -> a
+    boolean remove(java.lang.Object) -> remove
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.HashBiMap$Inverse$InverseKeySet$1 -> a.a.a.c.ax:
+    com.google.common.collect.HashBiMap$Inverse$InverseKeySet this$2 -> a
+    java.lang.Object output(com.google.common.collect.HashBiMap$BiEntry) -> b
+com.google.common.collect.HashBiMap$Itr -> a.a.a.c.ay:
+    int nextBucket -> b
+    com.google.common.collect.HashBiMap$BiEntry next -> c
+    com.google.common.collect.HashBiMap$BiEntry toRemove -> d
+    int expectedModCount -> e
+    com.google.common.collect.HashBiMap this$0 -> f
+    void checkForConcurrentModification() -> a
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    void remove() -> remove
+    java.lang.Object output(com.google.common.collect.HashBiMap$BiEntry) -> b
+com.google.common.collect.HashBiMap$KeySet -> a.a.a.c.az:
+    com.google.common.collect.HashBiMap this$0 -> a
+    java.util.Iterator iterator() -> iterator
+    boolean remove(java.lang.Object) -> remove
+com.google.common.collect.HashBiMap$KeySet$1 -> a.a.a.c.ba:
+    com.google.common.collect.HashBiMap$KeySet this$1 -> a
+    java.lang.Object output(com.google.common.collect.HashBiMap$BiEntry) -> b
+com.google.common.collect.HashMultimap -> a.a.a.c.bb:
+    int expectedValuesPerKey -> a
+    com.google.common.collect.HashMultimap create() -> h
+    java.util.Set createCollection() -> g
+    boolean equals(java.lang.Object) -> equals
+    java.util.Map asMap() -> f
+    void clear() -> b
+    java.util.Collection createCollection() -> a
+    java.lang.String toString() -> toString
+    int hashCode() -> hashCode
+    java.util.Set keySet() -> e
+com.google.common.collect.Hashing -> a.a.a.c.bc:
+    int MAX_TABLE_SIZE -> a
+    int smear(int) -> a
+    int closedTableSize(int,double) -> a
+    boolean needsResizing(int,int,double) -> a
+com.google.common.collect.ImmutableAsList -> a.a.a.c.bd:
+    com.google.common.collect.ImmutableCollection delegateCollection() -> c
+    boolean contains(java.lang.Object) -> contains
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean isPartialView() -> e
+com.google.common.collect.ImmutableBiMap -> a.a.a.c.be:
+    java.util.Map$Entry[] EMPTY_ENTRY_ARRAY -> a
+    com.google.common.collect.ImmutableBiMap of() -> g
+    com.google.common.collect.ImmutableBiMap of(java.lang.Object,java.lang.Object) -> a
+    com.google.common.collect.ImmutableBiMap inverse() -> c_
+    com.google.common.collect.ImmutableSet values() -> h
+    com.google.common.collect.ImmutableCollection values() -> f
+    java.util.Collection values() -> values
+com.google.common.collect.ImmutableCollection -> a.a.a.c.bf:
+    com.google.common.collect.ImmutableList asList -> a
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    java.lang.Object[] toArray() -> toArray
+    java.lang.Object[] toArray(java.lang.Object[]) -> toArray
+    boolean contains(java.lang.Object) -> contains
+    boolean add(java.lang.Object) -> add
+    boolean remove(java.lang.Object) -> remove
+    boolean addAll(java.util.Collection) -> addAll
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean retainAll(java.util.Collection) -> retainAll
+    void clear() -> clear
+    com.google.common.collect.ImmutableList asList() -> b
+    com.google.common.collect.ImmutableList createAsList() -> f
+    boolean isPartialView() -> e
+    int copyIntoArray(java.lang.Object[],int) -> a
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ImmutableCollection$ArrayBasedBuilder -> a.a.a.c.bg:
+    java.lang.Object[] contents -> a
+    int size -> b
+    void ensureCapacity(int) -> a
+    com.google.common.collect.ImmutableCollection$ArrayBasedBuilder add(java.lang.Object) -> a
+    com.google.common.collect.ImmutableCollection$Builder add(java.lang.Object) -> b
+com.google.common.collect.ImmutableCollection$Builder -> a.a.a.c.bh:
+    int expandedCapacity(int,int) -> a
+    com.google.common.collect.ImmutableCollection$Builder add(java.lang.Object) -> b
+    com.google.common.collect.ImmutableCollection$Builder addAll(java.util.Iterator) -> a
+com.google.common.collect.ImmutableEntry -> a.a.a.c.bi:
+    java.lang.Object key -> e
+    java.lang.Object value -> f
+    java.lang.Object getKey() -> getKey
+    java.lang.Object getValue() -> getValue
+    java.lang.Object setValue(java.lang.Object) -> setValue
+com.google.common.collect.ImmutableEnumMap -> a.a.a.c.bj:
+    java.util.EnumMap delegate -> a
+    com.google.common.collect.ImmutableMap asImmutable(java.util.EnumMap) -> a
+    com.google.common.collect.ImmutableSet createKeySet() -> a
+    int size() -> size
+    boolean containsKey(java.lang.Object) -> containsKey
+    java.lang.Object get(java.lang.Object) -> get
+    com.google.common.collect.ImmutableSet createEntrySet() -> c
+    boolean isPartialView() -> e
+    java.util.EnumMap access$000(com.google.common.collect.ImmutableEnumMap) -> a
+com.google.common.collect.ImmutableEnumMap$1 -> a.a.a.c.bk:
+    com.google.common.collect.ImmutableEnumMap this$0 -> a
+    boolean contains(java.lang.Object) -> contains
+    int size() -> size
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    boolean isPartialView() -> e
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ImmutableEnumMap$2 -> a.a.a.c.bl:
+    com.google.common.collect.ImmutableEnumMap this$0 -> a
+    com.google.common.collect.ImmutableMap map() -> d
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ImmutableEnumMap$2$1 -> a.a.a.c.bm:
+    java.util.Iterator backingIterator -> b
+    com.google.common.collect.ImmutableEnumMap$2 this$1 -> a
+    boolean hasNext() -> hasNext
+    java.util.Map$Entry next() -> a
+    java.lang.Object next() -> next
+com.google.common.collect.ImmutableEnumSet -> a.a.a.c.bn:
+    java.util.EnumSet delegate -> a
+    int hashCode -> b
+    com.google.common.collect.ImmutableSet asImmutable(java.util.EnumSet) -> a
+    boolean isPartialView() -> e
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    int size() -> size
+    boolean contains(java.lang.Object) -> contains
+    boolean containsAll(java.util.Collection) -> containsAll
+    boolean isEmpty() -> isEmpty
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ImmutableList -> a.a.a.c.bo:
+    com.google.common.collect.ImmutableList EMPTY -> a
+    com.google.common.collect.ImmutableList of() -> d
+    com.google.common.collect.ImmutableList of(java.lang.Object) -> a
+    com.google.common.collect.ImmutableList copyOf(java.util.Collection) -> a
+    com.google.common.collect.ImmutableList copyOf(java.lang.Object[]) -> a
+    com.google.common.collect.ImmutableList construct(java.lang.Object[]) -> c
+    com.google.common.collect.ImmutableList asImmutableList(java.lang.Object[]) -> b
+    com.google.common.collect.ImmutableList asImmutableList(java.lang.Object[],int) -> b
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    com.google.common.collect.UnmodifiableListIterator listIterator() -> g
+    com.google.common.collect.UnmodifiableListIterator listIterator(int) -> a
+    int indexOf(java.lang.Object) -> indexOf
+    int lastIndexOf(java.lang.Object) -> lastIndexOf
+    boolean contains(java.lang.Object) -> contains
+    com.google.common.collect.ImmutableList subList(int,int) -> a
+    com.google.common.collect.ImmutableList subListUnchecked(int,int) -> b
+    boolean addAll(int,java.util.Collection) -> addAll
+    java.lang.Object set(int,java.lang.Object) -> set
+    void add(int,java.lang.Object) -> add
+    java.lang.Object remove(int) -> remove
+    com.google.common.collect.ImmutableList asList() -> b
+    int copyIntoArray(java.lang.Object[],int) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    com.google.common.collect.ImmutableList$Builder builder() -> h
+    java.util.Iterator iterator() -> iterator
+    java.util.List subList(int,int) -> subList
+    java.util.ListIterator listIterator(int) -> listIterator
+    java.util.ListIterator listIterator() -> listIterator
+com.google.common.collect.ImmutableList$1 -> a.a.a.c.bp:
+    com.google.common.collect.ImmutableList this$0 -> a
+    java.lang.Object get(int) -> a
+com.google.common.collect.ImmutableList$Builder -> a.a.a.c.bq:
+    com.google.common.collect.ImmutableList$Builder add(java.lang.Object) -> c
+    com.google.common.collect.ImmutableList$Builder addAll(java.util.Iterator) -> b
+    com.google.common.collect.ImmutableList build() -> a
+    com.google.common.collect.ImmutableCollection$ArrayBasedBuilder add(java.lang.Object) -> a
+    com.google.common.collect.ImmutableCollection$Builder addAll(java.util.Iterator) -> a
+    com.google.common.collect.ImmutableCollection$Builder add(java.lang.Object) -> b
+com.google.common.collect.ImmutableList$SubList -> a.a.a.c.br:
+    int offset -> a
+    int length -> b
+    com.google.common.collect.ImmutableList this$0 -> c
+    int size() -> size
+    java.lang.Object get(int) -> get
+    com.google.common.collect.ImmutableList subList(int,int) -> a
+    boolean isPartialView() -> e
+    java.util.List subList(int,int) -> subList
+    java.util.ListIterator listIterator(int) -> listIterator
+    java.util.ListIterator listIterator() -> listIterator
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ImmutableMap -> a.a.a.c.bs:
+    java.util.Map$Entry[] EMPTY_ENTRY_ARRAY -> a
+    com.google.common.collect.ImmutableSet entrySet -> b
+    com.google.common.collect.ImmutableSet keySet -> c
+    com.google.common.collect.ImmutableCollection values -> d
+    com.google.common.collect.ImmutableMap of() -> i
+    com.google.common.collect.ImmutableMap of(java.lang.Object,java.lang.Object) -> b
+    com.google.common.collect.ImmutableMapEntry$TerminalEntry entryOf(java.lang.Object,java.lang.Object) -> c
+    com.google.common.collect.ImmutableMap$Builder builder() -> j
+    void checkNoConflict(boolean,java.lang.String,java.util.Map$Entry,java.util.Map$Entry) -> a
+    com.google.common.collect.ImmutableMap copyOf(java.util.Map) -> a
+    com.google.common.collect.ImmutableMap copyOfEnumMapUnsafe(java.util.Map) -> b
+    com.google.common.collect.ImmutableMap copyOfEnumMap(java.util.Map) -> c
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+    java.lang.Object remove(java.lang.Object) -> remove
+    void putAll(java.util.Map) -> putAll
+    void clear() -> clear
+    boolean isEmpty() -> isEmpty
+    boolean containsKey(java.lang.Object) -> containsKey
+    boolean containsValue(java.lang.Object) -> containsValue
+    java.lang.Object get(java.lang.Object) -> get
+    com.google.common.collect.ImmutableSet entrySet() -> b
+    com.google.common.collect.ImmutableSet createEntrySet() -> c
+    com.google.common.collect.ImmutableSet keySet() -> d
+    com.google.common.collect.ImmutableSet createKeySet() -> a
+    com.google.common.collect.ImmutableCollection values() -> f
+    boolean equals(java.lang.Object) -> equals
+    boolean isPartialView() -> e
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    java.util.Set entrySet() -> entrySet
+    java.util.Collection values() -> values
+    java.util.Set keySet() -> keySet
+com.google.common.collect.ImmutableMap$Builder -> a.a.a.c.bt:
+    com.google.common.collect.ImmutableMapEntry$TerminalEntry[] entries -> a
+    int size -> b
+    void ensureCapacity(int) -> a
+    com.google.common.collect.ImmutableMap$Builder put(java.lang.Object,java.lang.Object) -> a
+    com.google.common.collect.ImmutableMap$Builder put(java.util.Map$Entry) -> a
+    com.google.common.collect.ImmutableMap$Builder putAll(java.util.Map) -> a
+    com.google.common.collect.ImmutableMap build() -> a
+com.google.common.collect.ImmutableMapEntry -> a.a.a.c.bu:
+    com.google.common.collect.ImmutableMapEntry getNextInKeyBucket() -> a
+com.google.common.collect.ImmutableMapEntry$TerminalEntry -> a.a.a.c.bv:
+    com.google.common.collect.ImmutableMapEntry getNextInKeyBucket() -> a
+com.google.common.collect.ImmutableMapEntrySet -> a.a.a.c.bw:
+    com.google.common.collect.ImmutableMap map() -> d
+    int size() -> size
+    boolean contains(java.lang.Object) -> contains
+    boolean isPartialView() -> e
+com.google.common.collect.ImmutableMapKeySet -> a.a.a.c.bx:
+    com.google.common.collect.ImmutableMap map -> a
+    int size() -> size
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    boolean contains(java.lang.Object) -> contains
+    com.google.common.collect.ImmutableList createAsList() -> f
+    boolean isPartialView() -> e
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ImmutableMapKeySet$1 -> a.a.a.c.by:
+    com.google.common.collect.ImmutableList val$entryList -> a
+    com.google.common.collect.ImmutableMapKeySet this$0 -> b
+    java.lang.Object get(int) -> get
+    com.google.common.collect.ImmutableCollection delegateCollection() -> c
+com.google.common.collect.ImmutableMapValues -> a.a.a.c.bz:
+    com.google.common.collect.ImmutableMap map -> a
+    int size() -> size
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    boolean contains(java.lang.Object) -> contains
+    boolean isPartialView() -> e
+    com.google.common.collect.ImmutableList createAsList() -> f
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ImmutableMapValues$1 -> a.a.a.c.ca:
+    com.google.common.collect.ImmutableList val$entryList -> a
+    com.google.common.collect.ImmutableMapValues this$0 -> b
+    java.lang.Object get(int) -> get
+    com.google.common.collect.ImmutableCollection delegateCollection() -> c
+com.google.common.collect.ImmutableSet -> a.a.a.c.cb:
+    com.google.common.collect.ImmutableSet of() -> g
+    com.google.common.collect.ImmutableSet of(java.lang.Object) -> a
+    com.google.common.collect.ImmutableSet construct(int,java.lang.Object[]) -> b
+    int chooseTableSize(int) -> a
+    com.google.common.collect.ImmutableSet copyOf(java.lang.Iterable) -> a
+    com.google.common.collect.ImmutableSet copyOf(java.util.Iterator) -> a
+    com.google.common.collect.ImmutableSet copyOf(java.util.Collection) -> a
+    com.google.common.collect.ImmutableSet copyOfEnumSet(java.util.EnumSet) -> a
+    boolean isHashCodeFast() -> b_
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    com.google.common.collect.ImmutableSet$Builder builder() -> h
+    java.util.Iterator iterator() -> iterator
+    com.google.common.collect.ImmutableSet access$000(int,java.lang.Object[]) -> a
+com.google.common.collect.ImmutableSet$Builder -> a.a.a.c.cc:
+    com.google.common.collect.ImmutableSet$Builder add(java.lang.Object) -> c
+    com.google.common.collect.ImmutableSet$Builder addAll(java.util.Iterator) -> b
+    com.google.common.collect.ImmutableSet build() -> a
+    com.google.common.collect.ImmutableCollection$ArrayBasedBuilder add(java.lang.Object) -> a
+    com.google.common.collect.ImmutableCollection$Builder addAll(java.util.Iterator) -> a
+    com.google.common.collect.ImmutableCollection$Builder add(java.lang.Object) -> b
+com.google.common.collect.ImmutableSortedMap -> a.a.a.c.cd:
+    java.util.Comparator NATURAL_ORDER -> a
+    com.google.common.collect.ImmutableSortedMap NATURAL_EMPTY_MAP -> b
+    com.google.common.collect.ImmutableSortedMap descendingMap -> c
+    int size() -> size
+    boolean containsValue(java.lang.Object) -> containsValue
+    boolean isPartialView() -> e
+    com.google.common.collect.ImmutableSet entrySet() -> b
+    com.google.common.collect.ImmutableSortedSet keySet() -> d_
+    com.google.common.collect.ImmutableCollection values() -> f
+    java.util.Comparator comparator() -> comparator
+    java.lang.Object firstKey() -> firstKey
+    java.lang.Object lastKey() -> lastKey
+    com.google.common.collect.ImmutableSortedMap headMap(java.lang.Object) -> a
+    com.google.common.collect.ImmutableSortedMap headMap(java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedMap subMap(java.lang.Object,java.lang.Object) -> a
+    com.google.common.collect.ImmutableSortedMap subMap(java.lang.Object,boolean,java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedMap tailMap(java.lang.Object) -> b
+    com.google.common.collect.ImmutableSortedMap tailMap(java.lang.Object,boolean) -> b
+    java.util.Map$Entry lowerEntry(java.lang.Object) -> lowerEntry
+    java.lang.Object lowerKey(java.lang.Object) -> lowerKey
+    java.util.Map$Entry floorEntry(java.lang.Object) -> floorEntry
+    java.lang.Object floorKey(java.lang.Object) -> floorKey
+    java.util.Map$Entry ceilingEntry(java.lang.Object) -> ceilingEntry
+    java.lang.Object ceilingKey(java.lang.Object) -> ceilingKey
+    java.util.Map$Entry higherEntry(java.lang.Object) -> higherEntry
+    java.lang.Object higherKey(java.lang.Object) -> higherKey
+    java.util.Map$Entry firstEntry() -> firstEntry
+    java.util.Map$Entry lastEntry() -> lastEntry
+    java.util.Map$Entry pollFirstEntry() -> pollFirstEntry
+    java.util.Map$Entry pollLastEntry() -> pollLastEntry
+    com.google.common.collect.ImmutableSortedMap descendingMap() -> h
+    com.google.common.collect.ImmutableSortedMap createDescendingMap() -> g
+    com.google.common.collect.ImmutableSortedSet navigableKeySet() -> k
+    com.google.common.collect.ImmutableSortedSet descendingKeySet() -> l
+    com.google.common.collect.ImmutableSet keySet() -> d
+    java.util.Set entrySet() -> entrySet
+    java.util.Collection values() -> values
+    java.util.Set keySet() -> keySet
+    java.util.SortedMap tailMap(java.lang.Object) -> tailMap
+    java.util.SortedMap headMap(java.lang.Object) -> headMap
+    java.util.SortedMap subMap(java.lang.Object,java.lang.Object) -> subMap
+    java.util.NavigableMap tailMap(java.lang.Object,boolean) -> tailMap
+    java.util.NavigableMap headMap(java.lang.Object,boolean) -> headMap
+    java.util.NavigableMap subMap(java.lang.Object,boolean,java.lang.Object,boolean) -> subMap
+    java.util.NavigableSet descendingKeySet() -> descendingKeySet
+    java.util.NavigableSet navigableKeySet() -> navigableKeySet
+    java.util.NavigableMap descendingMap() -> descendingMap
+com.google.common.collect.ImmutableSortedMapFauxverideShim -> a.a.a.c.ce:
+com.google.common.collect.ImmutableSortedSet -> a.a.a.c.cf:
+    java.util.Comparator NATURAL_ORDER -> c
+    com.google.common.collect.ImmutableSortedSet NATURAL_EMPTY_SET -> d
+    java.util.Comparator comparator -> a
+    com.google.common.collect.ImmutableSortedSet descendingSet -> b
+    com.google.common.collect.ImmutableSortedSet emptySet() -> i
+    com.google.common.collect.ImmutableSortedSet emptySet(java.util.Comparator) -> a
+    java.util.Comparator comparator() -> comparator
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    com.google.common.collect.ImmutableSortedSet headSet(java.lang.Object) -> b
+    com.google.common.collect.ImmutableSortedSet headSet(java.lang.Object,boolean) -> c
+    com.google.common.collect.ImmutableSortedSet subSet(java.lang.Object,java.lang.Object) -> a
+    com.google.common.collect.ImmutableSortedSet subSet(java.lang.Object,boolean,java.lang.Object,boolean) -> b
+    com.google.common.collect.ImmutableSortedSet tailSet(java.lang.Object) -> c
+    com.google.common.collect.ImmutableSortedSet tailSet(java.lang.Object,boolean) -> d
+    com.google.common.collect.ImmutableSortedSet headSetImpl(java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedSet subSetImpl(java.lang.Object,boolean,java.lang.Object,boolean) -> a
+    com.google.common.collect.ImmutableSortedSet tailSetImpl(java.lang.Object,boolean) -> b
+    java.lang.Object lower(java.lang.Object) -> lower
+    java.lang.Object floor(java.lang.Object) -> floor
+    java.lang.Object ceiling(java.lang.Object) -> ceiling
+    java.lang.Object higher(java.lang.Object) -> higher
+    java.lang.Object first() -> first
+    java.lang.Object last() -> last
+    java.lang.Object pollFirst() -> pollFirst
+    java.lang.Object pollLast() -> pollLast
+    com.google.common.collect.ImmutableSortedSet descendingSet() -> a_
+    com.google.common.collect.ImmutableSortedSet createDescendingSet() -> d
+    com.google.common.collect.UnmodifiableIterator descendingIterator() -> c
+    java.util.Iterator iterator() -> iterator
+    java.util.SortedSet tailSet(java.lang.Object) -> tailSet
+    java.util.SortedSet headSet(java.lang.Object) -> headSet
+    java.util.SortedSet subSet(java.lang.Object,java.lang.Object) -> subSet
+    java.util.NavigableSet tailSet(java.lang.Object,boolean) -> tailSet
+    java.util.NavigableSet headSet(java.lang.Object,boolean) -> headSet
+    java.util.NavigableSet subSet(java.lang.Object,boolean,java.lang.Object,boolean) -> subSet
+    java.util.Iterator descendingIterator() -> descendingIterator
+    java.util.NavigableSet descendingSet() -> descendingSet
+com.google.common.collect.ImmutableSortedSetFauxverideShim -> a.a.a.c.cg:
+com.google.common.collect.Iterables -> a.a.a.c.ch:
+    java.lang.String toString(java.lang.Iterable) -> a
+    java.lang.Object getOnlyElement(java.lang.Iterable) -> b
+    java.lang.Object[] toArray(java.lang.Iterable) -> c
+    java.util.Collection toCollection(java.lang.Iterable) -> d
+    java.lang.Iterable filter(java.lang.Iterable,com.google.common.base.Predicate) -> a
+    java.lang.Iterable transform(java.lang.Iterable,com.google.common.base.Function) -> a
+    java.lang.Object getFirst(java.lang.Iterable,java.lang.Object) -> a
+com.google.common.collect.Iterables$6 -> a.a.a.c.ci:
+    java.lang.Iterable val$unfiltered -> a
+    com.google.common.base.Predicate val$predicate -> b
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.Iterables$8 -> a.a.a.c.cj:
+    java.lang.Iterable val$fromIterable -> a
+    com.google.common.base.Function val$function -> b
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.Iterators -> a.a.a.c.ck:
+    com.google.common.collect.UnmodifiableListIterator EMPTY_LIST_ITERATOR -> a
+    java.util.Iterator EMPTY_MODIFIABLE_ITERATOR -> b
+    com.google.common.collect.UnmodifiableIterator emptyIterator() -> a
+    com.google.common.collect.UnmodifiableListIterator emptyListIterator() -> b
+    com.google.common.collect.UnmodifiableIterator unmodifiableIterator(java.util.Iterator) -> a
+    boolean contains(java.util.Iterator,java.lang.Object) -> a
+    boolean removeAll(java.util.Iterator,java.util.Collection) -> a
+    boolean removeIf(java.util.Iterator,com.google.common.base.Predicate) -> a
+    boolean elementsEqual(java.util.Iterator,java.util.Iterator) -> a
+    java.lang.String toString(java.util.Iterator) -> b
+    java.lang.Object getOnlyElement(java.util.Iterator) -> c
+    boolean addAll(java.util.Collection,java.util.Iterator) -> a
+    com.google.common.collect.UnmodifiableIterator filter(java.util.Iterator,com.google.common.base.Predicate) -> b
+    boolean any(java.util.Iterator,com.google.common.base.Predicate) -> c
+    int indexOf(java.util.Iterator,com.google.common.base.Predicate) -> d
+    java.util.Iterator transform(java.util.Iterator,com.google.common.base.Function) -> a
+    java.lang.Object getNext(java.util.Iterator,java.lang.Object) -> b
+    void clear(java.util.Iterator) -> d
+    com.google.common.collect.UnmodifiableIterator forArray(java.lang.Object[]) -> a
+    com.google.common.collect.UnmodifiableListIterator forArray(java.lang.Object[],int,int,int) -> a
+    com.google.common.collect.UnmodifiableIterator singletonIterator(java.lang.Object) -> a
+com.google.common.collect.Iterators$1 -> a.a.a.c.cl:
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    boolean hasPrevious() -> hasPrevious
+    java.lang.Object previous() -> previous
+    int nextIndex() -> nextIndex
+    int previousIndex() -> previousIndex
+com.google.common.collect.Iterators$11 -> a.a.a.c.cm:
+    java.lang.Object[] val$array -> a
+    int val$offset -> b
+    java.lang.Object get(int) -> a
+com.google.common.collect.Iterators$12 -> a.a.a.c.cn:
+    boolean done -> a
+    java.lang.Object val$value -> b
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+com.google.common.collect.Iterators$2 -> a.a.a.c.co:
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    void remove() -> remove
+com.google.common.collect.Iterators$3 -> a.a.a.c.cp:
+    java.util.Iterator val$iterator -> a
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+com.google.common.collect.Iterators$7 -> a.a.a.c.cq:
+    java.util.Iterator val$unfiltered -> a
+    com.google.common.base.Predicate val$predicate -> b
+    java.lang.Object computeNext() -> a
+com.google.common.collect.Iterators$8 -> a.a.a.c.cr:
+    com.google.common.base.Function val$function -> a
+    java.lang.Object transform(java.lang.Object) -> a
+com.google.common.collect.Lists -> a.a.a.c.cs:
+    java.util.ArrayList newArrayList() -> a
+    java.util.ArrayList newArrayList(java.util.Iterator) -> a
+    boolean equalsImpl(java.util.List,java.lang.Object) -> a
+    int indexOfImpl(java.util.List,java.lang.Object) -> b
+    int lastIndexOfImpl(java.util.List,java.lang.Object) -> c
+com.google.common.collect.Maps -> a.a.a.c.ct:
+    com.google.common.base.Joiner$MapJoiner STANDARD_JOINER -> a
+    com.google.common.base.Function keyFunction() -> a
+    com.google.common.base.Function valueFunction() -> b
+    java.util.Iterator keyIterator(java.util.Iterator) -> a
+    java.util.Iterator valueIterator(java.util.Iterator) -> b
+    com.google.common.collect.UnmodifiableIterator valueIterator(com.google.common.collect.UnmodifiableIterator) -> a
+    java.util.HashMap newHashMap() -> c
+    int capacity(int) -> a
+    java.util.Map$Entry immutableEntry(java.lang.Object,java.lang.Object) -> a
+    java.lang.Object safeGet(java.util.Map,java.lang.Object) -> a
+    boolean safeContainsKey(java.util.Map,java.lang.Object) -> b
+    java.lang.Object safeRemove(java.util.Map,java.lang.Object) -> c
+    boolean equalsImpl(java.util.Map,java.lang.Object) -> d
+    java.lang.String toStringImpl(java.util.Map) -> a
+    java.lang.Object keyOrNull(java.util.Map$Entry) -> a
+com.google.common.collect.Maps$1 -> a.a.a.c.cu:
+    com.google.common.collect.UnmodifiableIterator val$entryIterator -> a
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+com.google.common.collect.Maps$EntryFunction -> a.a.a.c.cv:
+    com.google.common.collect.Maps$EntryFunction KEY -> a
+    com.google.common.collect.Maps$EntryFunction VALUE -> b
+    com.google.common.collect.Maps$EntryFunction[] $VALUES -> c
+    com.google.common.collect.Maps$EntryFunction[] values() -> values
+    com.google.common.collect.Maps$EntryFunction valueOf(java.lang.String) -> valueOf
+com.google.common.collect.Maps$EntryFunction$1 -> a.a.a.c.cw:
+    java.lang.Object apply(java.util.Map$Entry) -> a
+    java.lang.Object apply(java.lang.Object) -> a
+com.google.common.collect.Maps$EntryFunction$2 -> a.a.a.c.cx:
+    java.lang.Object apply(java.util.Map$Entry) -> a
+    java.lang.Object apply(java.lang.Object) -> a
+com.google.common.collect.Maps$EntrySet -> a.a.a.c.cy:
+    java.util.Map map() -> a
+    int size() -> size
+    void clear() -> clear
+    boolean contains(java.lang.Object) -> contains
+    boolean isEmpty() -> isEmpty
+    boolean remove(java.lang.Object) -> remove
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean retainAll(java.util.Collection) -> retainAll
+com.google.common.collect.Maps$ImprovedAbstractMap -> a.a.a.c.cz:
+    java.util.Set entrySet -> a
+    java.util.Set keySet -> b
+    java.util.Collection values -> c
+    java.util.Set createEntrySet() -> a
+    java.util.Set entrySet() -> entrySet
+    java.util.Set keySet() -> keySet
+    java.util.Set createKeySet() -> e
+    java.util.Collection values() -> values
+    java.util.Collection createValues() -> f
+com.google.common.collect.Maps$KeySet -> a.a.a.c.da:
+    java.util.Map map -> c
+    java.util.Map map() -> b
+    java.util.Iterator iterator() -> iterator
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    boolean remove(java.lang.Object) -> remove
+    void clear() -> clear
+com.google.common.collect.Maps$Values -> a.a.a.c.db:
+    java.util.Map map -> a
+    java.util.Map map() -> a
+    java.util.Iterator iterator() -> iterator
+    boolean remove(java.lang.Object) -> remove
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean retainAll(java.util.Collection) -> retainAll
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    void clear() -> clear
+com.google.common.collect.Multimap -> a.a.a.c.dc:
+    java.util.Map asMap() -> f
+com.google.common.collect.Multimaps -> a.a.a.c.dd:
+    boolean equalsImpl(com.google.common.collect.Multimap,java.lang.Object) -> a
+com.google.common.collect.Multiset -> a.a.a.c.de:
+    java.util.Set elementSet() -> a
+com.google.common.collect.NaturalOrdering -> a.a.a.c.df:
+    com.google.common.collect.NaturalOrdering INSTANCE -> a
+    int compare(java.lang.Comparable,java.lang.Comparable) -> a
+    com.google.common.collect.Ordering reverse() -> a
+    java.lang.String toString() -> toString
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.google.common.collect.ObjectArrays -> a.a.a.c.dg:
+    java.lang.Object[] EMPTY_ARRAY -> a
+    java.lang.Object[] newArray(java.lang.Object[],int) -> a
+    java.lang.Object[] arraysCopyOf(java.lang.Object[],int) -> b
+    java.lang.Object[] checkElementsNotNull(java.lang.Object[]) -> a
+    java.lang.Object[] checkElementsNotNull(java.lang.Object[],int) -> c
+    java.lang.Object checkElementNotNull(java.lang.Object,int) -> a
+com.google.common.collect.Ordering -> a.a.a.c.dh:
+    com.google.common.collect.Ordering natural() -> b
+    com.google.common.collect.Ordering from(java.util.Comparator) -> a
+    com.google.common.collect.Ordering reverse() -> a
+    com.google.common.collect.Ordering onResultOf(com.google.common.base.Function) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+    com.google.common.collect.ImmutableList immutableSortedCopy(java.lang.Iterable) -> a
+com.google.common.collect.Platform -> a.a.a.c.di:
+    java.lang.Object[] newArray(java.lang.Object[],int) -> a
+com.google.common.collect.RegularImmutableAsList -> a.a.a.c.dj:
+    com.google.common.collect.ImmutableCollection delegate -> a
+    com.google.common.collect.ImmutableList delegateList -> b
+    com.google.common.collect.ImmutableCollection delegateCollection() -> c
+    com.google.common.collect.UnmodifiableListIterator listIterator(int) -> a
+    int copyIntoArray(java.lang.Object[],int) -> a
+    java.lang.Object get(int) -> get
+    java.util.ListIterator listIterator(int) -> listIterator
+com.google.common.collect.RegularImmutableList -> a.a.a.c.dk:
+    int offset -> a
+    int size -> b
+    java.lang.Object[] array -> c
+    int size() -> size
+    boolean isPartialView() -> e
+    int copyIntoArray(java.lang.Object[],int) -> a
+    java.lang.Object get(int) -> get
+    int indexOf(java.lang.Object) -> indexOf
+    int lastIndexOf(java.lang.Object) -> lastIndexOf
+    com.google.common.collect.ImmutableList subListUnchecked(int,int) -> b
+    com.google.common.collect.UnmodifiableListIterator listIterator(int) -> a
+    java.util.ListIterator listIterator(int) -> listIterator
+com.google.common.collect.RegularImmutableMap -> a.a.a.c.dl:
+    com.google.common.collect.ImmutableMapEntry[] entries -> a
+    com.google.common.collect.ImmutableMapEntry[] table -> b
+    int mask -> c
+    void checkNoConflictInBucket(java.lang.Object,com.google.common.collect.ImmutableMapEntry,com.google.common.collect.ImmutableMapEntry) -> a
+    com.google.common.collect.ImmutableMapEntry[] createEntryArray(int) -> a
+    java.lang.Object get(java.lang.Object) -> get
+    int size() -> size
+    boolean isPartialView() -> e
+    com.google.common.collect.ImmutableSet createEntrySet() -> c
+    com.google.common.collect.ImmutableMapEntry[] access$100(com.google.common.collect.RegularImmutableMap) -> a
+com.google.common.collect.RegularImmutableMap$1 -> a.a.a.c.dm:
+com.google.common.collect.RegularImmutableMap$EntrySet -> a.a.a.c.dn:
+    com.google.common.collect.RegularImmutableMap this$0 -> a
+    com.google.common.collect.ImmutableMap map() -> d
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    com.google.common.collect.ImmutableList createAsList() -> f
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.RegularImmutableMap$NonTerminalMapEntry -> a.a.a.c.do:
+    com.google.common.collect.ImmutableMapEntry nextInKeyBucket -> a
+    com.google.common.collect.ImmutableMapEntry getNextInKeyBucket() -> a
+com.google.common.collect.RegularImmutableSet -> a.a.a.c.dp:
+    java.lang.Object[] elements -> b
+    java.lang.Object[] table -> a
+    int mask -> c
+    int hashCode -> d
+    boolean contains(java.lang.Object) -> contains
+    int size() -> size
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    int copyIntoArray(java.lang.Object[],int) -> a
+    com.google.common.collect.ImmutableList createAsList() -> f
+    boolean isPartialView() -> e
+    int hashCode() -> hashCode
+    boolean isHashCodeFast() -> b_
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.ReverseNaturalOrdering -> a.a.a.c.dq:
+    com.google.common.collect.ReverseNaturalOrdering INSTANCE -> a
+    int compare(java.lang.Comparable,java.lang.Comparable) -> a
+    com.google.common.collect.Ordering reverse() -> a
+    java.lang.String toString() -> toString
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.google.common.collect.ReverseOrdering -> a.a.a.c.dr:
+    com.google.common.collect.Ordering forwardOrder -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+    com.google.common.collect.Ordering reverse() -> a
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+com.google.common.collect.SetMultimap -> a.a.a.c.ds:
+com.google.common.collect.Sets -> a.a.a.c.dt:
+    java.util.HashSet newHashSet() -> a
+    java.util.HashSet newHashSetWithExpectedSize(int) -> a
+    int hashCodeImpl(java.util.Set) -> a
+    boolean equalsImpl(java.util.Set,java.lang.Object) -> a
+    boolean removeAllImpl(java.util.Set,java.util.Iterator) -> a
+    boolean removeAllImpl(java.util.Set,java.util.Collection) -> a
+com.google.common.collect.Sets$ImprovedAbstractSet -> a.a.a.c.du:
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean retainAll(java.util.Collection) -> retainAll
+com.google.common.collect.SingletonImmutableBiMap -> a.a.a.c.dv:
+    java.lang.Object singleKey -> a
+    java.lang.Object singleValue -> b
+    com.google.common.collect.ImmutableBiMap inverse -> c
+    java.lang.Object get(java.lang.Object) -> get
+    int size() -> size
+    boolean containsKey(java.lang.Object) -> containsKey
+    boolean containsValue(java.lang.Object) -> containsValue
+    boolean isPartialView() -> e
+    com.google.common.collect.ImmutableSet createEntrySet() -> c
+    com.google.common.collect.ImmutableSet createKeySet() -> a
+    com.google.common.collect.ImmutableBiMap inverse() -> c_
+com.google.common.collect.SingletonImmutableList -> a.a.a.c.dw:
+    java.lang.Object element -> a
+    java.lang.Object get(int) -> get
+    int indexOf(java.lang.Object) -> indexOf
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    int lastIndexOf(java.lang.Object) -> lastIndexOf
+    int size() -> size
+    com.google.common.collect.ImmutableList subList(int,int) -> a
+    boolean contains(java.lang.Object) -> contains
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    boolean isEmpty() -> isEmpty
+    boolean isPartialView() -> e
+    int copyIntoArray(java.lang.Object[],int) -> a
+    java.util.List subList(int,int) -> subList
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.SingletonImmutableSet -> a.a.a.c.dx:
+    java.lang.Object element -> a
+    int cachedHashCode -> b
+    int size() -> size
+    boolean isEmpty() -> isEmpty
+    boolean contains(java.lang.Object) -> contains
+    com.google.common.collect.UnmodifiableIterator iterator() -> a
+    boolean isPartialView() -> e
+    int copyIntoArray(java.lang.Object[],int) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    boolean isHashCodeFast() -> b_
+    java.lang.String toString() -> toString
+    java.util.Iterator iterator() -> iterator
+com.google.common.collect.SortedIterable -> a.a.a.c.dy:
+com.google.common.collect.TransformedIterator -> a.a.a.c.dz:
+    java.util.Iterator backingIterator -> b
+    java.lang.Object transform(java.lang.Object) -> a
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    void remove() -> remove
+com.google.common.collect.UnmodifiableIterator -> a.a.a.c.ea:
+    void remove() -> remove
+com.google.common.collect.UnmodifiableListIterator -> a.a.a.c.eb:
+    void add(java.lang.Object) -> add
+    void set(java.lang.Object) -> set
+com.google.common.eventbus.AnnotatedSubscriberFinder -> a.a.a.d.a:
+    com.google.common.cache.LoadingCache subscriberMethodsCache -> a
+    com.google.common.collect.ImmutableList getAnnotatedMethodsInternal(java.lang.Class) -> b
+    com.google.common.collect.ImmutableList access$000(java.lang.Class) -> a
+com.google.common.eventbus.AnnotatedSubscriberFinder$1 -> a.a.a.d.b:
+    com.google.common.collect.ImmutableList load(java.lang.Class) -> a
+    java.lang.Object load(java.lang.Object) -> a
+com.google.common.eventbus.AnnotatedSubscriberFinder$MethodIdentifier -> a.a.a.d.c:
+    java.lang.String name -> a
+    java.util.List parameterTypes -> b
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.google.common.eventbus.EventBus -> a.a.a.d.d:
+    com.google.common.cache.LoadingCache flattenHierarchyCache -> a
+    com.google.common.collect.SetMultimap subscribersByType -> b
+    java.util.concurrent.locks.ReadWriteLock subscribersByTypeLock -> c
+    com.google.common.eventbus.SubscriberFindingStrategy finder -> d
+    java.lang.ThreadLocal eventsToDispatch -> e
+    java.lang.ThreadLocal isDispatching -> f
+    com.google.common.eventbus.SubscriberExceptionHandler subscriberExceptionHandler -> g
+com.google.common.eventbus.EventBus$1 -> a.a.a.d.e:
+    java.util.Set load(java.lang.Class) -> a
+    java.lang.Object load(java.lang.Object) -> a
+com.google.common.eventbus.EventBus$2 -> a.a.a.d.f:
+    com.google.common.eventbus.EventBus this$0 -> a
+    java.util.Queue initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.google.common.eventbus.EventBus$3 -> a.a.a.d.g:
+    com.google.common.eventbus.EventBus this$0 -> a
+    java.lang.Boolean initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.google.common.eventbus.EventBus$LoggingSubscriberExceptionHandler -> a.a.a.d.h:
+    java.util.logging.Logger logger -> a
+com.google.common.eventbus.Subscribe -> a.a.a.d.i:
+com.google.common.eventbus.SubscriberExceptionHandler -> a.a.a.d.j:
+com.google.common.eventbus.SubscriberFindingStrategy -> a.a.a.d.k:
+com.google.common.primitives.Ints -> a.a.a.e.a:
+    int saturatedCast(long) -> a
+com.google.common.reflect.Element -> a.a.a.f.a:
+    java.lang.reflect.AccessibleObject accessibleObject -> a
+    java.lang.reflect.Member member -> b
+    com.google.common.reflect.TypeToken getOwnerType() -> a
+    boolean isAnnotationPresent(java.lang.Class) -> isAnnotationPresent
+    java.lang.annotation.Annotation getAnnotation(java.lang.Class) -> getAnnotation
+    java.lang.annotation.Annotation[] getAnnotations() -> getAnnotations
+    java.lang.annotation.Annotation[] getDeclaredAnnotations() -> getDeclaredAnnotations
+    void setAccessible(boolean) -> setAccessible
+    boolean isAccessible() -> isAccessible
+    java.lang.Class getDeclaringClass() -> getDeclaringClass
+    java.lang.String getName() -> getName
+    int getModifiers() -> getModifiers
+    boolean isSynthetic() -> isSynthetic
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.reflect.Invokable -> a.a.a.f.b:
+    java.lang.Class getDeclaringClass() -> getDeclaringClass
+    com.google.common.reflect.TypeToken getOwnerType() -> a
+    java.lang.String toString() -> toString
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.google.common.reflect.Invokable$MethodInvokable -> a.a.a.f.c:
+    java.lang.reflect.Method method -> a
+    java.lang.reflect.TypeVariable[] getTypeParameters() -> getTypeParameters
+com.google.common.reflect.TypeCapture -> a.a.a.f.d:
+    java.lang.reflect.Type capture() -> a
+com.google.common.reflect.TypeResolver -> a.a.a.f.e:
+    com.google.common.reflect.TypeResolver$TypeTable typeTable -> a
+    com.google.common.reflect.TypeResolver accordingTo(java.lang.reflect.Type) -> a
+    com.google.common.reflect.TypeResolver where(java.util.Map) -> a
+    void populateTypeMappings(java.util.Map,java.lang.reflect.Type,java.lang.reflect.Type) -> b
+    java.lang.reflect.Type resolveType(java.lang.reflect.Type) -> b
+    java.lang.reflect.Type[] resolveTypes(java.lang.reflect.Type[]) -> a
+    java.lang.reflect.WildcardType resolveWildcardType(java.lang.reflect.WildcardType) -> a
+    java.lang.reflect.Type resolveGenericArrayType(java.lang.reflect.GenericArrayType) -> a
+    java.lang.reflect.ParameterizedType resolveParameterizedType(java.lang.reflect.ParameterizedType) -> a
+    java.lang.Object expectArgument(java.lang.Class,java.lang.Object) -> b
+    java.lang.Object access$000(java.lang.Class,java.lang.Object) -> a
+    void access$100(java.util.Map,java.lang.reflect.Type,java.lang.reflect.Type) -> a
+    java.lang.reflect.Type[] access$300(com.google.common.reflect.TypeResolver,java.lang.reflect.Type[]) -> a
+com.google.common.reflect.TypeResolver$1 -> a.a.a.f.f:
+    java.util.Map val$mappings -> a
+    java.lang.reflect.Type val$to -> b
+    void visitTypeVariable(java.lang.reflect.TypeVariable) -> a
+    void visitWildcardType(java.lang.reflect.WildcardType) -> a
+    void visitParameterizedType(java.lang.reflect.ParameterizedType) -> a
+    void visitGenericArrayType(java.lang.reflect.GenericArrayType) -> a
+    void visitClass(java.lang.Class) -> a
+com.google.common.reflect.TypeResolver$TypeMappingIntrospector -> a.a.a.f.g:
+    com.google.common.reflect.TypeResolver$WildcardCapturer wildcardCapturer -> a
+    java.util.Map mappings -> b
+    com.google.common.collect.ImmutableMap getTypeMappings(java.lang.reflect.Type) -> a
+    void visitClass(java.lang.Class) -> a
+    void visitParameterizedType(java.lang.reflect.ParameterizedType) -> a
+    void visitTypeVariable(java.lang.reflect.TypeVariable) -> a
+    void visitWildcardType(java.lang.reflect.WildcardType) -> a
+    void map(com.google.common.reflect.TypeResolver$TypeVariableKey,java.lang.reflect.Type) -> a
+com.google.common.reflect.TypeResolver$TypeTable -> a.a.a.f.h:
+    com.google.common.collect.ImmutableMap map -> a
+    com.google.common.reflect.TypeResolver$TypeTable where(java.util.Map) -> a
+    java.lang.reflect.Type resolve(java.lang.reflect.TypeVariable) -> a
+    java.lang.reflect.Type resolveInternal(java.lang.reflect.TypeVariable,com.google.common.reflect.TypeResolver$TypeTable) -> a
+com.google.common.reflect.TypeResolver$TypeTable$1 -> a.a.a.f.i:
+    java.lang.reflect.TypeVariable val$var -> a
+    com.google.common.reflect.TypeResolver$TypeTable val$unguarded -> b
+    com.google.common.reflect.TypeResolver$TypeTable this$0 -> c
+    java.lang.reflect.Type resolveInternal(java.lang.reflect.TypeVariable,com.google.common.reflect.TypeResolver$TypeTable) -> a
+com.google.common.reflect.TypeResolver$TypeVariableKey -> a.a.a.f.j:
+    java.lang.reflect.TypeVariable var -> a
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+    java.lang.Object forLookup(java.lang.reflect.Type) -> a
+    boolean equalsType(java.lang.reflect.Type) -> b
+    boolean equalsTypeVariable(java.lang.reflect.TypeVariable) -> a
+com.google.common.reflect.TypeResolver$WildcardCapturer -> a.a.a.f.k:
+    java.util.concurrent.atomic.AtomicInteger id -> a
+    java.lang.reflect.Type capture(java.lang.reflect.Type) -> a
+    java.lang.reflect.Type captureNullable(java.lang.reflect.Type) -> b
+    java.lang.reflect.Type[] capture(java.lang.reflect.Type[]) -> a
+com.google.common.reflect.TypeToken -> a.a.a.f.l:
+    java.lang.reflect.Type runtimeType -> a
+    com.google.common.reflect.TypeResolver typeResolver -> b
+    com.google.common.reflect.TypeToken of(java.lang.Class) -> a
+    com.google.common.reflect.TypeToken of(java.lang.reflect.Type) -> a
+    java.lang.Class getRawType() -> b
+    com.google.common.collect.ImmutableSet getImmediateRawTypes() -> f
+    com.google.common.reflect.TypeToken resolveType(java.lang.reflect.Type) -> b
+    com.google.common.reflect.TypeToken resolveSupertype(java.lang.reflect.Type) -> e
+    com.google.common.reflect.TypeToken getGenericSuperclass() -> c
+    com.google.common.reflect.TypeToken boundAsSuperclass(java.lang.reflect.Type) -> f
+    com.google.common.collect.ImmutableList getGenericInterfaces() -> d
+    com.google.common.collect.ImmutableList boundsAsInterfaces(java.lang.reflect.Type[]) -> a
+    com.google.common.reflect.TypeToken$TypeSet getTypes() -> e
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    java.lang.Class getRawType(java.lang.reflect.Type) -> c
+    com.google.common.collect.ImmutableSet getRawTypes(java.lang.reflect.Type) -> d
+    com.google.common.collect.ImmutableSet access$200(com.google.common.reflect.TypeToken) -> a
+    java.lang.reflect.Type access$400(com.google.common.reflect.TypeToken) -> b
+com.google.common.reflect.TypeToken$1 -> a.a.a.f.m:
+    com.google.common.reflect.TypeToken this$0 -> b
+    com.google.common.reflect.TypeToken getOwnerType() -> a
+    java.lang.String toString() -> toString
+com.google.common.reflect.TypeToken$4 -> a.a.a.f.n:
+    com.google.common.collect.ImmutableSet$Builder val$builder -> a
+    void visitTypeVariable(java.lang.reflect.TypeVariable) -> a
+    void visitWildcardType(java.lang.reflect.WildcardType) -> a
+    void visitParameterizedType(java.lang.reflect.ParameterizedType) -> a
+    void visitClass(java.lang.Class) -> a
+    void visitGenericArrayType(java.lang.reflect.GenericArrayType) -> a
+com.google.common.reflect.TypeToken$SimpleTypeToken -> a.a.a.f.o:
+com.google.common.reflect.TypeToken$TypeCollector -> a.a.a.f.p:
+    com.google.common.reflect.TypeToken$TypeCollector FOR_GENERIC_TYPE -> a
+    com.google.common.reflect.TypeToken$TypeCollector FOR_RAW_TYPE -> b
+    com.google.common.collect.ImmutableList collectTypes(java.lang.Object) -> a
+    com.google.common.collect.ImmutableList collectTypes(java.lang.Iterable) -> a
+    int collectTypes(java.lang.Object,java.util.Map) -> a
+    com.google.common.collect.ImmutableList sortKeysByValue(java.util.Map,java.util.Comparator) -> a
+    java.lang.Class getRawType(java.lang.Object) -> b
+    java.lang.Iterable getInterfaces(java.lang.Object) -> c
+    java.lang.Object getSuperclass(java.lang.Object) -> d
+com.google.common.reflect.TypeToken$TypeCollector$1 -> a.a.a.f.q:
+    java.lang.Class getRawType(com.google.common.reflect.TypeToken) -> a
+    java.lang.Iterable getInterfaces(com.google.common.reflect.TypeToken) -> b
+    com.google.common.reflect.TypeToken getSuperclass(com.google.common.reflect.TypeToken) -> c
+    java.lang.Object getSuperclass(java.lang.Object) -> d
+    java.lang.Iterable getInterfaces(java.lang.Object) -> c
+    java.lang.Class getRawType(java.lang.Object) -> b
+com.google.common.reflect.TypeToken$TypeCollector$2 -> a.a.a.f.r:
+    java.lang.Class getRawType(java.lang.Class) -> a
+    java.lang.Iterable getInterfaces(java.lang.Class) -> b
+    java.lang.Class getSuperclass(java.lang.Class) -> c
+    java.lang.Object getSuperclass(java.lang.Object) -> d
+    java.lang.Iterable getInterfaces(java.lang.Object) -> c
+    java.lang.Class getRawType(java.lang.Object) -> b
+com.google.common.reflect.TypeToken$TypeCollector$4 -> a.a.a.f.s:
+    java.util.Comparator val$valueComparator -> a
+    java.util.Map val$map -> b
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.google.common.reflect.TypeToken$TypeFilter -> a.a.a.f.t:
+    com.google.common.reflect.TypeToken$TypeFilter IGNORE_TYPE_VARIABLE_OR_WILDCARD -> a
+    com.google.common.reflect.TypeToken$TypeFilter INTERFACE_ONLY -> b
+    com.google.common.reflect.TypeToken$TypeFilter[] $VALUES -> c
+    com.google.common.reflect.TypeToken$TypeFilter[] values() -> values
+    com.google.common.reflect.TypeToken$TypeFilter valueOf(java.lang.String) -> valueOf
+com.google.common.reflect.TypeToken$TypeFilter$1 -> a.a.a.f.u:
+    boolean apply(com.google.common.reflect.TypeToken) -> a
+    boolean apply(java.lang.Object) -> a
+com.google.common.reflect.TypeToken$TypeFilter$2 -> a.a.a.f.v:
+    boolean apply(com.google.common.reflect.TypeToken) -> a
+    boolean apply(java.lang.Object) -> a
+com.google.common.reflect.TypeToken$TypeSet -> a.a.a.f.w:
+    com.google.common.collect.ImmutableSet types -> b
+    com.google.common.reflect.TypeToken this$0 -> a
+    java.util.Set delegate() -> c
+    java.util.Set rawTypes() -> d
+    java.util.Collection delegate() -> a
+    java.lang.Object delegate() -> b
+com.google.common.reflect.TypeVisitor -> a.a.a.f.x:
+    java.util.Set visited -> a
+    void visit(java.lang.reflect.Type[]) -> a
+    void visitClass(java.lang.Class) -> a
+    void visitGenericArrayType(java.lang.reflect.GenericArrayType) -> a
+    void visitParameterizedType(java.lang.reflect.ParameterizedType) -> a
+    void visitTypeVariable(java.lang.reflect.TypeVariable) -> a
+    void visitWildcardType(java.lang.reflect.WildcardType) -> a
+com.google.common.reflect.Types -> a.a.a.f.y:
+    com.google.common.base.Function TYPE_TO_STRING -> a
+    com.google.common.base.Joiner COMMA_JOINER -> b
+    java.lang.reflect.Type newArrayType(java.lang.reflect.Type) -> a
+    java.lang.reflect.ParameterizedType newParameterizedTypeWithOwner(java.lang.reflect.Type,java.lang.Class,java.lang.reflect.Type[]) -> a
+    java.lang.reflect.ParameterizedType newParameterizedType(java.lang.Class,java.lang.reflect.Type[]) -> a
+    java.lang.reflect.TypeVariable newArtificialTypeVariable(java.lang.reflect.GenericDeclaration,java.lang.String,java.lang.reflect.Type[]) -> a
+    java.lang.reflect.WildcardType subtypeOf(java.lang.reflect.Type) -> b
+    java.lang.reflect.WildcardType supertypeOf(java.lang.reflect.Type) -> c
+    java.lang.String toString(java.lang.reflect.Type) -> d
+    java.lang.reflect.Type getComponentType(java.lang.reflect.Type) -> e
+    java.lang.reflect.Type subtypeOfComponentType(java.lang.reflect.Type[]) -> b
+    java.lang.reflect.Type[] toArray(java.util.Collection) -> b
+    java.lang.Iterable filterUpperBounds(java.lang.Iterable) -> b
+    void disallowPrimitiveType(java.lang.reflect.Type[],java.lang.String) -> b
+    java.lang.Class getArrayClass(java.lang.Class) -> a
+    java.lang.reflect.Type access$100(java.lang.reflect.Type[]) -> a
+    void access$200(java.lang.reflect.Type[],java.lang.String) -> a
+    java.lang.reflect.Type[] access$300(java.util.Collection) -> a
+    com.google.common.base.Function access$400() -> a
+    com.google.common.base.Joiner access$500() -> b
+    java.lang.Iterable access$600(java.lang.Iterable) -> a
+com.google.common.reflect.Types$1 -> a.a.a.f.z:
+    java.lang.String apply(java.lang.reflect.Type) -> a
+    java.lang.Object apply(java.lang.Object) -> a
+com.google.common.reflect.Types$2 -> a.a.a.f.aa:
+    java.util.concurrent.atomic.AtomicReference val$result -> a
+    void visitTypeVariable(java.lang.reflect.TypeVariable) -> a
+    void visitWildcardType(java.lang.reflect.WildcardType) -> a
+    void visitGenericArrayType(java.lang.reflect.GenericArrayType) -> a
+    void visitClass(java.lang.Class) -> a
+com.google.common.reflect.Types$ClassOwnership -> a.a.a.f.ab:
+    com.google.common.reflect.Types$ClassOwnership OWNED_BY_ENCLOSING_CLASS -> a
+    com.google.common.reflect.Types$ClassOwnership LOCAL_CLASS_HAS_NO_OWNER -> b
+    com.google.common.reflect.Types$ClassOwnership JVM_BEHAVIOR -> c
+    com.google.common.reflect.Types$ClassOwnership[] $VALUES -> d
+    com.google.common.reflect.Types$ClassOwnership[] values() -> values
+    com.google.common.reflect.Types$ClassOwnership valueOf(java.lang.String) -> valueOf
+    java.lang.Class getOwnerType(java.lang.Class) -> a
+    com.google.common.reflect.Types$ClassOwnership detectJvmBehavior() -> a
+com.google.common.reflect.Types$ClassOwnership$1 -> a.a.a.f.ac:
+    java.lang.Class getOwnerType(java.lang.Class) -> a
+com.google.common.reflect.Types$ClassOwnership$1LocalClass -> a.a.a.f.ad:
+com.google.common.reflect.Types$ClassOwnership$2 -> a.a.a.f.ae:
+    java.lang.Class getOwnerType(java.lang.Class) -> a
+com.google.common.reflect.Types$ClassOwnership$3 -> a.a.a.f.af:
+com.google.common.reflect.Types$GenericArrayTypeImpl -> a.a.a.f.ag:
+    java.lang.reflect.Type componentType -> a
+    java.lang.reflect.Type getGenericComponentType() -> getGenericComponentType
+    java.lang.String toString() -> toString
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.google.common.reflect.Types$JavaVersion -> a.a.a.f.ah:
+    com.google.common.reflect.Types$JavaVersion JAVA6 -> a
+    com.google.common.reflect.Types$JavaVersion JAVA7 -> b
+    com.google.common.reflect.Types$JavaVersion CURRENT -> c
+    com.google.common.reflect.Types$JavaVersion[] $VALUES -> d
+    com.google.common.reflect.Types$JavaVersion[] values() -> values
+    com.google.common.reflect.Types$JavaVersion valueOf(java.lang.String) -> valueOf
+    java.lang.reflect.Type newArrayType(java.lang.reflect.Type) -> a
+    java.lang.reflect.Type usedInGenericType(java.lang.reflect.Type) -> b
+    com.google.common.collect.ImmutableList usedInGenericType(java.lang.reflect.Type[]) -> a
+com.google.common.reflect.Types$JavaVersion$1 -> a.a.a.f.ai:
+com.google.common.reflect.Types$JavaVersion$2 -> a.a.a.f.aj:
+    java.lang.reflect.GenericArrayType newArrayType(java.lang.reflect.Type) -> c
+    java.lang.reflect.Type usedInGenericType(java.lang.reflect.Type) -> b
+    java.lang.reflect.Type newArrayType(java.lang.reflect.Type) -> a
+com.google.common.reflect.Types$JavaVersion$3 -> a.a.a.f.ak:
+    java.lang.reflect.Type newArrayType(java.lang.reflect.Type) -> a
+    java.lang.reflect.Type usedInGenericType(java.lang.reflect.Type) -> b
+com.google.common.reflect.Types$NativeTypeVariableEquals -> a.a.a.f.al:
+    boolean NATIVE_TYPE_VARIABLE_ONLY -> a
+com.google.common.reflect.Types$ParameterizedTypeImpl -> a.a.a.f.am:
+    java.lang.reflect.Type ownerType -> a
+    com.google.common.collect.ImmutableList argumentsList -> b
+    java.lang.Class rawType -> c
+    java.lang.reflect.Type[] getActualTypeArguments() -> getActualTypeArguments
+    java.lang.reflect.Type getRawType() -> getRawType
+    java.lang.reflect.Type getOwnerType() -> getOwnerType
+    java.lang.String toString() -> toString
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.google.common.reflect.Types$TypeVariableImpl -> a.a.a.f.an:
+    java.lang.reflect.GenericDeclaration genericDeclaration -> a
+    java.lang.String name -> b
+    com.google.common.collect.ImmutableList bounds -> c
+    java.lang.reflect.Type[] getBounds() -> getBounds
+    java.lang.reflect.GenericDeclaration getGenericDeclaration() -> getGenericDeclaration
+    java.lang.String getName() -> getName
+    java.lang.String toString() -> toString
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.google.common.reflect.Types$WildcardTypeImpl -> a.a.a.f.ao:
+    com.google.common.collect.ImmutableList lowerBounds -> a
+    com.google.common.collect.ImmutableList upperBounds -> b
+    java.lang.reflect.Type[] getLowerBounds() -> getLowerBounds
+    java.lang.reflect.Type[] getUpperBounds() -> getUpperBounds
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.google.common.util.concurrent.AbstractFuture -> a.a.a.g.a.a:
+    com.google.common.util.concurrent.AbstractFuture$Sync sync -> a
+    com.google.common.util.concurrent.ExecutionList executionList -> b
+    java.lang.Object get(long,java.util.concurrent.TimeUnit) -> get
+    java.lang.Object get() -> get
+    boolean isDone() -> isDone
+    boolean isCancelled() -> isCancelled
+    boolean cancel(boolean) -> cancel
+    void interruptTask() -> a
+    boolean wasInterrupted() -> b
+    void addListener(java.lang.Runnable,java.util.concurrent.Executor) -> a
+    boolean set(java.lang.Object) -> a
+    boolean setException(java.lang.Throwable) -> a
+    java.util.concurrent.CancellationException cancellationExceptionWithCause(java.lang.String,java.lang.Throwable) -> a
+com.google.common.util.concurrent.AbstractFuture$Sync -> a.a.a.g.a.b:
+    java.lang.Object value -> a
+    java.lang.Throwable exception -> b
+    int tryAcquireShared(int) -> tryAcquireShared
+    boolean tryReleaseShared(int) -> tryReleaseShared
+    java.lang.Object get(long) -> a
+    java.lang.Object get() -> a
+    java.lang.Object getValue() -> e
+    boolean isDone() -> b
+    boolean isCancelled() -> c
+    boolean wasInterrupted() -> d
+    boolean set(java.lang.Object) -> a
+    boolean setException(java.lang.Throwable) -> a
+    boolean cancel(boolean) -> a
+    boolean complete(java.lang.Object,java.lang.Throwable,int) -> a
+com.google.common.util.concurrent.AbstractListeningExecutorService -> a.a.a.g.a.c:
+    com.google.common.util.concurrent.ListenableFutureTask newTaskFor(java.lang.Runnable,java.lang.Object) -> a
+    com.google.common.util.concurrent.ListenableFutureTask newTaskFor(java.util.concurrent.Callable) -> a
+    com.google.common.util.concurrent.ListenableFuture submit(java.lang.Runnable) -> a
+    com.google.common.util.concurrent.ListenableFuture submit(java.lang.Runnable,java.lang.Object) -> b
+    com.google.common.util.concurrent.ListenableFuture submit(java.util.concurrent.Callable) -> b
+    java.util.concurrent.Future submit(java.util.concurrent.Callable) -> submit
+    java.util.concurrent.Future submit(java.lang.Runnable,java.lang.Object) -> submit
+    java.util.concurrent.Future submit(java.lang.Runnable) -> submit
+    java.util.concurrent.RunnableFuture newTaskFor(java.util.concurrent.Callable) -> newTaskFor
+    java.util.concurrent.RunnableFuture newTaskFor(java.lang.Runnable,java.lang.Object) -> newTaskFor
+com.google.common.util.concurrent.AsyncFunction -> a.a.a.g.a.d:
+    com.google.common.util.concurrent.ListenableFuture apply(java.lang.Object) -> a
+com.google.common.util.concurrent.ExecutionError -> a.a.a.g.a.e:
+com.google.common.util.concurrent.ExecutionList -> a.a.a.g.a.f:
+    java.util.logging.Logger log -> a
+    com.google.common.util.concurrent.ExecutionList$RunnableExecutorPair runnables -> b
+    boolean executed -> c
+    void add(java.lang.Runnable,java.util.concurrent.Executor) -> a
+    void execute() -> a
+    void executeListener(java.lang.Runnable,java.util.concurrent.Executor) -> b
+com.google.common.util.concurrent.ExecutionList$RunnableExecutorPair -> a.a.a.g.a.g:
+    java.lang.Runnable runnable -> a
+    java.util.concurrent.Executor executor -> b
+    com.google.common.util.concurrent.ExecutionList$RunnableExecutorPair next -> c
+com.google.common.util.concurrent.Futures -> a.a.a.g.a.h:
+    com.google.common.util.concurrent.AsyncFunction DEREFERENCER -> a
+    com.google.common.collect.Ordering WITH_STRING_PARAM_FIRST -> b
+    com.google.common.util.concurrent.ListenableFuture immediateFuture(java.lang.Object) -> a
+    com.google.common.util.concurrent.ListenableFuture immediateFailedFuture(java.lang.Throwable) -> a
+    com.google.common.util.concurrent.ListenableFuture transform(com.google.common.util.concurrent.ListenableFuture,com.google.common.util.concurrent.AsyncFunction,java.util.concurrent.Executor) -> a
+    com.google.common.util.concurrent.ListenableFuture transform(com.google.common.util.concurrent.ListenableFuture,com.google.common.base.Function) -> a
+    com.google.common.util.concurrent.ListenableFuture transform(com.google.common.util.concurrent.ListenableFuture,com.google.common.base.Function,java.util.concurrent.Executor) -> a
+com.google.common.util.concurrent.Futures$1 -> a.a.a.g.a.i:
+    com.google.common.base.Function val$function -> a
+    com.google.common.util.concurrent.ListenableFuture apply(java.lang.Object) -> a
+com.google.common.util.concurrent.Futures$3 -> a.a.a.g.a.j:
+    com.google.common.util.concurrent.ListenableFuture apply(com.google.common.util.concurrent.ListenableFuture) -> a
+    com.google.common.util.concurrent.ListenableFuture apply(java.lang.Object) -> a
+com.google.common.util.concurrent.Futures$5 -> a.a.a.g.a.k:
+    java.lang.Boolean apply(java.lang.reflect.Constructor) -> a
+    java.lang.Object apply(java.lang.Object) -> a
+com.google.common.util.concurrent.Futures$ChainingListenableFuture -> a.a.a.g.a.l:
+    com.google.common.util.concurrent.AsyncFunction function -> a
+    com.google.common.util.concurrent.ListenableFuture inputFuture -> b
+    com.google.common.util.concurrent.ListenableFuture outputFuture -> c
+    java.util.concurrent.CountDownLatch outputCreated -> d
+    boolean cancel(boolean) -> cancel
+    void cancel(java.util.concurrent.Future,boolean) -> a
+    void run() -> run
+    com.google.common.util.concurrent.ListenableFuture access$302(com.google.common.util.concurrent.Futures$ChainingListenableFuture,com.google.common.util.concurrent.ListenableFuture) -> a
+com.google.common.util.concurrent.Futures$ChainingListenableFuture$1 -> a.a.a.g.a.m:
+    com.google.common.util.concurrent.ListenableFuture val$outputFuture -> a
+    com.google.common.util.concurrent.Futures$ChainingListenableFuture this$0 -> b
+    void run() -> run
+com.google.common.util.concurrent.Futures$ImmediateFailedFuture -> a.a.a.g.a.n:
+    java.lang.Throwable thrown -> a
+    java.lang.Object get() -> get
+com.google.common.util.concurrent.Futures$ImmediateFuture -> a.a.a.g.a.o:
+    java.util.logging.Logger log -> a
+    void addListener(java.lang.Runnable,java.util.concurrent.Executor) -> a
+    boolean cancel(boolean) -> cancel
+    java.lang.Object get() -> get
+    java.lang.Object get(long,java.util.concurrent.TimeUnit) -> get
+    boolean isCancelled() -> isCancelled
+    boolean isDone() -> isDone
+com.google.common.util.concurrent.Futures$ImmediateSuccessfulFuture -> a.a.a.g.a.p:
+    java.lang.Object value -> a
+    java.lang.Object get() -> get
+com.google.common.util.concurrent.ListenableFuture -> a.a.a.g.a.q:
+    void addListener(java.lang.Runnable,java.util.concurrent.Executor) -> a
+com.google.common.util.concurrent.ListenableFutureTask -> a.a.a.g.a.r:
+    com.google.common.util.concurrent.ExecutionList executionList -> a
+    com.google.common.util.concurrent.ListenableFutureTask create(java.util.concurrent.Callable) -> a
+    com.google.common.util.concurrent.ListenableFutureTask create(java.lang.Runnable,java.lang.Object) -> a
+    void addListener(java.lang.Runnable,java.util.concurrent.Executor) -> a
+    void done() -> done
+com.google.common.util.concurrent.ListeningExecutorService -> a.a.a.g.a.s:
+com.google.common.util.concurrent.MoreExecutors -> a.a.a.g.a.t:
+    com.google.common.util.concurrent.ListeningExecutorService sameThreadExecutor() -> a
+com.google.common.util.concurrent.MoreExecutors$1 -> a.a.a.g.a.u:
+    java.util.concurrent.BlockingQueue val$queue -> a
+    com.google.common.util.concurrent.ListenableFuture val$future -> b
+    void run() -> run
+com.google.common.util.concurrent.MoreExecutors$SameThreadExecutorService -> a.a.a.g.a.v:
+    java.util.concurrent.locks.Lock lock -> a
+    java.util.concurrent.locks.Condition termination -> b
+    int runningTasks -> c
+    boolean shutdown -> d
+    void execute(java.lang.Runnable) -> execute
+    boolean isShutdown() -> isShutdown
+    void shutdown() -> shutdown
+    java.util.List shutdownNow() -> shutdownNow
+    boolean isTerminated() -> isTerminated
+    boolean awaitTermination(long,java.util.concurrent.TimeUnit) -> awaitTermination
+    void startTask() -> a
+    void endTask() -> b
+com.google.common.util.concurrent.SettableFuture -> a.a.a.g.a.w:
+    com.google.common.util.concurrent.SettableFuture create() -> c
+    boolean set(java.lang.Object) -> a
+    boolean setException(java.lang.Throwable) -> a
+com.google.common.util.concurrent.UncheckedExecutionException -> a.a.a.g.a.x:
+com.google.common.util.concurrent.Uninterruptibles -> a.a.a.g.a.y:
+    java.lang.Object getUninterruptibly(java.util.concurrent.Future) -> a
+me.planetguy.advancedvm.Box -> me.planetguy.advancedvm.Box:
+    long serialVersionUID -> serialVersionUID
+    java.util.Map names -> names
+    java.util.Map invNames -> invNames
+    java.lang.Object o -> o
+    java.lang.String objID -> objID
+    java.io.Serializable so -> so
+    void register(java.lang.Object,java.lang.String) -> register
+    java.lang.Object fish(java.lang.String) -> fish
+    java.lang.String name(java.lang.Object) -> name
+    void set(java.lang.Object) -> set
+    java.lang.Object get() -> get
+    java.lang.String toString() -> toString
+    void writeObject(java.io.ObjectOutputStream) -> writeObject
+    void readObject(java.io.ObjectInputStream) -> readObject
+me.planetguy.advancedvm.FieldBox -> me.planetguy.advancedvm.FieldBox:
+    long serialVersionUID -> serialVersionUID
+    java.lang.Object target -> target
+    java.lang.reflect.Field field -> field
+    java.io.Serializable so -> so
+    java.lang.String objID -> objID
+    java.lang.String fieldName -> fieldName
+    boolean canWrite -> canWrite
+    void set(java.lang.Object) -> set
+    java.lang.Object get() -> get
+    void writeObject(java.io.ObjectOutputStream) -> writeObject
+    void readObject(java.io.ObjectInputStream) -> readObject
+    java.lang.String toString() -> toString
+me.planetguy.advancedvm.IBox -> me.planetguy.advancedvm.IBox:
+    void set(java.lang.Object) -> set
+    java.lang.Object get() -> get
+me.planetguy.advancedvm.ImmutableBox -> me.planetguy.advancedvm.ImmutableBox:
+    long serialVersionUID -> serialVersionUID
+    void set(java.lang.Object) -> set
+me.planetguy.advancedvm.ImperativeScript -> me.planetguy.advancedvm.ImperativeScript:
+    boolean alive -> alive
+    int index -> index
+    void jump(int) -> jump
+    boolean canStep() -> canStep
+    void step() -> step
+    java.lang.Object[] unboxEnd(me.planetguy.advancedvm.IBox[]) -> unboxEnd
+    java.lang.String toString() -> toString
+    me.planetguy.advancedvm.Script getScript() -> getScript
+    void readObject(java.io.ObjectInputStream) -> readObject
+    void print(java.lang.Object) -> print
+me.planetguy.advancedvm.Inline -> me.planetguy.advancedvm.Inline:
+    java.lang.String name() -> name
+    java.util.List replace(java.lang.String[]) -> replace
+me.planetguy.advancedvm.Limited -> me.planetguy.advancedvm.Limited:
+    void onRunExtraComputation(int) -> onRunExtraComputation
+    void doAllAllowedSteps() -> doAllAllowedSteps
+    void allowSteps(int) -> allowSteps
+me.planetguy.advancedvm.LimitedScript -> me.planetguy.advancedvm.LimitedScript:
+    int steps -> steps
+    long serialVersionUID -> serialVersionUID
+    void onRunExtraComputation(int) -> onRunExtraComputation
+    void doAllAllowedSteps() -> doAllAllowedSteps
+    void allowSteps(int) -> allowSteps
+me.planetguy.advancedvm.NullBox -> me.planetguy.advancedvm.NullBox:
+    me.planetguy.advancedvm.NullBox instance -> instance
+    me.planetguy.advancedvm.NullBox[] ENUM$VALUES -> ENUM$VALUES
+    void set(java.lang.Object) -> set
+    java.lang.Object get() -> get
+    java.lang.String toString() -> toString
+    me.planetguy.advancedvm.NullBox[] values() -> values
+    me.planetguy.advancedvm.NullBox valueOf(java.lang.String) -> valueOf
+me.planetguy.advancedvm.Script -> me.planetguy.advancedvm.Script:
+    java.util.Random r -> r
+    long serialVersionUID -> serialVersionUID
+    long scriptID -> scriptID
+    me.planetguy.advancedvm.IBox[][] script -> script
+    java.util.Map boxMap -> boxMap
+    java.lang.String source -> source
+    me.planetguy.advancedvm.Scripted owningObject -> owningObject
+    me.planetguy.advancedvm.Stream debugStream -> debugStream
+    me.planetguy.advancedvm.Script getScript() -> getScript
+    boolean canStep() -> canStep
+    void step() -> step
+    me.planetguy.advancedvm.IBox getNamedBox(java.lang.String) -> getNamedBox
+    java.lang.String dumpSymbolTable() -> dumpSymbolTable
+    me.planetguy.advancedvm.Scripted getOwningObject() -> getOwningObject
+me.planetguy.advancedvm.Script$1 -> me.planetguy.advancedvm.a:
+    me.planetguy.advancedvm.Script this$0 -> a
+    void write(java.lang.Object) -> write
+me.planetguy.advancedvm.ScriptAPI -> me.planetguy.advancedvm.ScriptAPI:
+    java.lang.String value() -> value
+me.planetguy.advancedvm.ScriptCreatedBox -> me.planetguy.advancedvm.ScriptCreatedBox:
+    long serialVersionUID -> serialVersionUID
+me.planetguy.advancedvm.ScriptTest -> me.planetguy.advancedvm.ScriptTest:
+    void main(java.lang.String[]) -> main
+me.planetguy.advancedvm.ScriptTest$1 -> me.planetguy.advancedvm.b:
+    void write(java.lang.Object) -> write
+me.planetguy.advancedvm.ScriptTransformer -> me.planetguy.advancedvm.ScriptTransformer:
+    java.lang.String[] transform(java.lang.String[]) -> transform
+me.planetguy.advancedvm.Scripted -> me.planetguy.advancedvm.Scripted:
+    me.planetguy.advancedvm.Script getScript() -> getScript
+    void print(java.lang.Object) -> print
+me.planetguy.advancedvm.StackScript -> me.planetguy.advancedvm.StackScript:
+    java.util.ArrayDeque prog -> prog
+    me.planetguy.advancedvm.Stream output -> output
+    void print(java.lang.Object) -> print
+    boolean canStep() -> canStep
+    void step() -> step
+    void setOutput(me.planetguy.advancedvm.Stream) -> setOutput
+me.planetguy.advancedvm.StandardLibrary -> me.planetguy.advancedvm.StandardLibrary:
+    double PRECISION -> PRECISION
+    double add(me.planetguy.advancedvm.Scripted,double,double) -> add
+    double sub(me.planetguy.advancedvm.Scripted,double,double) -> sub
+    double mult(me.planetguy.advancedvm.Scripted,double,double) -> mult
+    double div(me.planetguy.advancedvm.Scripted,double,double) -> div
+    void print(me.planetguy.advancedvm.Scripted,java.lang.Object) -> print
+    void jump(me.planetguy.advancedvm.Scripted,double) -> jump
+    void jumpif(me.planetguy.advancedvm.Scripted,double,boolean) -> jumpif
+    boolean eq(me.planetguy.advancedvm.Scripted,java.lang.Object,java.lang.Object) -> eq
+    boolean noteq(me.planetguy.advancedvm.Scripted,java.lang.Object,java.lang.Object) -> noteq
+    boolean greater(me.planetguy.advancedvm.Scripted,java.lang.Comparable,java.lang.Comparable) -> greater
+    boolean less(me.planetguy.advancedvm.Scripted,java.lang.Comparable,java.lang.Comparable) -> less
+    boolean greatereq(me.planetguy.advancedvm.Scripted,java.lang.Comparable,java.lang.Comparable) -> greatereq
+    boolean lesseq(me.planetguy.advancedvm.Scripted,java.lang.Comparable,java.lang.Comparable) -> lesseq
+    boolean within(me.planetguy.advancedvm.Scripted,double,double,double) -> within
+    boolean fuzzyeq(me.planetguy.advancedvm.Scripted,double,double) -> fuzzyeq
+    boolean and(me.planetguy.advancedvm.Scripted,boolean,boolean) -> and
+    boolean or(me.planetguy.advancedvm.Scripted,boolean,boolean) -> or
+    boolean not(me.planetguy.advancedvm.Scripted,boolean) -> not
+    java.lang.Object ident(me.planetguy.advancedvm.Scripted,java.lang.Object) -> ident
+    void setoutput(me.planetguy.advancedvm.Scripted,me.planetguy.advancedvm.Stream) -> setoutput
+    double randint(me.planetguy.advancedvm.Scripted,double,double) -> randint
+me.planetguy.advancedvm.Stream -> me.planetguy.advancedvm.Stream:
+    void write(java.lang.Object) -> write
+me.planetguy.advancedvm.TransformerInlineConstants -> me.planetguy.advancedvm.TransformerInlineConstants:
+    java.lang.String[] transform(java.lang.String[]) -> transform
+    boolean isLiteral(java.lang.String) -> isLiteral
+me.planetguy.advancedvm.TransformerStructuredProgramming -> me.planetguy.advancedvm.TransformerStructuredProgramming:
+    java.lang.String[] transform(java.lang.String[]) -> transform
+me.planetguy.advancedvm.VMContext -> me.planetguy.advancedvm.VMContext:
+    me.planetguy.advancedvm.VMContext root -> root
+    java.util.Map methodMap -> methodMap
+    java.util.Map inlines -> inlines
+    java.util.ArrayList transformers -> transformers
+    java.util.Map literals -> literals
+    java.lang.Class scriptClass -> scriptClass
+    me.planetguy.advancedvm.Script compile(java.lang.String,me.planetguy.advancedvm.Scripted) -> compile
+    me.planetguy.advancedvm.IBox box(java.lang.String,java.util.Map) -> box
+    me.planetguy.advancedvm.IBox boxUsedVar(java.lang.String,java.util.Map) -> boxUsedVar
+    java.lang.Object parseLit(java.lang.String[]) -> parseLit
+    java.lang.Object parseSingleLit(java.lang.String) -> parseSingleLit
+    void setScriptClass(java.lang.Class) -> setScriptClass
+    void registerMethod(java.lang.String,java.lang.reflect.Method) -> registerMethod
+    void registerClass(java.lang.Class) -> registerClass
+    void registerClass(java.lang.Class,java.lang.String) -> registerClass
+    void registerInline(me.planetguy.advancedvm.Inline) -> registerInline
+    void registerInline(me.planetguy.advancedvm.Inline,java.lang.String) -> registerInline
+    void registerLiteral(java.lang.String,me.planetguy.advancedvm.IBox) -> registerLiteral
+    void registerLitObj(java.lang.String,java.lang.Object) -> registerLitObj
+    void registerFinalObj(java.lang.String,java.lang.Object) -> registerFinalObj
+    void registerFieldBox(java.lang.String,java.lang.Object,java.lang.reflect.Field,boolean) -> registerFieldBox
+    void registerScriptTransformer(me.planetguy.advancedvm.ScriptTransformer) -> registerScriptTransformer
+me.planetguy.robots.BuildConfig -> me.planetguy.robots.BuildConfig:
+    boolean DEBUG -> DEBUG
+me.planetguy.robots.R -> me.planetguy.robots.R:
+me.planetguy.robots.R$anim -> me.planetguy.robots.R$anim:
+    int move -> move
+me.planetguy.robots.R$attr -> me.planetguy.robots.R$attr:
+me.planetguy.robots.R$dimen -> me.planetguy.robots.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+me.planetguy.robots.R$drawable -> me.planetguy.robots.R$drawable:
+    int ground -> ground
+    int hq_blue_noshields -> hq_blue_noshields
+    int hq_blue_shields -> hq_blue_shields
+    int hq_empty_noshields -> hq_empty_noshields
+    int hq_red_noshields -> hq_red_noshields
+    int hq_red_shields -> hq_red_shields
+    int ic_launcher -> ic_launcher
+    int lava -> lava
+    int ore -> ore
+    int play_button -> play_button
+    int robot_blue_east -> robot_blue_east
+    int robot_blue_north -> robot_blue_north
+    int robot_blue_south -> robot_blue_south
+    int robot_blue_west -> robot_blue_west
+    int robot_red_east -> robot_red_east
+    int robot_red_north -> robot_red_north
+    int robot_red_south -> robot_red_south
+    int robot_red_west -> robot_red_west
+    int rock -> rock
+me.planetguy.robots.R$id -> me.planetguy.robots.R$id:
+    int action_settings -> action_settings
+    int background -> background
+    int button1 -> button1
+    int buttonCode -> buttonCode
+    int buttonDocs -> buttonDocs
+    int buttonLog -> buttonLog
+    int buttonMemory -> buttonMemory
+    int contact -> contact
+    int ideWindow -> ideWindow
+    int play -> play
+    int save -> save
+    int space1 -> space1
+    int textView1 -> textView1
+    int textView2 -> textView2
+    int titleWindow -> titleWindow
+    int win_textbox -> win_textbox
+me.planetguy.robots.R$layout -> me.planetguy.robots.R$layout:
+    int activity_grid -> activity_grid
+    int activity_ide -> activity_ide
+    int activity_main -> activity_main
+    int activity_won -> activity_won
+me.planetguy.robots.R$menu -> me.planetguy.robots.R$menu:
+    int main -> main
+me.planetguy.robots.R$string -> me.planetguy.robots.R$string:
+    int action_settings -> action_settings
+    int app_name -> app_name
+    int code -> code
+    int defaultTitle -> defaultTitle
+    int docs -> docs
+    int hello_world -> hello_world
+    int infoline1 -> infoline1
+    int infoline2 -> infoline2
+    int large_text -> large_text
+    int leaveIde -> leaveIde
+    int log -> log
+    int manual -> manual
+    int memory -> memory
+    int script -> script
+    int upload -> upload
+me.planetguy.robots.R$style -> me.planetguy.robots.R$style:
+    int AppBaseTheme -> AppBaseTheme
+    int AppTheme -> AppTheme
+me.planetguy.robots.Robots -> me.planetguy.robots.Robots:
+    com.google.common.eventbus.EventBus EVENT_BUS -> EVENT_BUS
+    me.planetguy.robots.world.World world -> world
+    int iconSize -> iconSize
+    me.planetguy.robots.ide.IDEActivity currentIDE -> currentIDE
+me.planetguy.robots.TitleScreen -> me.planetguy.robots.TitleScreen:
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    void onStart() -> onStart
+    void onClickStartGame(android.view.View) -> onClickStartGame
+me.planetguy.robots.dynamic.DynamicObject -> me.planetguy.robots.dynamic.DynamicObject:
+    java.util.ArrayList objectRegistry -> objectRegistry
+    android.graphics.Bitmap defaultBitmap -> defaultBitmap
+    int x -> x
+    int y -> y
+    int heading -> heading
+    me.planetguy.robots.world.World world -> world
+    int dynObjectID -> dynObjectID
+    int facingX(int) -> facingX
+    int facingY(int) -> facingY
+    boolean onClicked(android.view.View) -> onClicked
+    void moveTo(int,int,android.view.View) -> moveTo
+    void turnLeft() -> turnLeft
+    void turnRight() -> turnRight
+    android.graphics.Bitmap getIcon() -> getIcon
+    int getDynamicObjectID() -> getDynamicObjectID
+    void onUpdate(android.view.View) -> onUpdate
+    java.lang.String save() -> save
+    void load(java.lang.String) -> load
+me.planetguy.robots.event.InitRobotScriptEvent -> me.planetguy.robots.event.InitRobotScriptEvent:
+me.planetguy.robots.event.InitScriptEvent -> me.planetguy.robots.event.InitScriptEvent:
+    me.planetguy.advancedvm.VMContext sc -> sc
+    me.planetguy.advancedvm.VMContext getContext() -> getContext
+me.planetguy.robots.ide.IDEActivity -> me.planetguy.robots.ide.IDEActivity:
+    me.planetguy.robots.robot.Robot robot -> robot
+    int robotID -> robotID
+    java.lang.String code -> code
+    java.lang.String log -> log
+    java.lang.String memory -> memory
+    java.lang.String docs -> docs
+    void onCreate(android.os.Bundle) -> onCreate
+    void onBackPressed() -> onBackPressed
+    void uploadScript() -> uploadScript
+    void offerUploadScript() -> offerUploadScript
+    void selectCode(android.view.View) -> selectCode
+    void selectLog(android.view.View) -> selectLog
+    void selectMemory(android.view.View) -> selectMemory
+    void selectDocs(android.view.View) -> selectDocs
+    void onStop() -> onStop
+    void loadWindow(java.lang.String,java.lang.String) -> loadWindow
+    void chooseButton(int) -> chooseButton
+    void setKeyboardVisibility(boolean) -> setKeyboardVisibility
+me.planetguy.robots.misc.Options -> me.planetguy.robots.misc.Options:
+    int ROBOT_TICKS_PER_UPDATE -> ROBOT_TICKS_PER_UPDATE
+    int millisPerTick -> millisPerTick
+me.planetguy.robots.misc.Side -> me.planetguy.robots.misc.Side:
+    me.planetguy.robots.misc.Side RED -> RED
+    me.planetguy.robots.misc.Side BLUE -> BLUE
+    me.planetguy.robots.misc.Side NEUTRAL -> NEUTRAL
+    me.planetguy.robots.misc.Side[] ENUM$VALUES -> ENUM$VALUES
+    me.planetguy.robots.misc.Side[] values() -> values
+    me.planetguy.robots.misc.Side valueOf(java.lang.String) -> valueOf
+me.planetguy.robots.misc.Utils -> me.planetguy.robots.misc.Utils:
+    java.lang.String readStringFile(java.io.FileInputStream) -> readStringFile
+    void writeStringFile(java.io.FileOutputStream,java.lang.String) -> writeStringFile
+me.planetguy.robots.renderworld.ActivityWorld -> me.planetguy.robots.renderworld.ActivityWorld:
+    me.planetguy.robots.renderworld.ViewWorld vw -> vw
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    void onStop() -> onStop
+me.planetguy.robots.renderworld.ViewWorld -> me.planetguy.robots.renderworld.ViewWorld:
+    android.graphics.Paint paint -> paint
+    java.lang.Thread mDrawingThread -> mDrawingThread
+    android.view.SurfaceHolder surfaceHolder -> surfaceHolder
+    java.lang.Thread timer -> timer
+    android.view.GestureDetector detector -> detector
+    android.view.ScaleGestureDetector scaleDetector -> scaleDetector
+    float scale -> scale
+    void drawTerrain(android.graphics.Canvas) -> drawTerrain
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+me.planetguy.robots.renderworld.ViewWorld$1 -> me.planetguy.robots.renderworld.a:
+    me.planetguy.robots.renderworld.ViewWorld this$0 -> a
+    void run() -> run
+me.planetguy.robots.robot.BlockingState -> me.planetguy.robots.robot.BlockingState:
+    me.planetguy.robots.robot.BlockingState none -> none
+    me.planetguy.robots.robot.BlockingState toolUse -> toolUse
+    me.planetguy.robots.robot.BlockingState forward -> forward
+    me.planetguy.robots.robot.BlockingState left -> left
+    me.planetguy.robots.robot.BlockingState right -> right
+    me.planetguy.robots.robot.BlockingState reverse -> reverse
+    me.planetguy.robots.robot.BlockingState gonorth -> gonorth
+    me.planetguy.robots.robot.BlockingState gosouth -> gosouth
+    me.planetguy.robots.robot.BlockingState goeast -> goeast
+    me.planetguy.robots.robot.BlockingState gowest -> gowest
+    int[] $SWITCH_TABLE$me$planetguy$robots$robot$BlockingState -> $SWITCH_TABLE$me$planetguy$robots$robot$BlockingState
+    me.planetguy.robots.robot.BlockingState[] ENUM$VALUES -> ENUM$VALUES
+    void execute(me.planetguy.robots.robot.Robot,android.view.View) -> execute
+    me.planetguy.robots.robot.BlockingState[] values() -> values
+    me.planetguy.robots.robot.BlockingState valueOf(java.lang.String) -> valueOf
+    int[] $SWITCH_TABLE$me$planetguy$robots$robot$BlockingState() -> $SWITCH_TABLE$me$planetguy$robots$robot$BlockingState
+me.planetguy.robots.robot.Robot -> me.planetguy.robots.robot.Robot:
+    me.planetguy.advancedvm.VMContext contex -> contex
+    android.content.Context worldGui -> worldGui
+    me.planetguy.robots.misc.Side side -> side
+    java.lang.String log -> log
+    me.planetguy.advancedvm.Script script -> script
+    me.planetguy.robots.robot.BlockingState waitingOn -> waitingOn
+    int north -> north
+    int south -> south
+    int east -> east
+    int west -> west
+    android.graphics.Bitmap icon -> icon
+    void initContext(me.planetguy.robots.robot.Robot) -> initContext
+    void setScript(java.lang.String) -> setScript
+    void onUpdate(android.view.View) -> onUpdate
+    boolean onClicked(android.view.View) -> onClicked
+    void moveTo(int,int,android.view.View) -> moveTo
+    android.graphics.Bitmap getIcon() -> getIcon
+    me.planetguy.advancedvm.Script getScript() -> getScript
+    void print(java.lang.Object) -> print
+    java.lang.String toString() -> toString
+    int id(me.planetguy.robots.tile.Tile) -> id
+    java.lang.String save() -> save
+    void load(java.lang.String) -> load
+    void makeToast(android.view.View,java.lang.String) -> makeToast
+    void log(java.lang.Exception) -> log
+    void log(java.lang.String) -> log
+me.planetguy.robots.robot.Robot$1 -> me.planetguy.robots.robot.a:
+    me.planetguy.robots.robot.Robot this$0 -> a
+    void write(java.lang.Object) -> write
+me.planetguy.robots.robot.Robot$2 -> me.planetguy.robots.robot.b:
+    me.planetguy.robots.robot.Robot this$0 -> a
+    android.view.View val$v -> b
+    java.lang.String val$message -> c
+    void run() -> run
+me.planetguy.robots.robot.RobotScriptAPI -> me.planetguy.robots.robot.RobotScriptAPI:
+    void initActions(me.planetguy.advancedvm.VMContext) -> initActions
+    void move(me.planetguy.advancedvm.Scripted,me.planetguy.robots.robot.BlockingState) -> move
+me.planetguy.robots.tile.ActivityWin -> me.planetguy.robots.tile.ActivityWin:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void clearWorld(android.view.View) -> clearWorld
+me.planetguy.robots.tile.Tile -> me.planetguy.robots.tile.Tile:
+    android.graphics.Bitmap bitmapIcon -> bitmapIcon
+    java.lang.String name -> name
+    boolean walkable -> walkable
+    boolean onClicked(android.view.View,int,int) -> onClicked
+    boolean hasAdditionalData() -> hasAdditionalData
+    void onUpdate(int,int) -> onUpdate
+    void onMove(int,int,int,int) -> onMove
+    void onPut(int,int) -> onPut
+    android.graphics.Bitmap getIcon(int,int) -> getIcon
+    boolean isWalkable() -> isWalkable
+    void setWalkable(boolean) -> setWalkable
+    void onObjectEnter(me.planetguy.robots.dynamic.DynamicObject,android.view.View) -> onObjectEnter
+me.planetguy.robots.tile.TileSided -> me.planetguy.robots.tile.TileSided:
+    me.planetguy.robots.misc.Side side -> side
+    me.planetguy.robots.misc.Side getSide() -> getSide
+    void updateSide(me.planetguy.robots.misc.Side) -> updateSide
+me.planetguy.robots.tile.TileUtil -> me.planetguy.robots.tile.TileUtil:
+    com.google.common.collect.BiMap tiles -> tiles
+    me.planetguy.robots.tile.Tile createTile(int,java.lang.String,android.content.res.Resources) -> createTile
+    me.planetguy.robots.tile.Tile createTileWin(int,java.lang.String,android.content.res.Resources) -> createTileWin
+    void createAllTiles(android.content.res.Resources) -> createAllTiles
+me.planetguy.robots.tile.TileWin -> me.planetguy.robots.tile.TileWin:
+    void onObjectEnter(me.planetguy.robots.dynamic.DynamicObject,android.view.View) -> onObjectEnter
+me.planetguy.robots.world.AdditionalData -> me.planetguy.robots.world.AdditionalData:
+    java.io.Serializable[] data -> data
+    void put(int,java.io.Serializable) -> put
+    java.io.Serializable get(int) -> get
+    int size() -> size
+me.planetguy.robots.world.ScheduleQueue -> me.planetguy.robots.world.ScheduleQueue:
+    java.util.PriorityQueue updates -> updates
+    void schedule(me.planetguy.robots.world.Update) -> schedule
+    boolean hasUpdates(int) -> hasUpdates
+    me.planetguy.robots.world.Update getNextUpdate() -> getNextUpdate
+    me.planetguy.robots.world.Update pullNextUpdate() -> pullNextUpdate
+me.planetguy.robots.world.Update -> me.planetguy.robots.world.Update:
+    int time -> time
+    int x -> x
+    int y -> y
+    int compareTo(me.planetguy.robots.world.Update) -> compareTo
+    int getTime() -> getTime
+    int getX() -> getX
+    int getY() -> getY
+    int compareTo(java.lang.Object) -> compareTo
+me.planetguy.robots.world.World -> me.planetguy.robots.world.World:
+    me.planetguy.robots.tile.Tile[][] tiles -> tiles
+    boolean[][] visible -> visible
+    long lastTick -> lastTick
+    java.util.List robots -> robots
+    me.planetguy.robots.world.ScheduleQueue scheduledUpdates -> scheduledUpdates
+    int globalTime -> globalTime
+    me.planetguy.robots.world.World makeTestWorld(android.content.Context) -> makeTestWorld
+    me.planetguy.robots.world.World makeMazeWorld(android.content.Context) -> makeMazeWorld
+    void addRobot(me.planetguy.robots.robot.Robot) -> addRobot
+    void tryTick(android.view.View) -> tryTick
+    void tick(android.view.View) -> tick
+    void scheduleUpdate(int,int,int) -> scheduleUpdate
+    boolean handleClick(android.view.View,int,int) -> handleClick
+    me.planetguy.robots.tile.Tile getTile(int,int) -> getTile

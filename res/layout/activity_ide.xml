@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/titleWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/defaultTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ideWindow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/buttonCode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/titleWindow"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textIsSelectable="true"
+        android:gravity="top|left" >
+
+        <requestFocus />
+    </EditText>
+
+    <ToggleButton
+        android:id="@+id/buttonCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="selectCode"
+        android:textOn="@string/code"
+        android:textOff="@string/code" />
+
+    <ToggleButton
+        android:id="@+id/buttonMemory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/buttonCode"
+        android:onClick="selectMemory"
+        android:textOn="@string/memory"
+        android:textOff="@string/memory" />
+
+    <ToggleButton
+        android:id="@+id/buttonLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/buttonMemory"
+        android:onClick="selectLog"
+        android:textOn="@string/log"
+        android:textOff="@string/log" />
+
+    <ToggleButton
+        android:id="@+id/buttonDocs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/buttonLog"
+        android:onClick="selectDocs"
+        android:textOn="@string/docs"
+        android:textOff="@string/docs" />
+
+</RelativeLayout>

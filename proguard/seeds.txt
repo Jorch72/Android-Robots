@@ -1,0 +1,590 @@
+com.google.common.base.AbstractIterator$State: com.google.common.base.AbstractIterator$State[] values()
+com.google.common.base.AbstractIterator$State: com.google.common.base.AbstractIterator$State valueOf(java.lang.String)
+com.google.common.base.CaseFormat: com.google.common.base.CaseFormat[] values()
+com.google.common.base.CaseFormat: com.google.common.base.CaseFormat valueOf(java.lang.String)
+com.google.common.base.Functions$IdentityFunction: com.google.common.base.Functions$IdentityFunction[] values()
+com.google.common.base.Functions$IdentityFunction: com.google.common.base.Functions$IdentityFunction valueOf(java.lang.String)
+com.google.common.base.Functions$ToStringFunction: com.google.common.base.Functions$ToStringFunction[] values()
+com.google.common.base.Functions$ToStringFunction: com.google.common.base.Functions$ToStringFunction valueOf(java.lang.String)
+com.google.common.base.Predicates$ObjectPredicate: com.google.common.base.Predicates$ObjectPredicate[] values()
+com.google.common.base.Predicates$ObjectPredicate: com.google.common.base.Predicates$ObjectPredicate valueOf(java.lang.String)
+com.google.common.base.StandardSystemProperty: com.google.common.base.StandardSystemProperty[] values()
+com.google.common.base.StandardSystemProperty: com.google.common.base.StandardSystemProperty valueOf(java.lang.String)
+com.google.common.base.Suppliers$SupplierFunctionImpl: com.google.common.base.Suppliers$SupplierFunctionImpl[] values()
+com.google.common.base.Suppliers$SupplierFunctionImpl: com.google.common.base.Suppliers$SupplierFunctionImpl valueOf(java.lang.String)
+com.google.common.cache.CacheBuilder$NullListener: com.google.common.cache.CacheBuilder$NullListener[] values()
+com.google.common.cache.CacheBuilder$NullListener: com.google.common.cache.CacheBuilder$NullListener valueOf(java.lang.String)
+com.google.common.cache.CacheBuilder$OneWeigher: com.google.common.cache.CacheBuilder$OneWeigher[] values()
+com.google.common.cache.CacheBuilder$OneWeigher: com.google.common.cache.CacheBuilder$OneWeigher valueOf(java.lang.String)
+com.google.common.cache.LocalCache$EntryFactory: com.google.common.cache.LocalCache$EntryFactory[] values()
+com.google.common.cache.LocalCache$EntryFactory: com.google.common.cache.LocalCache$EntryFactory valueOf(java.lang.String)
+com.google.common.cache.LocalCache$NullEntry: com.google.common.cache.LocalCache$NullEntry[] values()
+com.google.common.cache.LocalCache$NullEntry: com.google.common.cache.LocalCache$NullEntry valueOf(java.lang.String)
+com.google.common.cache.LocalCache$Strength: com.google.common.cache.LocalCache$Strength[] values()
+com.google.common.cache.LocalCache$Strength: com.google.common.cache.LocalCache$Strength valueOf(java.lang.String)
+com.google.common.cache.RemovalCause: com.google.common.cache.RemovalCause[] values()
+com.google.common.cache.RemovalCause: com.google.common.cache.RemovalCause valueOf(java.lang.String)
+com.google.common.collect.AbstractIterator$State: com.google.common.collect.AbstractIterator$State[] values()
+com.google.common.collect.AbstractIterator$State: com.google.common.collect.AbstractIterator$State valueOf(java.lang.String)
+com.google.common.collect.BoundType: com.google.common.collect.BoundType[] values()
+com.google.common.collect.BoundType: com.google.common.collect.BoundType valueOf(java.lang.String)
+com.google.common.collect.GenericMapMaker$NullListener: com.google.common.collect.GenericMapMaker$NullListener[] values()
+com.google.common.collect.GenericMapMaker$NullListener: com.google.common.collect.GenericMapMaker$NullListener valueOf(java.lang.String)
+com.google.common.collect.Interners$WeakInterner$Dummy: com.google.common.collect.Interners$WeakInterner$Dummy[] values()
+com.google.common.collect.Interners$WeakInterner$Dummy: com.google.common.collect.Interners$WeakInterner$Dummy valueOf(java.lang.String)
+com.google.common.collect.MapConstraints$NotNullMapConstraint: com.google.common.collect.MapConstraints$NotNullMapConstraint[] values()
+com.google.common.collect.MapConstraints$NotNullMapConstraint: com.google.common.collect.MapConstraints$NotNullMapConstraint valueOf(java.lang.String)
+com.google.common.collect.MapMaker$RemovalCause: com.google.common.collect.MapMaker$RemovalCause[] values()
+com.google.common.collect.MapMaker$RemovalCause: com.google.common.collect.MapMaker$RemovalCause valueOf(java.lang.String)
+com.google.common.collect.MapMakerInternalMap$EntryFactory: com.google.common.collect.MapMakerInternalMap$EntryFactory[] values()
+com.google.common.collect.MapMakerInternalMap$EntryFactory: com.google.common.collect.MapMakerInternalMap$EntryFactory valueOf(java.lang.String)
+com.google.common.collect.MapMakerInternalMap$NullEntry: com.google.common.collect.MapMakerInternalMap$NullEntry[] values()
+com.google.common.collect.MapMakerInternalMap$NullEntry: com.google.common.collect.MapMakerInternalMap$NullEntry valueOf(java.lang.String)
+com.google.common.collect.MapMakerInternalMap$Strength: com.google.common.collect.MapMakerInternalMap$Strength[] values()
+com.google.common.collect.MapMakerInternalMap$Strength: com.google.common.collect.MapMakerInternalMap$Strength valueOf(java.lang.String)
+com.google.common.collect.Maps$EntryFunction: com.google.common.collect.Maps$EntryFunction[] values()
+com.google.common.collect.Maps$EntryFunction: com.google.common.collect.Maps$EntryFunction valueOf(java.lang.String)
+com.google.common.collect.MultimapBuilder$LinkedListSupplier: com.google.common.collect.MultimapBuilder$LinkedListSupplier[] values()
+com.google.common.collect.MultimapBuilder$LinkedListSupplier: com.google.common.collect.MultimapBuilder$LinkedListSupplier valueOf(java.lang.String)
+com.google.common.collect.SortedLists$KeyAbsentBehavior: com.google.common.collect.SortedLists$KeyAbsentBehavior[] values()
+com.google.common.collect.SortedLists$KeyAbsentBehavior: com.google.common.collect.SortedLists$KeyAbsentBehavior valueOf(java.lang.String)
+com.google.common.collect.SortedLists$KeyPresentBehavior: com.google.common.collect.SortedLists$KeyPresentBehavior[] values()
+com.google.common.collect.SortedLists$KeyPresentBehavior: com.google.common.collect.SortedLists$KeyPresentBehavior valueOf(java.lang.String)
+com.google.common.collect.TreeMultiset$Aggregate: com.google.common.collect.TreeMultiset$Aggregate[] values()
+com.google.common.collect.TreeMultiset$Aggregate: com.google.common.collect.TreeMultiset$Aggregate valueOf(java.lang.String)
+com.google.common.hash.BloomFilterStrategies: com.google.common.hash.BloomFilterStrategies[] values()
+com.google.common.hash.BloomFilterStrategies: com.google.common.hash.BloomFilterStrategies valueOf(java.lang.String)
+com.google.common.hash.Funnels$ByteArrayFunnel: com.google.common.hash.Funnels$ByteArrayFunnel[] values()
+com.google.common.hash.Funnels$ByteArrayFunnel: com.google.common.hash.Funnels$ByteArrayFunnel valueOf(java.lang.String)
+com.google.common.hash.Funnels$IntegerFunnel: com.google.common.hash.Funnels$IntegerFunnel[] values()
+com.google.common.hash.Funnels$IntegerFunnel: com.google.common.hash.Funnels$IntegerFunnel valueOf(java.lang.String)
+com.google.common.hash.Funnels$LongFunnel: com.google.common.hash.Funnels$LongFunnel[] values()
+com.google.common.hash.Funnels$LongFunnel: com.google.common.hash.Funnels$LongFunnel valueOf(java.lang.String)
+com.google.common.hash.Funnels$UnencodedCharsFunnel: com.google.common.hash.Funnels$UnencodedCharsFunnel[] values()
+com.google.common.hash.Funnels$UnencodedCharsFunnel: com.google.common.hash.Funnels$UnencodedCharsFunnel valueOf(java.lang.String)
+com.google.common.hash.Hashing$ChecksumType: com.google.common.hash.Hashing$ChecksumType[] values()
+com.google.common.hash.Hashing$ChecksumType: com.google.common.hash.Hashing$ChecksumType valueOf(java.lang.String)
+com.google.common.io.FileWriteMode: com.google.common.io.FileWriteMode[] values()
+com.google.common.io.FileWriteMode: com.google.common.io.FileWriteMode valueOf(java.lang.String)
+com.google.common.io.Files$FilePredicate: com.google.common.io.Files$FilePredicate[] values()
+com.google.common.io.Files$FilePredicate: com.google.common.io.Files$FilePredicate valueOf(java.lang.String)
+com.google.common.primitives.Booleans$LexicographicalComparator: com.google.common.primitives.Booleans$LexicographicalComparator[] values()
+com.google.common.primitives.Booleans$LexicographicalComparator: com.google.common.primitives.Booleans$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Chars$LexicographicalComparator: com.google.common.primitives.Chars$LexicographicalComparator[] values()
+com.google.common.primitives.Chars$LexicographicalComparator: com.google.common.primitives.Chars$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Doubles$LexicographicalComparator: com.google.common.primitives.Doubles$LexicographicalComparator[] values()
+com.google.common.primitives.Doubles$LexicographicalComparator: com.google.common.primitives.Doubles$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Floats$LexicographicalComparator: com.google.common.primitives.Floats$LexicographicalComparator[] values()
+com.google.common.primitives.Floats$LexicographicalComparator: com.google.common.primitives.Floats$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Ints$LexicographicalComparator: com.google.common.primitives.Ints$LexicographicalComparator[] values()
+com.google.common.primitives.Ints$LexicographicalComparator: com.google.common.primitives.Ints$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Longs$LexicographicalComparator: com.google.common.primitives.Longs$LexicographicalComparator[] values()
+com.google.common.primitives.Longs$LexicographicalComparator: com.google.common.primitives.Longs$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.Shorts$LexicographicalComparator: com.google.common.primitives.Shorts$LexicographicalComparator[] values()
+com.google.common.primitives.Shorts$LexicographicalComparator: com.google.common.primitives.Shorts$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.SignedBytes$LexicographicalComparator: com.google.common.primitives.SignedBytes$LexicographicalComparator[] values()
+com.google.common.primitives.SignedBytes$LexicographicalComparator: com.google.common.primitives.SignedBytes$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator: com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator[] values()
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator: com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator valueOf(java.lang.String)
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator: com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator[] values()
+com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator: com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator valueOf(java.lang.String)
+com.google.common.primitives.UnsignedInts$LexicographicalComparator: com.google.common.primitives.UnsignedInts$LexicographicalComparator[] values()
+com.google.common.primitives.UnsignedInts$LexicographicalComparator: com.google.common.primitives.UnsignedInts$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.primitives.UnsignedLongs$LexicographicalComparator: com.google.common.primitives.UnsignedLongs$LexicographicalComparator[] values()
+com.google.common.primitives.UnsignedLongs$LexicographicalComparator: com.google.common.primitives.UnsignedLongs$LexicographicalComparator valueOf(java.lang.String)
+com.google.common.reflect.TypeToken$TypeFilter: com.google.common.reflect.TypeToken$TypeFilter[] values()
+com.google.common.reflect.TypeToken$TypeFilter: com.google.common.reflect.TypeToken$TypeFilter valueOf(java.lang.String)
+com.google.common.reflect.Types$ClassOwnership: com.google.common.reflect.Types$ClassOwnership[] values()
+com.google.common.reflect.Types$ClassOwnership: com.google.common.reflect.Types$ClassOwnership valueOf(java.lang.String)
+com.google.common.reflect.Types$JavaVersion: com.google.common.reflect.Types$JavaVersion[] values()
+com.google.common.reflect.Types$JavaVersion: com.google.common.reflect.Types$JavaVersion valueOf(java.lang.String)
+com.google.common.util.concurrent.CycleDetectingLockFactory$Policies: com.google.common.util.concurrent.CycleDetectingLockFactory$Policies[] values()
+com.google.common.util.concurrent.CycleDetectingLockFactory$Policies: com.google.common.util.concurrent.CycleDetectingLockFactory$Policies valueOf(java.lang.String)
+com.google.common.util.concurrent.Service$State: com.google.common.util.concurrent.Service$State[] values()
+com.google.common.util.concurrent.Service$State: com.google.common.util.concurrent.Service$State valueOf(java.lang.String)
+com.google.thirdparty.publicsuffix.PublicSuffixType: com.google.thirdparty.publicsuffix.PublicSuffixType[] values()
+com.google.thirdparty.publicsuffix.PublicSuffixType: com.google.thirdparty.publicsuffix.PublicSuffixType valueOf(java.lang.String)
+me.planetguy.advancedvm.Box
+me.planetguy.advancedvm.Box: long serialVersionUID
+me.planetguy.advancedvm.Box: java.util.Map names
+me.planetguy.advancedvm.Box: java.util.Map invNames
+me.planetguy.advancedvm.Box: java.lang.Object o
+me.planetguy.advancedvm.Box: java.lang.String objID
+me.planetguy.advancedvm.Box: java.io.Serializable so
+me.planetguy.advancedvm.Box: void <clinit>()
+me.planetguy.advancedvm.Box: void register(java.lang.Object,java.lang.String)
+me.planetguy.advancedvm.Box: java.lang.Object fish(java.lang.String)
+me.planetguy.advancedvm.Box: java.lang.String name(java.lang.Object)
+me.planetguy.advancedvm.Box: Box()
+me.planetguy.advancedvm.Box: Box(java.lang.Object)
+me.planetguy.advancedvm.Box: void set(java.lang.Object)
+me.planetguy.advancedvm.Box: java.lang.Object get()
+me.planetguy.advancedvm.Box: java.lang.String toString()
+me.planetguy.advancedvm.Box: void writeObject(java.io.ObjectOutputStream)
+me.planetguy.advancedvm.Box: void readObject(java.io.ObjectInputStream)
+me.planetguy.advancedvm.FieldBox
+me.planetguy.advancedvm.FieldBox: long serialVersionUID
+me.planetguy.advancedvm.FieldBox: java.lang.Object target
+me.planetguy.advancedvm.FieldBox: java.lang.reflect.Field field
+me.planetguy.advancedvm.FieldBox: java.io.Serializable so
+me.planetguy.advancedvm.FieldBox: java.lang.String objID
+me.planetguy.advancedvm.FieldBox: java.lang.String fieldName
+me.planetguy.advancedvm.FieldBox: boolean canWrite
+me.planetguy.advancedvm.FieldBox: FieldBox(java.lang.Object,java.lang.reflect.Field,boolean)
+me.planetguy.advancedvm.FieldBox: void set(java.lang.Object)
+me.planetguy.advancedvm.FieldBox: java.lang.Object get()
+me.planetguy.advancedvm.FieldBox: void writeObject(java.io.ObjectOutputStream)
+me.planetguy.advancedvm.FieldBox: void readObject(java.io.ObjectInputStream)
+me.planetguy.advancedvm.FieldBox: java.lang.String toString()
+me.planetguy.advancedvm.IBox
+me.planetguy.advancedvm.IBox: void set(java.lang.Object)
+me.planetguy.advancedvm.IBox: java.lang.Object get()
+me.planetguy.advancedvm.ImmutableBox
+me.planetguy.advancedvm.ImmutableBox: long serialVersionUID
+me.planetguy.advancedvm.ImmutableBox: ImmutableBox(java.lang.Object)
+me.planetguy.advancedvm.ImmutableBox: void set(java.lang.Object)
+me.planetguy.advancedvm.ImperativeScript
+me.planetguy.advancedvm.ImperativeScript: boolean alive
+me.planetguy.advancedvm.ImperativeScript: int index
+me.planetguy.advancedvm.ImperativeScript: ImperativeScript(java.lang.String,me.planetguy.advancedvm.IBox[][],java.util.Map,me.planetguy.advancedvm.Scripted)
+me.planetguy.advancedvm.ImperativeScript: ImperativeScript(java.lang.String,me.planetguy.advancedvm.IBox[][],java.util.Map)
+me.planetguy.advancedvm.ImperativeScript: void jump(int)
+me.planetguy.advancedvm.ImperativeScript: boolean canStep()
+me.planetguy.advancedvm.ImperativeScript: void step()
+me.planetguy.advancedvm.ImperativeScript: java.lang.Object[] unboxEnd(me.planetguy.advancedvm.IBox[])
+me.planetguy.advancedvm.ImperativeScript: java.lang.String toString()
+me.planetguy.advancedvm.ImperativeScript: me.planetguy.advancedvm.Script getScript()
+me.planetguy.advancedvm.ImperativeScript: void readObject(java.io.ObjectInputStream)
+me.planetguy.advancedvm.ImperativeScript: void print(java.lang.Object)
+me.planetguy.advancedvm.Inline
+me.planetguy.advancedvm.Inline: java.lang.String name()
+me.planetguy.advancedvm.Inline: java.util.List replace(java.lang.String[])
+me.planetguy.advancedvm.Limited
+me.planetguy.advancedvm.Limited: void onRunExtraComputation(int)
+me.planetguy.advancedvm.Limited: void doAllAllowedSteps()
+me.planetguy.advancedvm.Limited: void allowSteps(int)
+me.planetguy.advancedvm.LimitedScript
+me.planetguy.advancedvm.LimitedScript: int steps
+me.planetguy.advancedvm.LimitedScript: long serialVersionUID
+me.planetguy.advancedvm.LimitedScript: LimitedScript(java.lang.String,me.planetguy.advancedvm.IBox[][],java.util.Map)
+me.planetguy.advancedvm.LimitedScript: LimitedScript(java.lang.String,me.planetguy.advancedvm.IBox[][],java.util.Map,me.planetguy.advancedvm.Scripted)
+me.planetguy.advancedvm.LimitedScript: void onRunExtraComputation(int)
+me.planetguy.advancedvm.LimitedScript: void doAllAllowedSteps()
+me.planetguy.advancedvm.LimitedScript: void allowSteps(int)
+me.planetguy.advancedvm.NullBox
+me.planetguy.advancedvm.NullBox: me.planetguy.advancedvm.NullBox instance
+me.planetguy.advancedvm.NullBox: me.planetguy.advancedvm.NullBox[] ENUM$VALUES
+me.planetguy.advancedvm.NullBox: void <clinit>()
+me.planetguy.advancedvm.NullBox: NullBox(java.lang.String,int)
+me.planetguy.advancedvm.NullBox: void set(java.lang.Object)
+me.planetguy.advancedvm.NullBox: java.lang.Object get()
+me.planetguy.advancedvm.NullBox: java.lang.String toString()
+me.planetguy.advancedvm.NullBox: me.planetguy.advancedvm.NullBox[] values()
+me.planetguy.advancedvm.NullBox: me.planetguy.advancedvm.NullBox valueOf(java.lang.String)
+me.planetguy.advancedvm.Script
+me.planetguy.advancedvm.Script: java.util.Random r
+me.planetguy.advancedvm.Script: long serialVersionUID
+me.planetguy.advancedvm.Script: long scriptID
+me.planetguy.advancedvm.Script: me.planetguy.advancedvm.IBox[][] script
+me.planetguy.advancedvm.Script: java.util.Map boxMap
+me.planetguy.advancedvm.Script: java.lang.String source
+me.planetguy.advancedvm.Script: me.planetguy.advancedvm.Scripted owningObject
+me.planetguy.advancedvm.Script: me.planetguy.advancedvm.Stream debugStream
+me.planetguy.advancedvm.Script: void <clinit>()
+me.planetguy.advancedvm.Script: Script(java.lang.String,me.planetguy.advancedvm.IBox[][],java.util.Map,me.planetguy.advancedvm.Scripted)
+me.planetguy.advancedvm.Script: Script(java.lang.String,me.planetguy.advancedvm.IBox[][],java.util.Map)
+me.planetguy.advancedvm.Script: me.planetguy.advancedvm.Script getScript()
+me.planetguy.advancedvm.Script: boolean canStep()
+me.planetguy.advancedvm.Script: void step()
+me.planetguy.advancedvm.Script: me.planetguy.advancedvm.IBox getNamedBox(java.lang.String)
+me.planetguy.advancedvm.Script: java.lang.String dumpSymbolTable()
+me.planetguy.advancedvm.Script: me.planetguy.advancedvm.Scripted getOwningObject()
+me.planetguy.advancedvm.ScriptAPI
+me.planetguy.advancedvm.ScriptAPI: java.lang.String value()
+me.planetguy.advancedvm.ScriptCreatedBox
+me.planetguy.advancedvm.ScriptCreatedBox: long serialVersionUID
+me.planetguy.advancedvm.ScriptCreatedBox: ScriptCreatedBox()
+me.planetguy.advancedvm.ScriptTest
+me.planetguy.advancedvm.ScriptTest: ScriptTest()
+me.planetguy.advancedvm.ScriptTest: void main(java.lang.String[])
+me.planetguy.advancedvm.ScriptTransformer
+me.planetguy.advancedvm.ScriptTransformer: java.lang.String[] transform(java.lang.String[])
+me.planetguy.advancedvm.Scripted
+me.planetguy.advancedvm.Scripted: me.planetguy.advancedvm.Script getScript()
+me.planetguy.advancedvm.Scripted: void print(java.lang.Object)
+me.planetguy.advancedvm.StackScript
+me.planetguy.advancedvm.StackScript: java.util.ArrayDeque prog
+me.planetguy.advancedvm.StackScript: me.planetguy.advancedvm.Stream output
+me.planetguy.advancedvm.StackScript: StackScript(java.lang.String,me.planetguy.advancedvm.IBox[][],java.util.Map,me.planetguy.advancedvm.Scripted)
+me.planetguy.advancedvm.StackScript: void print(java.lang.Object)
+me.planetguy.advancedvm.StackScript: boolean canStep()
+me.planetguy.advancedvm.StackScript: void step()
+me.planetguy.advancedvm.StackScript: void setOutput(me.planetguy.advancedvm.Stream)
+me.planetguy.advancedvm.StandardLibrary
+me.planetguy.advancedvm.StandardLibrary: double PRECISION
+me.planetguy.advancedvm.StandardLibrary: void <clinit>()
+me.planetguy.advancedvm.StandardLibrary: StandardLibrary()
+me.planetguy.advancedvm.StandardLibrary: double add(me.planetguy.advancedvm.Scripted,double,double)
+me.planetguy.advancedvm.StandardLibrary: double sub(me.planetguy.advancedvm.Scripted,double,double)
+me.planetguy.advancedvm.StandardLibrary: double mult(me.planetguy.advancedvm.Scripted,double,double)
+me.planetguy.advancedvm.StandardLibrary: double div(me.planetguy.advancedvm.Scripted,double,double)
+me.planetguy.advancedvm.StandardLibrary: void print(me.planetguy.advancedvm.Scripted,java.lang.Object)
+me.planetguy.advancedvm.StandardLibrary: void jump(me.planetguy.advancedvm.Scripted,double)
+me.planetguy.advancedvm.StandardLibrary: void jumpif(me.planetguy.advancedvm.Scripted,double,boolean)
+me.planetguy.advancedvm.StandardLibrary: boolean eq(me.planetguy.advancedvm.Scripted,java.lang.Object,java.lang.Object)
+me.planetguy.advancedvm.StandardLibrary: boolean noteq(me.planetguy.advancedvm.Scripted,java.lang.Object,java.lang.Object)
+me.planetguy.advancedvm.StandardLibrary: boolean greater(me.planetguy.advancedvm.Scripted,java.lang.Comparable,java.lang.Comparable)
+me.planetguy.advancedvm.StandardLibrary: boolean less(me.planetguy.advancedvm.Scripted,java.lang.Comparable,java.lang.Comparable)
+me.planetguy.advancedvm.StandardLibrary: boolean greatereq(me.planetguy.advancedvm.Scripted,java.lang.Comparable,java.lang.Comparable)
+me.planetguy.advancedvm.StandardLibrary: boolean lesseq(me.planetguy.advancedvm.Scripted,java.lang.Comparable,java.lang.Comparable)
+me.planetguy.advancedvm.StandardLibrary: boolean within(me.planetguy.advancedvm.Scripted,double,double,double)
+me.planetguy.advancedvm.StandardLibrary: boolean fuzzyeq(me.planetguy.advancedvm.Scripted,double,double)
+me.planetguy.advancedvm.StandardLibrary: boolean and(me.planetguy.advancedvm.Scripted,boolean,boolean)
+me.planetguy.advancedvm.StandardLibrary: boolean or(me.planetguy.advancedvm.Scripted,boolean,boolean)
+me.planetguy.advancedvm.StandardLibrary: boolean not(me.planetguy.advancedvm.Scripted,boolean)
+me.planetguy.advancedvm.StandardLibrary: java.lang.Object ident(me.planetguy.advancedvm.Scripted,java.lang.Object)
+me.planetguy.advancedvm.StandardLibrary: void setoutput(me.planetguy.advancedvm.Scripted,me.planetguy.advancedvm.Stream)
+me.planetguy.advancedvm.StandardLibrary: double randint(me.planetguy.advancedvm.Scripted,double,double)
+me.planetguy.advancedvm.Stream
+me.planetguy.advancedvm.Stream: void write(java.lang.Object)
+me.planetguy.advancedvm.TransformerInlineConstants
+me.planetguy.advancedvm.TransformerInlineConstants: TransformerInlineConstants()
+me.planetguy.advancedvm.TransformerInlineConstants: java.lang.String[] transform(java.lang.String[])
+me.planetguy.advancedvm.TransformerInlineConstants: boolean isLiteral(java.lang.String)
+me.planetguy.advancedvm.TransformerStructuredProgramming
+me.planetguy.advancedvm.TransformerStructuredProgramming: TransformerStructuredProgramming()
+me.planetguy.advancedvm.TransformerStructuredProgramming: java.lang.String[] transform(java.lang.String[])
+me.planetguy.advancedvm.VMContext
+me.planetguy.advancedvm.VMContext: me.planetguy.advancedvm.VMContext root
+me.planetguy.advancedvm.VMContext: java.util.Map methodMap
+me.planetguy.advancedvm.VMContext: java.util.Map inlines
+me.planetguy.advancedvm.VMContext: java.util.ArrayList transformers
+me.planetguy.advancedvm.VMContext: java.util.Map literals
+me.planetguy.advancedvm.VMContext: java.lang.Class scriptClass
+me.planetguy.advancedvm.VMContext: void <clinit>()
+me.planetguy.advancedvm.VMContext: VMContext()
+me.planetguy.advancedvm.VMContext: VMContext(me.planetguy.advancedvm.VMContext)
+me.planetguy.advancedvm.VMContext: me.planetguy.advancedvm.Script compile(java.lang.String,me.planetguy.advancedvm.Scripted)
+me.planetguy.advancedvm.VMContext: me.planetguy.advancedvm.IBox box(java.lang.String,java.util.Map)
+me.planetguy.advancedvm.VMContext: me.planetguy.advancedvm.IBox boxUsedVar(java.lang.String,java.util.Map)
+me.planetguy.advancedvm.VMContext: java.lang.Object parseLit(java.lang.String[])
+me.planetguy.advancedvm.VMContext: java.lang.Object parseSingleLit(java.lang.String)
+me.planetguy.advancedvm.VMContext: void setScriptClass(java.lang.Class)
+me.planetguy.advancedvm.VMContext: void registerMethod(java.lang.String,java.lang.reflect.Method)
+me.planetguy.advancedvm.VMContext: void registerClass(java.lang.Class)
+me.planetguy.advancedvm.VMContext: void registerClass(java.lang.Class,java.lang.String)
+me.planetguy.advancedvm.VMContext: void registerInline(me.planetguy.advancedvm.Inline)
+me.planetguy.advancedvm.VMContext: void registerInline(me.planetguy.advancedvm.Inline,java.lang.String)
+me.planetguy.advancedvm.VMContext: void registerLiteral(java.lang.String,me.planetguy.advancedvm.IBox)
+me.planetguy.advancedvm.VMContext: void registerLitObj(java.lang.String,java.lang.Object)
+me.planetguy.advancedvm.VMContext: void registerFinalObj(java.lang.String,java.lang.Object)
+me.planetguy.advancedvm.VMContext: void registerFieldBox(java.lang.String,java.lang.Object,java.lang.reflect.Field,boolean)
+me.planetguy.advancedvm.VMContext: void registerScriptTransformer(me.planetguy.advancedvm.ScriptTransformer)
+me.planetguy.robots.BuildConfig
+me.planetguy.robots.BuildConfig: boolean DEBUG
+me.planetguy.robots.BuildConfig: BuildConfig()
+me.planetguy.robots.R
+me.planetguy.robots.R: R()
+me.planetguy.robots.R$anim
+me.planetguy.robots.R$anim: int move
+me.planetguy.robots.R$anim: R$anim()
+me.planetguy.robots.R$attr
+me.planetguy.robots.R$attr: R$attr()
+me.planetguy.robots.R$dimen
+me.planetguy.robots.R$dimen: int activity_horizontal_margin
+me.planetguy.robots.R$dimen: int activity_vertical_margin
+me.planetguy.robots.R$dimen: R$dimen()
+me.planetguy.robots.R$drawable
+me.planetguy.robots.R$drawable: int ground
+me.planetguy.robots.R$drawable: int hq_blue_noshields
+me.planetguy.robots.R$drawable: int hq_blue_shields
+me.planetguy.robots.R$drawable: int hq_empty_noshields
+me.planetguy.robots.R$drawable: int hq_red_noshields
+me.planetguy.robots.R$drawable: int hq_red_shields
+me.planetguy.robots.R$drawable: int ic_launcher
+me.planetguy.robots.R$drawable: int lava
+me.planetguy.robots.R$drawable: int ore
+me.planetguy.robots.R$drawable: int play_button
+me.planetguy.robots.R$drawable: int robot_blue_east
+me.planetguy.robots.R$drawable: int robot_blue_north
+me.planetguy.robots.R$drawable: int robot_blue_south
+me.planetguy.robots.R$drawable: int robot_blue_west
+me.planetguy.robots.R$drawable: int robot_red_east
+me.planetguy.robots.R$drawable: int robot_red_north
+me.planetguy.robots.R$drawable: int robot_red_south
+me.planetguy.robots.R$drawable: int robot_red_west
+me.planetguy.robots.R$drawable: int rock
+me.planetguy.robots.R$drawable: R$drawable()
+me.planetguy.robots.R$id
+me.planetguy.robots.R$id: int action_settings
+me.planetguy.robots.R$id: int background
+me.planetguy.robots.R$id: int button1
+me.planetguy.robots.R$id: int buttonCode
+me.planetguy.robots.R$id: int buttonDocs
+me.planetguy.robots.R$id: int buttonLog
+me.planetguy.robots.R$id: int buttonMemory
+me.planetguy.robots.R$id: int contact
+me.planetguy.robots.R$id: int ideWindow
+me.planetguy.robots.R$id: int play
+me.planetguy.robots.R$id: int save
+me.planetguy.robots.R$id: int space1
+me.planetguy.robots.R$id: int textView1
+me.planetguy.robots.R$id: int textView2
+me.planetguy.robots.R$id: int titleWindow
+me.planetguy.robots.R$id: int win_textbox
+me.planetguy.robots.R$id: R$id()
+me.planetguy.robots.R$layout
+me.planetguy.robots.R$layout: int activity_grid
+me.planetguy.robots.R$layout: int activity_ide
+me.planetguy.robots.R$layout: int activity_main
+me.planetguy.robots.R$layout: int activity_won
+me.planetguy.robots.R$layout: R$layout()
+me.planetguy.robots.R$menu
+me.planetguy.robots.R$menu: int main
+me.planetguy.robots.R$menu: R$menu()
+me.planetguy.robots.R$string
+me.planetguy.robots.R$string: int action_settings
+me.planetguy.robots.R$string: int app_name
+me.planetguy.robots.R$string: int code
+me.planetguy.robots.R$string: int defaultTitle
+me.planetguy.robots.R$string: int docs
+me.planetguy.robots.R$string: int hello_world
+me.planetguy.robots.R$string: int infoline1
+me.planetguy.robots.R$string: int infoline2
+me.planetguy.robots.R$string: int large_text
+me.planetguy.robots.R$string: int leaveIde
+me.planetguy.robots.R$string: int log
+me.planetguy.robots.R$string: int manual
+me.planetguy.robots.R$string: int memory
+me.planetguy.robots.R$string: int script
+me.planetguy.robots.R$string: int upload
+me.planetguy.robots.R$string: R$string()
+me.planetguy.robots.R$style
+me.planetguy.robots.R$style: int AppBaseTheme
+me.planetguy.robots.R$style: int AppTheme
+me.planetguy.robots.R$style: R$style()
+me.planetguy.robots.Robots
+me.planetguy.robots.Robots: com.google.common.eventbus.EventBus EVENT_BUS
+me.planetguy.robots.Robots: me.planetguy.robots.world.World world
+me.planetguy.robots.Robots: int iconSize
+me.planetguy.robots.Robots: me.planetguy.robots.ide.IDEActivity currentIDE
+me.planetguy.robots.Robots: void <clinit>()
+me.planetguy.robots.Robots: Robots()
+me.planetguy.robots.TitleScreen
+me.planetguy.robots.TitleScreen: TitleScreen()
+me.planetguy.robots.TitleScreen: void onCreate(android.os.Bundle)
+me.planetguy.robots.TitleScreen: boolean onCreateOptionsMenu(android.view.Menu)
+me.planetguy.robots.TitleScreen: void onStart()
+me.planetguy.robots.TitleScreen: void onClickStartGame(android.view.View)
+me.planetguy.robots.dynamic.DynamicObject
+me.planetguy.robots.dynamic.DynamicObject: java.util.ArrayList objectRegistry
+me.planetguy.robots.dynamic.DynamicObject: android.graphics.Bitmap defaultBitmap
+me.planetguy.robots.dynamic.DynamicObject: int x
+me.planetguy.robots.dynamic.DynamicObject: int y
+me.planetguy.robots.dynamic.DynamicObject: int heading
+me.planetguy.robots.dynamic.DynamicObject: me.planetguy.robots.world.World world
+me.planetguy.robots.dynamic.DynamicObject: int dynObjectID
+me.planetguy.robots.dynamic.DynamicObject: void <clinit>()
+me.planetguy.robots.dynamic.DynamicObject: DynamicObject(me.planetguy.robots.world.World)
+me.planetguy.robots.dynamic.DynamicObject: int facingX(int)
+me.planetguy.robots.dynamic.DynamicObject: int facingY(int)
+me.planetguy.robots.dynamic.DynamicObject: boolean onClicked(android.view.View)
+me.planetguy.robots.dynamic.DynamicObject: void moveTo(int,int,android.view.View)
+me.planetguy.robots.dynamic.DynamicObject: void turnLeft()
+me.planetguy.robots.dynamic.DynamicObject: void turnRight()
+me.planetguy.robots.dynamic.DynamicObject: android.graphics.Bitmap getIcon()
+me.planetguy.robots.dynamic.DynamicObject: int getDynamicObjectID()
+me.planetguy.robots.dynamic.DynamicObject: void onUpdate(android.view.View)
+me.planetguy.robots.dynamic.DynamicObject: java.lang.String save()
+me.planetguy.robots.dynamic.DynamicObject: void load(java.lang.String)
+me.planetguy.robots.event.InitRobotScriptEvent
+me.planetguy.robots.event.InitRobotScriptEvent: InitRobotScriptEvent(me.planetguy.advancedvm.VMContext)
+me.planetguy.robots.event.InitScriptEvent
+me.planetguy.robots.event.InitScriptEvent: me.planetguy.advancedvm.VMContext sc
+me.planetguy.robots.event.InitScriptEvent: InitScriptEvent(me.planetguy.advancedvm.VMContext)
+me.planetguy.robots.event.InitScriptEvent: me.planetguy.advancedvm.VMContext getContext()
+me.planetguy.robots.ide.IDEActivity
+me.planetguy.robots.ide.IDEActivity: me.planetguy.robots.robot.Robot robot
+me.planetguy.robots.ide.IDEActivity: int robotID
+me.planetguy.robots.ide.IDEActivity: java.lang.String code
+me.planetguy.robots.ide.IDEActivity: java.lang.String log
+me.planetguy.robots.ide.IDEActivity: java.lang.String memory
+me.planetguy.robots.ide.IDEActivity: java.lang.String docs
+me.planetguy.robots.ide.IDEActivity: IDEActivity()
+me.planetguy.robots.ide.IDEActivity: void onCreate(android.os.Bundle)
+me.planetguy.robots.ide.IDEActivity: void onBackPressed()
+me.planetguy.robots.ide.IDEActivity: void uploadScript()
+me.planetguy.robots.ide.IDEActivity: void offerUploadScript()
+me.planetguy.robots.ide.IDEActivity: void selectCode(android.view.View)
+me.planetguy.robots.ide.IDEActivity: void selectLog(android.view.View)
+me.planetguy.robots.ide.IDEActivity: void selectMemory(android.view.View)
+me.planetguy.robots.ide.IDEActivity: void selectDocs(android.view.View)
+me.planetguy.robots.ide.IDEActivity: void onStop()
+me.planetguy.robots.ide.IDEActivity: void loadWindow(java.lang.String,java.lang.String)
+me.planetguy.robots.ide.IDEActivity: void chooseButton(int)
+me.planetguy.robots.ide.IDEActivity: void setKeyboardVisibility(boolean)
+me.planetguy.robots.misc.Options
+me.planetguy.robots.misc.Options: int ROBOT_TICKS_PER_UPDATE
+me.planetguy.robots.misc.Options: int millisPerTick
+me.planetguy.robots.misc.Options: void <clinit>()
+me.planetguy.robots.misc.Options: Options()
+me.planetguy.robots.misc.Side
+me.planetguy.robots.misc.Side: me.planetguy.robots.misc.Side RED
+me.planetguy.robots.misc.Side: me.planetguy.robots.misc.Side BLUE
+me.planetguy.robots.misc.Side: me.planetguy.robots.misc.Side NEUTRAL
+me.planetguy.robots.misc.Side: me.planetguy.robots.misc.Side[] ENUM$VALUES
+me.planetguy.robots.misc.Side: void <clinit>()
+me.planetguy.robots.misc.Side: Side(java.lang.String,int)
+me.planetguy.robots.misc.Side: me.planetguy.robots.misc.Side[] values()
+me.planetguy.robots.misc.Side: me.planetguy.robots.misc.Side valueOf(java.lang.String)
+me.planetguy.robots.misc.Utils
+me.planetguy.robots.misc.Utils: Utils()
+me.planetguy.robots.misc.Utils: java.lang.String readStringFile(java.io.FileInputStream)
+me.planetguy.robots.misc.Utils: void writeStringFile(java.io.FileOutputStream,java.lang.String)
+me.planetguy.robots.renderworld.ActivityWorld
+me.planetguy.robots.renderworld.ActivityWorld: me.planetguy.robots.renderworld.ViewWorld vw
+me.planetguy.robots.renderworld.ActivityWorld: ActivityWorld()
+me.planetguy.robots.renderworld.ActivityWorld: void onCreate(android.os.Bundle)
+me.planetguy.robots.renderworld.ActivityWorld: boolean onCreateOptionsMenu(android.view.Menu)
+me.planetguy.robots.renderworld.ActivityWorld: void onStop()
+me.planetguy.robots.renderworld.ViewWorld
+me.planetguy.robots.renderworld.ViewWorld: android.graphics.Paint paint
+me.planetguy.robots.renderworld.ViewWorld: java.lang.Thread mDrawingThread
+me.planetguy.robots.renderworld.ViewWorld: android.view.SurfaceHolder surfaceHolder
+me.planetguy.robots.renderworld.ViewWorld: java.lang.Thread timer
+me.planetguy.robots.renderworld.ViewWorld: android.view.GestureDetector detector
+me.planetguy.robots.renderworld.ViewWorld: android.view.ScaleGestureDetector scaleDetector
+me.planetguy.robots.renderworld.ViewWorld: float scale
+me.planetguy.robots.renderworld.ViewWorld: void <clinit>()
+me.planetguy.robots.renderworld.ViewWorld: ViewWorld(android.content.Context)
+me.planetguy.robots.renderworld.ViewWorld: void drawTerrain(android.graphics.Canvas)
+me.planetguy.robots.renderworld.ViewWorld: void surfaceChanged(android.view.SurfaceHolder,int,int,int)
+me.planetguy.robots.renderworld.ViewWorld: void surfaceCreated(android.view.SurfaceHolder)
+me.planetguy.robots.renderworld.ViewWorld: void surfaceDestroyed(android.view.SurfaceHolder)
+me.planetguy.robots.renderworld.ViewWorld: boolean onTouchEvent(android.view.MotionEvent)
+me.planetguy.robots.robot.BlockingState
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState none
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState toolUse
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState forward
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState left
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState right
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState reverse
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState gonorth
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState gosouth
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState goeast
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState gowest
+me.planetguy.robots.robot.BlockingState: int[] $SWITCH_TABLE$me$planetguy$robots$robot$BlockingState
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState[] ENUM$VALUES
+me.planetguy.robots.robot.BlockingState: void <clinit>()
+me.planetguy.robots.robot.BlockingState: BlockingState(java.lang.String,int)
+me.planetguy.robots.robot.BlockingState: void execute(me.planetguy.robots.robot.Robot,android.view.View)
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState[] values()
+me.planetguy.robots.robot.BlockingState: me.planetguy.robots.robot.BlockingState valueOf(java.lang.String)
+me.planetguy.robots.robot.BlockingState: int[] $SWITCH_TABLE$me$planetguy$robots$robot$BlockingState()
+me.planetguy.robots.robot.Robot
+me.planetguy.robots.robot.Robot: me.planetguy.advancedvm.VMContext contex
+me.planetguy.robots.robot.Robot: android.content.Context worldGui
+me.planetguy.robots.robot.Robot: me.planetguy.robots.misc.Side side
+me.planetguy.robots.robot.Robot: java.lang.String log
+me.planetguy.robots.robot.Robot: me.planetguy.advancedvm.Script script
+me.planetguy.robots.robot.Robot: me.planetguy.robots.robot.BlockingState waitingOn
+me.planetguy.robots.robot.Robot: int north
+me.planetguy.robots.robot.Robot: int south
+me.planetguy.robots.robot.Robot: int east
+me.planetguy.robots.robot.Robot: int west
+me.planetguy.robots.robot.Robot: android.graphics.Bitmap icon
+me.planetguy.robots.robot.Robot: void <clinit>()
+me.planetguy.robots.robot.Robot: void initContext(me.planetguy.robots.robot.Robot)
+me.planetguy.robots.robot.Robot: Robot(me.planetguy.robots.world.World,me.planetguy.robots.misc.Side,android.content.Context)
+me.planetguy.robots.robot.Robot: void setScript(java.lang.String)
+me.planetguy.robots.robot.Robot: void onUpdate(android.view.View)
+me.planetguy.robots.robot.Robot: boolean onClicked(android.view.View)
+me.planetguy.robots.robot.Robot: void moveTo(int,int,android.view.View)
+me.planetguy.robots.robot.Robot: android.graphics.Bitmap getIcon()
+me.planetguy.robots.robot.Robot: me.planetguy.advancedvm.Script getScript()
+me.planetguy.robots.robot.Robot: void print(java.lang.Object)
+me.planetguy.robots.robot.Robot: java.lang.String toString()
+me.planetguy.robots.robot.Robot: int id(me.planetguy.robots.tile.Tile)
+me.planetguy.robots.robot.Robot: java.lang.String save()
+me.planetguy.robots.robot.Robot: void load(java.lang.String)
+me.planetguy.robots.robot.Robot: void makeToast(android.view.View,java.lang.String)
+me.planetguy.robots.robot.Robot: void log(java.lang.Exception)
+me.planetguy.robots.robot.Robot: void log(java.lang.String)
+me.planetguy.robots.robot.RobotScriptAPI
+me.planetguy.robots.robot.RobotScriptAPI: RobotScriptAPI()
+me.planetguy.robots.robot.RobotScriptAPI: void initActions(me.planetguy.advancedvm.VMContext)
+me.planetguy.robots.robot.RobotScriptAPI: void move(me.planetguy.advancedvm.Scripted,me.planetguy.robots.robot.BlockingState)
+me.planetguy.robots.tile.ActivityWin
+me.planetguy.robots.tile.ActivityWin: ActivityWin()
+me.planetguy.robots.tile.ActivityWin: void onCreate(android.os.Bundle)
+me.planetguy.robots.tile.ActivityWin: void onStart()
+me.planetguy.robots.tile.ActivityWin: void clearWorld(android.view.View)
+me.planetguy.robots.tile.Tile
+me.planetguy.robots.tile.Tile: android.graphics.Bitmap bitmapIcon
+me.planetguy.robots.tile.Tile: java.lang.String name
+me.planetguy.robots.tile.Tile: boolean walkable
+me.planetguy.robots.tile.Tile: Tile(int,android.content.res.Resources,java.lang.String)
+me.planetguy.robots.tile.Tile: Tile(android.graphics.Bitmap,java.lang.String)
+me.planetguy.robots.tile.Tile: boolean onClicked(android.view.View,int,int)
+me.planetguy.robots.tile.Tile: boolean hasAdditionalData()
+me.planetguy.robots.tile.Tile: void onUpdate(int,int)
+me.planetguy.robots.tile.Tile: void onMove(int,int,int,int)
+me.planetguy.robots.tile.Tile: void onPut(int,int)
+me.planetguy.robots.tile.Tile: android.graphics.Bitmap getIcon(int,int)
+me.planetguy.robots.tile.Tile: boolean isWalkable()
+me.planetguy.robots.tile.Tile: void setWalkable(boolean)
+me.planetguy.robots.tile.Tile: void onObjectEnter(me.planetguy.robots.dynamic.DynamicObject,android.view.View)
+me.planetguy.robots.tile.TileSided
+me.planetguy.robots.tile.TileSided: me.planetguy.robots.misc.Side side
+me.planetguy.robots.tile.TileSided: TileSided(int,android.content.res.Resources,me.planetguy.robots.misc.Side,java.lang.String)
+me.planetguy.robots.tile.TileSided: me.planetguy.robots.misc.Side getSide()
+me.planetguy.robots.tile.TileSided: void updateSide(me.planetguy.robots.misc.Side)
+me.planetguy.robots.tile.TileUtil
+me.planetguy.robots.tile.TileUtil: com.google.common.collect.BiMap tiles
+me.planetguy.robots.tile.TileUtil: void <clinit>()
+me.planetguy.robots.tile.TileUtil: TileUtil()
+me.planetguy.robots.tile.TileUtil: me.planetguy.robots.tile.Tile createTile(int,java.lang.String,android.content.res.Resources)
+me.planetguy.robots.tile.TileUtil: me.planetguy.robots.tile.Tile createTileWin(int,java.lang.String,android.content.res.Resources)
+me.planetguy.robots.tile.TileUtil: void createAllTiles(android.content.res.Resources)
+me.planetguy.robots.tile.TileWin
+me.planetguy.robots.tile.TileWin: TileWin(int,android.content.res.Resources,java.lang.String)
+me.planetguy.robots.tile.TileWin: void onObjectEnter(me.planetguy.robots.dynamic.DynamicObject,android.view.View)
+me.planetguy.robots.world.AdditionalData
+me.planetguy.robots.world.AdditionalData: java.io.Serializable[] data
+me.planetguy.robots.world.AdditionalData: AdditionalData(int)
+me.planetguy.robots.world.AdditionalData: void put(int,java.io.Serializable)
+me.planetguy.robots.world.AdditionalData: java.io.Serializable get(int)
+me.planetguy.robots.world.AdditionalData: int size()
+me.planetguy.robots.world.ScheduleQueue
+me.planetguy.robots.world.ScheduleQueue: java.util.PriorityQueue updates
+me.planetguy.robots.world.ScheduleQueue: ScheduleQueue()
+me.planetguy.robots.world.ScheduleQueue: void schedule(me.planetguy.robots.world.Update)
+me.planetguy.robots.world.ScheduleQueue: boolean hasUpdates(int)
+me.planetguy.robots.world.ScheduleQueue: me.planetguy.robots.world.Update getNextUpdate()
+me.planetguy.robots.world.ScheduleQueue: me.planetguy.robots.world.Update pullNextUpdate()
+me.planetguy.robots.world.Update
+me.planetguy.robots.world.Update: int time
+me.planetguy.robots.world.Update: int x
+me.planetguy.robots.world.Update: int y
+me.planetguy.robots.world.Update: Update(int,int,int)
+me.planetguy.robots.world.Update: int compareTo(me.planetguy.robots.world.Update)
+me.planetguy.robots.world.Update: int getTime()
+me.planetguy.robots.world.Update: int getX()
+me.planetguy.robots.world.Update: int getY()
+me.planetguy.robots.world.Update: int compareTo(java.lang.Object)
+me.planetguy.robots.world.World
+me.planetguy.robots.world.World: me.planetguy.robots.tile.Tile[][] tiles
+me.planetguy.robots.world.World: boolean[][] visible
+me.planetguy.robots.world.World: long lastTick
+me.planetguy.robots.world.World: java.util.List robots
+me.planetguy.robots.world.World: me.planetguy.robots.world.ScheduleQueue scheduledUpdates
+me.planetguy.robots.world.World: int globalTime
+me.planetguy.robots.world.World: me.planetguy.robots.world.World makeTestWorld(android.content.Context)
+me.planetguy.robots.world.World: me.planetguy.robots.world.World makeMazeWorld(android.content.Context)
+me.planetguy.robots.world.World: World(int,int)
+me.planetguy.robots.world.World: void addRobot(me.planetguy.robots.robot.Robot)
+me.planetguy.robots.world.World: void tryTick(android.view.View)
+me.planetguy.robots.world.World: void tick(android.view.View)
+me.planetguy.robots.world.World: void scheduleUpdate(int,int,int)
+me.planetguy.robots.world.World: boolean handleClick(android.view.View,int,int)
+me.planetguy.robots.world.World: me.planetguy.robots.tile.Tile getTile(int,int)

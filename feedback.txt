@@ -1,0 +1,3 @@
+http://www.helloandroid.com/tutorials/how-use-canvas-your-android-apps-part-2
+http://developer.android.com/guide/topics/graphics/2d-graphics.html
+	Canvas
