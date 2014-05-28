@@ -5,6 +5,7 @@ import me.planetguy.robots.Robots;
 import me.planetguy.robots.dynamic.DynamicObject;
 import me.planetguy.robots.renderworld.ActivityWorld;
 import me.planetguy.robots.robot.Robot;
+import me.planetguy.robots.world.gen.ActivityWgenChooser;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
@@ -98,6 +99,11 @@ public class IDEActivity extends Activity{
 		chooseButton(R.id.buttonDocs);
 		loadWindow(docs,getString(R.string.manual));
 		setKeyboardVisibility(false);
+	}
+	
+	public void exitToWgen(View v){
+		Intent intent=new Intent(this.getApplicationContext(), ActivityWgenChooser.class);
+		startActivity(intent);
 	}
 	
 	public void onStop(){

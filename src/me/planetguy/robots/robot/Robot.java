@@ -133,7 +133,7 @@ public class Robot extends DynamicObject implements Scripted {
 		north=id(this.world.tiles[x][y-1]);
 		east=id(this.world.tiles[x+1][y]);
 		south=id(this.world.tiles[x][y+1]);
-		west=id(this.world.tiles[x-1][y-1]);
+		west=id(this.world.tiles[x-1][y]);
 	}
 	
 	public boolean onClicked(View v){

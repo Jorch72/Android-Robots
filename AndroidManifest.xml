@@ -40,6 +40,12 @@
             <intent-filter>
             </intent-filter>
         </activity>
+        <activity
+            android:name="me.planetguy.robots.world.gen.ActivityWgenChooser"
+            android:label="@string/app_name" >
+            <intent-filter>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -7,6 +7,7 @@ import me.planetguy.robots.Robots;
 import me.planetguy.robots.dynamic.DynamicObject;
 import me.planetguy.robots.renderworld.ActivityWorld;
 import me.planetguy.robots.world.World;
+import me.planetguy.robots.world.gen.ActivityWgenChooser;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,8 +30,7 @@ public class ActivityWin extends Activity{
 	
 	public void clearWorld(View v){
 		DynamicObject.objectRegistry=new ArrayList<DynamicObject>();
-		Robots.world=World.makeMazeWorld(getApplicationContext());
-		Intent intent=new Intent(this, ActivityWorld.class);
+		Intent intent=new Intent(this, ActivityWgenChooser.class);
 		intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
 		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		getApplicationContext().startActivity(intent);

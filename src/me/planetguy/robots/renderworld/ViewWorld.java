@@ -5,21 +5,17 @@ import me.planetguy.robots.dynamic.DynamicObject;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-import android.view.View;
 
 public class ViewWorld extends SurfaceView implements SurfaceHolder.Callback{
 
 	static final Paint paint=new Paint();
 	private Thread mDrawingThread;
 	SurfaceHolder surfaceHolder;
-
-	private Thread timer;
 
 
 	GestureDetector detector;

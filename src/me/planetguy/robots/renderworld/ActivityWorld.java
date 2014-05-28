@@ -1,12 +1,8 @@
 package me.planetguy.robots.renderworld;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import me.planetguy.robots.R;
 import me.planetguy.robots.Robots;
 import me.planetguy.robots.dynamic.DynamicObject;
-import me.planetguy.robots.world.World;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -33,7 +29,6 @@ public class ActivityWorld extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}

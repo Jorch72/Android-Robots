@@ -3,6 +3,7 @@ package me.planetguy.robots;
 import me.planetguy.robots.renderworld.ActivityWorld;
 import me.planetguy.robots.tile.TileUtil;
 import me.planetguy.robots.world.World;
+import me.planetguy.robots.world.gen.ActivityWgenChooser;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,8 +32,7 @@ public class TitleScreen extends Activity {
 	}
 	
 	public void onClickStartGame(View v){
-		Robots.world=World.makeMazeWorld(this.getApplicationContext());
-		Intent intent=new Intent(this.getApplicationContext(), ActivityWorld.class);
+		Intent intent=new Intent(this.getApplicationContext(), ActivityWgenChooser.class);
 		startActivity(intent);
 	}
 }

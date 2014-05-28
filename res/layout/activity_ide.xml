@@ -68,4 +68,13 @@
         android:textOn="@string/docs"
         android:textOff="@string/docs" />
 
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonDocs"
+        android:layout_toRightOf="@+id/buttonDocs"
+        android:onClick="exitToWgen"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
 </RelativeLayout>
