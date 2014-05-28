@@ -1,4 +1,4 @@
-package me.planetguy.robots.world.gen;
+package me.planetguy.robots.world.gen.generators;
 
 import me.planetguy.robots.R;
 import me.planetguy.robots.misc.Side;
@@ -6,6 +6,8 @@ import me.planetguy.robots.robot.Robot;
 import me.planetguy.robots.tile.Tile;
 import me.planetguy.robots.tile.TileUtil;
 import me.planetguy.robots.world.World;
+import me.planetguy.robots.world.gen.WorldEditor;
+import me.planetguy.robots.world.gen.WorldProvider;
 import android.content.Context;
 import android.content.res.Resources;
 
@@ -26,12 +28,12 @@ public class WgenTest extends WorldProvider{
 	}
 
 	@Override
-	public World generate(Context context){
-		World w=new World(10,10);
+	public World generate(Context context, WorldEditor wgu){
+		World w=wgu.generateBorderedWorld(10, 10);
 		Tile lava=TileUtil.tiles.get("lava");
 		Tile stone=TileUtil.tiles.get("ore");
-		for(int x=0; x<10; x++){
-			for(int y=0; y<10; y++){
+		for(int x=1; x<9; x++){
+			for(int y=1; y<9; y++){
 				double r=Math.random();
 				if(r>0.8){
 					w.tiles[x][y]=lava;

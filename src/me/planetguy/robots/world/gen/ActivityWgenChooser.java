@@ -7,6 +7,8 @@ import me.planetguy.robots.R;
 import me.planetguy.robots.Robots;
 import me.planetguy.robots.renderworld.ActivityWorld;
 import me.planetguy.robots.world.World;
+import me.planetguy.robots.world.gen.generators.WgenSimpleMaze;
+import me.planetguy.robots.world.gen.generators.WgenTest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -36,7 +38,7 @@ public class ActivityWgenChooser extends Activity {
 		OnItemClickListener mMessageClickedHandler = new OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View v, int pos,	long id) {
-				Robots.world=providers.get(pos).generate(v.getContext());
+				Robots.world=providers.get(pos).generate(v.getContext(), new WorldEditor());
 				Intent intent=new Intent(v.getContext(), ActivityWorld.class);
 				startActivity(intent);
 			}

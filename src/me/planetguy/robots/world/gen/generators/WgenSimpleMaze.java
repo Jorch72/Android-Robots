@@ -1,10 +1,12 @@
-package me.planetguy.robots.world.gen;
+package me.planetguy.robots.world.gen.generators;
 
 import me.planetguy.robots.R;
 import me.planetguy.robots.misc.Side;
 import me.planetguy.robots.robot.Robot;
 import me.planetguy.robots.tile.TileUtil;
 import me.planetguy.robots.world.World;
+import me.planetguy.robots.world.gen.WorldEditor;
+import me.planetguy.robots.world.gen.WorldProvider;
 import android.content.Context;
 import android.content.res.Resources;
 
@@ -25,13 +27,8 @@ public class WgenSimpleMaze extends WorldProvider{
 	}
 
 	@Override
-	public World generate(Context con){
-		World w=new World(10,11);
-		for(int x=0; x<10; x++){
-			for(int y=0; y<11; y++){
-				w.tiles[x][y]=TileUtil.tiles.get("ore");
-			}
-		}
+	public World generate(Context con, WorldEditor wgu){
+		World w=wgu.generateBorderedWorld(10, 11);
 		for(int col=1; col<11; col+=2){
 			for(int row=1; row<9; row++){
 				w.tiles[row][col]=TileUtil.tiles.get("ground");
