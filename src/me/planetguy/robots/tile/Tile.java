@@ -24,7 +24,7 @@ public class Tile {
 	
 	/**
 	 * Creates a tile using a resource (R.drawable.<icon name>). 
-	 * @deprecated use {@link TileUtil.createDefaultTile} to create custom tiles, or add them manually
+	 * @deprecated use {@link Tiles.createDefaultTile} to create custom tiles, or add them manually
 	 */
 	@Deprecated
 	protected Tile(int icon, Resources rsrc, String name){
@@ -33,7 +33,7 @@ public class Tile {
 	
 	/**
 	 * Creates a tile using a bitmap.
-	 * @deprecated use {@link TileUtil.createDefaultTile} to create custom tiles, or add them manually
+	 * @deprecated use {@link Tiles.createDefaultTile} to create custom tiles, or add them manually
 	 */
 	@Deprecated
 	protected Tile(Bitmap bm, String name){

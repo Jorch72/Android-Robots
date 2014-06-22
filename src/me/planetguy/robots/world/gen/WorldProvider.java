@@ -17,7 +17,7 @@ public abstract class WorldProvider {
 	public abstract String getName();
 	public abstract String getDescription();
 	
-	public abstract World generate(Context context, WorldEditor wgu);
+	public abstract World generate(Context context, TilePainter wgu);
 	
 	public int getImage(){
 		return image;

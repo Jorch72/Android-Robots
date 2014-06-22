@@ -9,7 +9,7 @@ import me.planetguy.robots.misc.Options;
 import me.planetguy.robots.misc.Side;
 import me.planetguy.robots.robot.Robot;
 import me.planetguy.robots.tile.Tile;
-import me.planetguy.robots.tile.TileUtil;
+import me.planetguy.robots.tile.Tiles;
 import android.content.Context;
 import android.util.Log;
 import android.view.View;
@@ -30,12 +30,6 @@ public class World {
 	
 	public World(int xSize, int ySize){
 		tiles=new Tile[xSize][ySize];
-		Tile ground=TileUtil.tiles.get("ground");
-		for(int x=0; x<xSize; x++){
-			for(int y=0; y<ySize; y++){
-				tiles[x][y]=ground;
-			}
-		}
 		visible=new boolean[xSize][ySize];
 	}
 	
@@ -58,9 +52,7 @@ public class World {
 			tiles[u.getX()][u.getY()].onUpdate(u.getX(), u.getY());
 		}
 		for(DynamicObject r:robots){
-			String posOld="("+r.x+","+r.y+")";
 			r.onUpdate(v);
-			Log.d("Robots", "Moved from "+posOld+" to ("+r.x+","+r.y+")");
 		}
 		globalTime++;
 	}

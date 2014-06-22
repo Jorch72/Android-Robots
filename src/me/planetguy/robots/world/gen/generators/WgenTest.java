@@ -4,9 +4,9 @@ import me.planetguy.robots.R;
 import me.planetguy.robots.misc.Side;
 import me.planetguy.robots.robot.Robot;
 import me.planetguy.robots.tile.Tile;
-import me.planetguy.robots.tile.TileUtil;
+import me.planetguy.robots.tile.Tiles;
 import me.planetguy.robots.world.World;
-import me.planetguy.robots.world.gen.WorldEditor;
+import me.planetguy.robots.world.gen.TilePainter;
 import me.planetguy.robots.world.gen.WorldProvider;
 import android.content.Context;
 import android.content.res.Resources;
@@ -28,10 +28,12 @@ public class WgenTest extends WorldProvider{
 	}
 
 	@Override
-	public World generate(Context context, WorldEditor wgu){
-		World w=wgu.generateBorderedWorld(10, 10);
-		Tile lava=TileUtil.tiles.get("lava");
-		Tile stone=TileUtil.tiles.get("ore");
+	public World generate(Context context, TilePainter painter){
+		World w=painter.makeWorld(10, 10);
+		painter.setWorkingTile(Tiles.rock);
+		painter.drawBorder();
+		Tile lava=Tiles.lava;
+		Tile stone=Tiles.ore;
 		for(int x=1; x<9; x++){
 			for(int y=1; y<9; y++){
 				double r=Math.random();
@@ -40,7 +42,7 @@ public class WgenTest extends WorldProvider{
 				}else if(r<0.2){
 					w.tiles[x][y]=stone;
 				}else{
-					w.tiles[x][y]=TileUtil.tiles.get("ground");
+					w.tiles[x][y]=Tiles.ground;
 				}
 			}
 		}
@@ -48,7 +50,7 @@ public class WgenTest extends WorldProvider{
 		w.robots.add(theRobot);
 		theRobot.x=2;
 		theRobot.y=2;
-		return w;
+		return painter.validate();
 	}
 	
 }

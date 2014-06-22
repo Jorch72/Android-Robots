@@ -3,9 +3,9 @@ package me.planetguy.robots.world.gen.generators;
 import me.planetguy.robots.R;
 import me.planetguy.robots.misc.Side;
 import me.planetguy.robots.robot.Robot;
-import me.planetguy.robots.tile.TileUtil;
+import me.planetguy.robots.tile.Tiles;
 import me.planetguy.robots.world.World;
-import me.planetguy.robots.world.gen.WorldEditor;
+import me.planetguy.robots.world.gen.TilePainter;
 import me.planetguy.robots.world.gen.WorldProvider;
 import android.content.Context;
 import android.content.res.Resources;
@@ -27,22 +27,21 @@ public class WgenSimpleMaze extends WorldProvider{
 	}
 
 	@Override
-	public World generate(Context con, WorldEditor wgu){
-		World w=wgu.generateBorderedWorld(10, 11);
+	public World generate(Context con, TilePainter paint){
+		paint.makeWorld(10, 11);
+		paint.setWorkingTile(Tiles.ore);
+		paint.drawBorder();
+		paint.fillOut(Tiles.ore);
+		paint.setWorkingTile(Tiles.ground);
 		for(int col=1; col<11; col+=2){
-			for(int row=1; row<9; row++){
-				w.tiles[row][col]=TileUtil.tiles.get("ground");
-			}
+			paint.drawHorizontalLine(1, 9, col);
 		}
 		for(int i=2; i<10; i+=2){
-			w.tiles[1+(int)(Math.random()*8)][i]=TileUtil.tiles.get("ground");
+			paint.paint(1+(int)(Math.random()*8),i, Tiles.ground);
 		}
-		Robot theRobot=new Robot(w, Side.RED,con);
-		w.robots.add(theRobot);
-		theRobot.x=1;
-		theRobot.y=1;
-		w.tiles[8][9]=TileUtil.tiles.get("win");
-		return w;
+		paint.paint(8,9,Tiles.win);
+		paint.putRobot(con, 1, 1);
+		return paint.validate();
 	}
 
 }

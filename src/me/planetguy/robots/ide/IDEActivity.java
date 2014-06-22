@@ -8,12 +8,15 @@ import me.planetguy.robots.robot.Robot;
 import me.planetguy.robots.world.gen.ActivityWgenChooser;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
+import android.view.ContextMenu;
+import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -134,4 +137,5 @@ public class IDEActivity extends Activity{
 			((InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE))
 			.hideSoftInputFromWindow(findViewById(R.id.ideWindow).getWindowToken(), 0);
 	}
+	
 }

@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.view.View;
 
 public class DynamicObject {
+	
 	public static ArrayList<DynamicObject> objectRegistry=new ArrayList<DynamicObject>();
 	
 	public static Bitmap defaultBitmap;
@@ -52,6 +53,7 @@ public class DynamicObject {
 	public void moveTo(int x, int y, View v){
 		this.x=x;
 		this.y=y;
+		world.tiles[x][y].onObjectEnter(this, v);
 	}
 	
 	public void turnLeft(){
@@ -95,5 +97,9 @@ public class DynamicObject {
 				dynObjectID=Integer.parseInt(data);
 			}
 		}
+	}
+	
+	public void destroy(){
+		objectRegistry.remove(this);
 	}
 }

@@ -46,5 +46,6 @@ Built-in values:\n
 \tnorth, east, west, south: the ID of the tile in that direction, in the world.\n
 \tgonorth, goeast, gosouth, gowest: Orders that can be passed into robot.move\n
 </string>
+    <string name="configurationTitle">Configuration</string>
 
 </resources>

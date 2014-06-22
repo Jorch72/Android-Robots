@@ -67,19 +67,21 @@ public class VMContext {
 		boxMap.put("", NullBox.instance);
 		int functionCallNumber=0;
 		while(!script.isEmpty()){
-
 			
 			String line=script.getFirst();
 			script.removeFirst();
 
 			System.out.println("Compiling "+line);
 
+			line=line.split("//")[0];//Remove comments
+			
 			String[] stmts=line.split(" ");
-			IBox[] boxes=new IBox[stmts.length];
 
 			if(stmts.length==1||stmts.length==0)
 				continue;
-
+			
+			IBox[] boxes=new IBox[stmts.length];
+			
 			boxes[0]=box("script@"+functionCallNumber, boxMap);
 			String statement=stmts[0];
 			boxes[1]=boxUsedVar(stmts[1], boxMap);

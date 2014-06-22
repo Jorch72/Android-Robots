@@ -1,7 +1,7 @@
 package me.planetguy.robots;
 
 import me.planetguy.robots.renderworld.ActivityWorld;
-import me.planetguy.robots.tile.TileUtil;
+import me.planetguy.robots.tile.Tiles;
 import me.planetguy.robots.world.World;
 import me.planetguy.robots.world.gen.ActivityWgenChooser;
 import android.app.Activity;
@@ -16,7 +16,7 @@ public class TitleScreen extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		TileUtil.createAllTiles(getResources());
+		Tiles.createAllTiles(getResources());
 	}
 
 	@Override

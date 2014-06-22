@@ -17,7 +17,7 @@ import me.planetguy.robots.ide.IDEActivity;
 import me.planetguy.robots.misc.Options;
 import me.planetguy.robots.misc.Side;
 import me.planetguy.robots.tile.Tile;
-import me.planetguy.robots.tile.TileUtil;
+import me.planetguy.robots.tile.Tiles;
 import me.planetguy.robots.world.World;
 import android.content.Context;
 import android.content.Intent;
@@ -182,9 +182,9 @@ public class Robot extends DynamicObject implements Scripted {
 	}
 	
 	public int id(Tile t){
-		if(t==TileUtil.tiles.get("ground"))
+		if(t==Tiles.ground)
 			return 0;
-		else if(t==TileUtil.tiles.get("ore"))
+		else if(t==Tiles.ore)
 			return 1;
 		else
 			return 2;

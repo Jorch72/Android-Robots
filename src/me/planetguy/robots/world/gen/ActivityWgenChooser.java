@@ -38,7 +38,7 @@ public class ActivityWgenChooser extends Activity {
 		OnItemClickListener mMessageClickedHandler = new OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View v, int pos,	long id) {
-				Robots.world=providers.get(pos).generate(v.getContext(), new WorldEditor());
+				Robots.world=providers.get(pos).generate(v.getContext(), new TilePainter());
 				Intent intent=new Intent(v.getContext(), ActivityWorld.class);
 				startActivity(intent);
 			}
